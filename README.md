@@ -8,13 +8,13 @@
 | -- | -- |
 | 15/0007329  | Caio Gabriel Araujo Medeiros |
 | 15/0058462 |  Davi Antonio da Silva Santos |
-| 180100840  | Gabriel Azevedo Batalha |
-| 180113585 | Hugo Ricardo Souza Bezerra |
-| 180113861  | Kleidson Alves Corrêa |
-| 180125770 |  Lucas Gabriel Bezerra |
-| 180114077 | Lucas Rodrigues Fonseca |
-| 150062567 | Marcos Adriano Nery de Abrantes |
-| 190048760 | Wellington Jonathan de Souza Rodrigues |
+| 18/0100840  | Gabriel Azevedo Batalha |
+| 18/0113585 | Hugo Ricardo Souza Bezerra |
+| 18/0113861  | Kleidson Alves Corrêa |
+| 18/0125770 |  Lucas Gabriel Bezerra |
+| 18/0114077 | Lucas Rodrigues Fonseca |
+| 15/0062567 | Marcos Adriano Nery de Abrantes |
+| 19/0048760 | Wellington Jonathan de Souza Rodrigues |
 
 ## Sobre 
 Donnar é uma aplicação mobile que tem como objetivo conectar pessoas interessadas em fazer doações e pessoas que necessitam dessas doações
