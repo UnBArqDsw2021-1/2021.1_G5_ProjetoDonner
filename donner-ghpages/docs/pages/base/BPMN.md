@@ -1,7 +1,3 @@
----
-tags: Base
----
-
 # BPMN
 
 ## Versionamento
