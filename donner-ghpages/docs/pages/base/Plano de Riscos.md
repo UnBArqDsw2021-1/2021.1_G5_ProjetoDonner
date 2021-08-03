@@ -1,7 +1,3 @@
----
-tags: Base
----
-
 # Plano de Riscos
 
 ## Versionamento

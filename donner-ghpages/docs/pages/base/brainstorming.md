@@ -1,7 +1,3 @@
----
-tags: Base
----
-
 # Brainstorming
 
 ## Versionamento

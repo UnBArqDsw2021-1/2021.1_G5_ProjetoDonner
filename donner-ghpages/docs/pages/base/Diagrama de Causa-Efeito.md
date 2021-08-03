@@ -1,7 +1,3 @@
----
-tags: Base
----
-
 # Diagrama de Causa-Efeito
 
 ## Versionamento

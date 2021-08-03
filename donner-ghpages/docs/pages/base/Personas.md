@@ -1,7 +1,3 @@
----
-tags: Base
----
-
 # Personas
 
 ## Versionamento
