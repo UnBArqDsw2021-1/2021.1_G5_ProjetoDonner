@@ -1,0 +1,31 @@
+site_name: Donner
+theme:
+  name: material
+  favicon: assets/icons/favicon.ico
+  logo: assets/icons/DonnerLogo.png
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+pages:
+  - Sobre o Projeto: index.md
+  - Desenho de Software (Base): 
+    - Pré-Rastreabilidade: 
+      - Rich Picture: pages/base/rich_picture.md
+      - 5W2H: pages/base/5w2h.md
+      - Diagrama de Causa-Efeito: pages/base/diagrama_de_causa-efeito.md
+      - Plano de Riscos: pages/base/plano_de_riscos.md
+      - Estimativas de Custos e Esforços: pages/base/custo_esforço.md
+    - Elicitação: 
+      - Brainstorming: pages/base/brainstorming.md
+      - Mapa Mental: pages/base/mapa_mental.md
+      - Backlog do Produto: pages/base/backlog.md
+    - Design Sprint: pages/base/design_sprint.md
+    - Protótipos: pages/base/prototipos.md
+  - Sprints: 
+    - Sprint 0:
+      - Planning: pages/sprints/sprint0p.md
+      - Review: pages/sprints/sprint0r.md
+  - Políticas de Contribuição: pages/politicas.md
