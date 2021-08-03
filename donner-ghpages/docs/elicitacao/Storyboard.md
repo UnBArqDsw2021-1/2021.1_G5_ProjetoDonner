@@ -1,13 +1,10 @@
----
-tags: Base
----
-
 # Storyboard
 
 ## Versionamento
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   30/07/2021   |  1.0    |  Criação do Documento    | Gabriel Batalha, Lucas Gabriel
+|   03/08/2021   |  1.1    |  Revisão do Documento    | Lucas Gabriel
 
 
 ## Introdução
@@ -21,7 +18,7 @@ Construido linearmente o storyboard tem como caractéristicas de explicar proces
 ## Objetivo
 
 <div style="text-indent: 40px; text-align: justify">
-O objetivo de utilizar o storyboard é  mostrar a partir de desenhos como o Donner e suas ferramentas se inserem na vida do usuário.
+O objetivo de utilizar o storyboard é  mostrar a partir de desenhos como o Donner e suas ferramentas se inserem na vida do usuário, representados por algumas das Personas.
 </div>
 
 ## Storyboards
