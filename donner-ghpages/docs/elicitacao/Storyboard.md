@@ -11,7 +11,7 @@
 <div style="text-indent: 40px; text-align: justify">
 O storyboard é uma sequência de desenhos quadro a quadro pensadas para um conteúdo. Uma ferramenta muito poderosa para representar informações de maneira visual.
 
-Construido linearmente o storyboard tem como caractéristicas de explicar processos e demonstrar a passagem do tempo de maneira visual, mais confortável e mais instigante. Por causa dessas características ele é utilizado na indústria do entretenimento, no mundo dos negócios, na educação e na engenharia de software.
+Construído linearmente o storyboard tem como características de explicar processos e demonstrar a passagem do tempo de maneira visual, mais confortável e mais instigante. Por causa dessas características ele é utilizado na indústria do entretenimento, no mundo dos negócios, na educação e na engenharia de software.
 
 </div>
 

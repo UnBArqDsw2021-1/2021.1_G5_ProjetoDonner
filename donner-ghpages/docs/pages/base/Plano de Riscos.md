@@ -4,13 +4,14 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   02/08/2021   |  1.0    |  Criação do Documento    | Davi Antônio, Kleidson Alves, Lucas Rodrigues, Wellington Jonathan
+|   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
 
 ## Introdução
 
 <div style="text-indent: 40px; text-align: justify">
 
 <p>
-O objetivo de se realizar um planejamento de riscos é identificar os ricos que poderão surgir durante o processo de desenvolvimento do projeto e a partir daí elaborar soluções ou ações para previnir os riscos considerados negativos e executar os riscos que são considerados positivos. Dessa forma o planejamento de riscos se mostra uma atvidade fundamental, pois é uma das maneiras de se prevenir contra os fatores que podem vir a atrapalhar o bom andamento de um projeto. 
+O objetivo de se realizar um planejamento de riscos é identificar os ricos que poderão surgir durante o processo de desenvolvimento do projeto e a partir daí elaborar soluções ou ações para prevenir os riscos considerados negativos e executar os riscos que são considerados positivos. Dessa forma o planejamento de riscos se mostra uma atividade fundamental, pois é uma das maneiras de se prevenir contra os fatores que podem vir a atrapalhar o bom andamento de um projeto. 
 </p>
 
 <p>
@@ -71,7 +72,7 @@ Um ponto importante é que por meio deste plano de gerenciamento de risco podemo
 |R05| Falta de motivação dos integrantes | Gerenciamento do Projeto - Controle | Média | Alto|
 |R06| Contrair COVID-19 |	Externo |	Alta|	Muito Alto|
 |R07| Greve na UnB | Externo |	Muito Baixa|	Muito Alto|
-|R08| Cancelamento do semestre devido a Covid-19| Externo |	Muito Baixa |	Muito Alto|
+|R08| Cancelamento do semestre devido a COVID-19| Externo |	Muito Baixa |	Muito Alto|
 |R09| Falhas de comunicação da equipe | Gerenciamento do Projeto - Comunicação | Muito Baixa | Alto |
 |R10| Satisfação dos usuários | Externo - Cliente | Média | Muito Alto
 |R11| Instabilidade da internet | Externo | Média | Alto 

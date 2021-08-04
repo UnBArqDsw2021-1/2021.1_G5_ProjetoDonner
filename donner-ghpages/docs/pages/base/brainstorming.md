@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   28/07/2021   |  1.0    |  Criação do documento    | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan
+|   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -35,7 +36,7 @@ ID|Necessidade|Prioridade|Problema|Solução Atual|Solução Proposta
 |RF05|Encerrar Doação|Usuário pode encerra a divulgação de uma doação.| N2
 |RF06|Logout de Usuário| Desconectar o usuário da aplicação|N1, N2
 |RF07|Atualização de perfil do usuário | Permitir que os dados cadastrados relacionados ao perfil do usuário sejam atualizados|N1, N2
-|RF08|Comentar em postagens|Usuários logados podem comentar nas postagens de outros usúarios|N1, N2
+|RF08|Comentar em postagens|Usuários logados podem comentar nas postagens de outros usuários|N1, N2
 |RF09| Administrar comentários| O Perfil de administrador pode apagar comentários nas postagens de outros usuários|N3|
 |RF10| Administrar postagens| O Perfil de administrador pode apagar postagens de outros usuários|N3|
 |RF11| Criar postagem de campanha| O Perfil de administrador pode criar e apagar campanhas de divulgação|N3|
@@ -51,6 +52,4 @@ ID|Necessidade|Prioridade|Problema|Solução Atual|Solução Proposta
 
 ## Referências
 
->Woebcken, C. O que é brainstorming e as 7 melhores técnicas para a tomada de decisões inteligentes, 10/07/2019. Disponível em: [https://rockcontent.com/br/blog/brainstorming/](https://rockcontent.com/br/blog/brainstorming/). Data de acesso: 28/07/2021
-
-q    
+>Woebcken, C. O que é brainstorming e as 7 melhores técnicas para a tomada de decisões inteligentes, 10/07/2019. Disponível em: [https://rockcontent.com/br/blog/brainstorming/](https://rockcontent.com/br/blog/brainstorming/). Data de acesso: 28/07/2021   

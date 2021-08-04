@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |  29/07/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Rodrigues
+|   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify"/>
@@ -15,7 +16,7 @@ O diagrama de causa e efeito, também conhecido como diagrama de Ishikawa foi cr
 
 ## Motivação 
 <div style="text-indent: 40px; text-align: justify"/>
- A equipe optou por usar o diagrama de causa e efeito por considerar as vantagens envolvidas no uso dessa técnica, sendo algumas dessas a melhor visibilidade dos problemas que serão enfrentados, identificacão e priorização das causas dos problemas de forma ágil e assertiva, além dos desdoobramentos desses problemas, registro visual para tornar futuras análises mais fáceis e intuitivas e organização das ideias da equipe com objetividade.
+ A equipe optou por usar o diagrama de causa e efeito por considerar as vantagens envolvidas no uso dessa técnica, sendo algumas dessas a melhor visibilidade dos problemas que serão enfrentados, identificação e priorização das causas dos problemas de forma ágil e assertiva, além dos desdobramentos desses problemas, registro visual para tornar futuras análises mais fáceis e intuitivas e organização das ideias da equipe com objetividade.
      
 </div>
 
@@ -55,7 +56,7 @@ Para a construção do artefato apresentado, a equipe foi orientada pelos seguin
     * Padronização de configurações
     * Materiais para pesquisa disponíveis
     * Layout apropriado
-    * Abiente sem distrações
+    * Ambiente sem distrações
     * Documentação sobre o processo
     * Feedback contínuo
     * Verificação e validação
@@ -65,7 +66,7 @@ Para a construção do artefato apresentado, a equipe foi orientada pelos seguin
 
     * Ausência de técnicas de metodologias ágeis
     * Papéis mal definidos
-    * Indisponiblidade dos membros
+    * Indisponibilidade dos membros
     * Trabalhos de outras disciplinas
     * Falta de conhecimento técnico
     * Falha em computadores

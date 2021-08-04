@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   30/07/2021   |  1.0    |  Documento    | Hugo Bezerra, Kleidson Alves, Lucas Rodrigues, Wellington Jonathan 
+|   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
 
 ## Introdução
 
@@ -37,7 +38,7 @@ Objetivos: | Dar a sua família a melhor condição de vida possível |
 Habilidades: | Multi-tarefas 
 
 <div style="text-indent: 40px; text-align: justify">
-Jubilânio é casado, pai de duas filhas e é responsável por prover a maior parte dos recursos à sua família. Sua renda é quase 100% advinda de um bar local que ele possui e administra. Seu bar fazia muito sucesso na região, porém com a chegada da pandemia de covid-19 o movimento em seu bar caiu vertiginosamente e consequentemente sua renda caiu a ponto de nem sempre conseguir suprir todas as necessidades de sua família.
+Jubilânio é casado, pai de duas filhas e é responsável por prover a maior parte dos recursos à sua família. Sua renda é quase 100% advinda de um bar local que ele possui e administra. Seu bar fazia muito sucesso na região, porém com a chegada da pandemia de COVID-19 o movimento em seu bar caiu vertiginosamente e consequentemente sua renda caiu a ponto de nem sempre conseguir suprir todas as necessidades de sua família.
 </div>
 
 <div style="text-indent: 40px; text-align: justify">
@@ -88,7 +89,7 @@ Objetivos: |Cuidar dos filhos|
 Habilidades: |Organizada|  
 
 <div style="text-indent: 40px; text-align: justify">
-Simone é uma mãe solo com 3 filhos para criar, deixou de estudar no ensino fundamental por ter que cuidar de seu primeiro filho. Seu objetivo de vida é cuidar dos seus filhos e tentar dar a eles as melhores condições possíveis, o que tem sido uma tarefa difícil com a pandemia do covid-19.
+Simone é uma mãe solo com 3 filhos para criar, deixou de estudar no ensino fundamental por ter que cuidar de seu primeiro filho. Seu objetivo de vida é cuidar dos seus filhos e tentar dar a eles as melhores condições possíveis, o que tem sido uma tarefa difícil com a pandemia do COVID-19.
 </div>
 
 
@@ -107,7 +108,7 @@ Objetivos: |Testar novas receitas e manter um corpo saudável|
 Habilidades: | Inteligente e Esforçada |  
 
 <div style="text-indent: 40px; text-align: justify">
-Maria Joaquina, mais conhecida como Mariazinha, é uma Massoterapeuta e ama sua profissão. Durante a pandemia da COVID-19 ela percebeu que sua casa estava cheia de objetos que não eram realmente utilizados. Por isso, ela está decidida a se desapegar de seus perteces e vender para pessoas interessadas, pois assim ainda conseguirá uma renda extra.  
+Maria Joaquina, mais conhecida como Mariazinha, é uma Massoterapeuta e ama sua profissão. Durante a pandemia da COVID-19 ela percebeu que sua casa estava cheia de objetos que não eram realmente utilizados. Por isso, ela está decidida a se desapegar de seus pertences e vender para pessoas interessadas, pois assim ainda conseguirá uma renda extra.  
 </div>
 
 
