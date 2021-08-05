@@ -5,6 +5,7 @@
 | -------- | -------- | -------- | ---|
 |  29/07/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Rodrigues
 |   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
+|   03/08/2021   |  1.2    |  Revisão do Documento    | Hugo Bezerra
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify"/>
@@ -80,7 +81,7 @@ Para a construção do artefato apresentado, a equipe foi orientada pelos seguin
 ### Diagramas gerados
 
 
-![Kleidson Alves](https://i.imgur.com/ppWFW1f.png)
+![](https://i.imgur.com/ppWFW1f.png)
 
 <br>
     
@@ -90,7 +91,7 @@ Para a construção do artefato apresentado, a equipe foi orientada pelos seguin
 ### Considerações
 
 <div style="text-indent: 40px; text-align: justify"/>
-    Para alcançar o objetivo de uma boa produtividade, observa-se a necessidade da aplicação de técnicas de metodologias ágeis, tal como a programação por pares.Sendo assim, a equipe julgou como válido considerar a aplicação da metodologia Scrum durante o processo de desenvolvimento do projeto. Além disso, devem ser adotados valores que se mostram essenciais para atingir o objetivo da boa produtividade, tais como o respeito e a valorização da individualidade de cada membro da equipe, bem como proporcionar um ambiente de boa comunicação entre os membros da equipe, seja para atribuição de tarefas pelos responsáveis ou para dar um feedback em relação a uma tarefa já realizada. 
+    Para alcançar o objetivo de uma boa produtividade, observa-se a necessidade da aplicação de técnicas de metodologias ágeis, tal como a programação por pares. Sendo assim, a equipe julgou como válido considerar a aplicação da metodologia Scrum durante o processo de desenvolvimento do projeto. Além disso, devem ser adotados valores que se mostram essenciais para atingir o objetivo da boa produtividade, tais como o respeito e a valorização da individualidade de cada membro da equipe, bem como proporcionar um ambiente de boa comunicação entre os membros da equipe, seja para atribuição de tarefas pelos responsáveis ou para dar um feedback em relação a uma tarefa já realizada. 
 </div>
 
 <div style="text-indent: 40px; text-align: justify"/>

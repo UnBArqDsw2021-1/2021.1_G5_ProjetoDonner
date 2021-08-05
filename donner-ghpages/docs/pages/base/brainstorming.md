@@ -5,8 +5,8 @@
 | -------- | -------- | -------- | ---|
 |   28/07/2021   |  1.0    |  Criação do documento    | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan
 |   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
-
 |   04/08/2021   |  1.2    |  Adição da definição de requisitos    | Lucas Gabriel
+|   04/08/2021   |  1.3   |  Revisão do Documento    | Hugo Bezerra
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -47,7 +47,8 @@ ID|Necessidade|Prioridade|Problema|Solução Atual|Solução Proposta
 |RF10| Administrar postagens| O Perfil de administrador pode apagar postagens de outros usuários|N3|
 |RF11| Criar postagem de campanha| O Perfil de administrador pode criar e apagar campanhas de divulgação|N3|
 |RF12| Demonstrar interesse|Usuário demostra interesse em alguma doação disponibilizada | N2
-
+|RF13| Chat de mensagens instantâneas| Possibilidade de entrar em contato com outros usuários por mensagem | N1, N2
+|RF14| Compartilhar postagem | Usuário gera um link para compartilhar a postagem | N1, N2
 
 ### Requisitos não funcionais
 

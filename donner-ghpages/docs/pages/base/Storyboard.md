@@ -5,6 +5,7 @@
 | -------- | -------- | -------- | ---|
 |   30/07/2021   |  1.0    |  Criação do Documento    | Gabriel Batalha, Lucas Gabriel
 |   03/08/2021   |  1.1    |  Revisão do Documento    | Lucas Gabriel
+|   04/08/2021   |  1.2    |  Segunda Revisão do Documento    | Hugo Bezerra
 
 
 ## Introdução
@@ -26,7 +27,7 @@ O objetivo de utilizar o storyboard é  mostrar a partir de desenhos como o Donn
 ### Conhecendo o site
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner/devel/donner-ghpages/assets/Storyboard1.jpg">
+  <img src="https://i.imgur.com/LcNvQ51.jpg">
 </div>
 <div style="display: flex; flex-direction:row; justify-content:left;">
 Autor: Gabriel Batalha, Lucas Gabriel
@@ -35,12 +36,11 @@ Autor: Gabriel Batalha, Lucas Gabriel
 ### Preciso de uma doação
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner/devel/donner-ghpages/assets/Storyboard2_Parte1.png">
+  <img src="https://i.imgur.com/jkVn3bP.png">
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner/devel/donner-ghpages/assets/Storyboard2_Parte2.png
-">
+  <img src="https://i.imgur.com/clXSZPg.png">
 </div>
 <div style="display: flex; flex-direction:row; justify-content:left;">
 Autor: Gabriel Batalha, Lucas Gabriel
@@ -50,13 +50,12 @@ Autor: Gabriel Batalha, Lucas Gabriel
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner/devel/donner-ghpages/assets/Storyboard3_Parte1.jpg
-">
+  <img src="https://i.imgur.com/uIhje6B.jpg">
 </div>
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner/devel/donner-ghpages/assets/Storyboard3_Parte2.jpg">
+  <img src="https://i.imgur.com/nyI61rs.jpg">
 </div>
 <div style="display: flex; flex-direction:row; justify-content:left;">
 
@@ -69,8 +68,8 @@ Feito em: https://www.storyboardthat.com/storyboard-creator
 ## Requisitos elicitados
 |ID|Requisitos|Descrição|
 |--|--|--|
-|RF13|Tutorial onboarding |onBoarding explicativo sobre o aplicativo para novos usuários|
-|RF14|Encaminhamento de contato|Ao clicar no contato o usuário é direcionado para o aplicativo de contato padrão|
+|RF15|Tutorial onboarding |onBoarding explicativo sobre o aplicativo para novos usuários|
+|RF16|Encaminhamento de contato|Ao clicar no contato o usuário é direcionado para o aplicativo de contato padrão|
 
 ## Referências
 > What is a Storyboard?. Disponível em [https://www.storyboardthat.com/articles/e/what-is-a-storyboard](https://www.storyboardthat.com/articles/e/what-is-a-storyboard). Data de acesso: 30/07/2021
