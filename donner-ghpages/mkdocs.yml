@@ -27,6 +27,7 @@ pages:
       - Mapa Mental: pages/base/mapa_mental.md
       - MoSCoW: pages/base/moscow.md
     - Design Sprint: pages/base/design_sprint.md
+    - BPMN: pages/base/bpmn.md
     - Personas: pages/base/personas.md
     - Protótipos: pages/base/prototipos.md
   - Sprints: 
