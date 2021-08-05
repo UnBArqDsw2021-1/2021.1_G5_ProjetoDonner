@@ -5,6 +5,8 @@
 | -------- | -------- | -------- | ---|
 |   30/07/2021   |  1.0    |  Documento    | Hugo Bezerra, Kleidson Alves, Lucas Rodrigues, Wellington Jonathan 
 |   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
+|   05/08/2021   |  1.2    |  Revisão do Documento      | Hugo Bezerra, Kleidson Alves
+
 
 ## Introdução
 
@@ -27,7 +29,10 @@ Utilizamos as personas como ferramenta auxiliar durante o processo de desenvolvi
 ## Personas
 
 ### Persona 1
-|Persona| ![](https://i.imgur.com/FzlAGr7.jpg) |
+
+<img width="200" src="https://i.imgur.com/FzlAGr7.jpg" >
+
+|Persona|  |
 |--|--|
 Nome: | Jubilânio Alfonso Medeiros |
 Idade:| 38 anos |
@@ -46,7 +51,10 @@ Jubilânio acredita que sua situação poderia melhorar se ele fosse capaz de re
 </div>
 
 ### Persona 2
-|Persona|![](https://i.imgur.com/XHVTB4J.jpg)  |
+
+<img width="200" src="https://i.imgur.com/XHVTB4J.jpg">
+
+|Persona| |
 |--|--|
 Nome: | Murilo Matos |
 Idade:| 55 anos |
@@ -62,7 +70,9 @@ Murilo é Engenheiro Civil e também dono de um posto de arrecadação de produt
 
 ## Persona 3
 
-|Persona| ![](https://i.imgur.com/xcOs3zk.jpg)|
+<img width="200" src="https://i.imgur.com/xcOs3zk.jpg">
+
+|Persona| |
 |--|--|
 Nome: | Amanda Rainhas |
 Idade:| 28 anos |
@@ -78,7 +88,9 @@ Amanda trabalha em uma clínica veterinária. Constantemente, ela compra novos p
 
 ## Persona 4
 
-|Persona| ![](https://i.imgur.com/zvfgPAj.jpg)|
+<img width="200" src="https://i.imgur.com/zvfgPAj.jpg">
+
+|Persona| |
 |--|--|
 Nome: | Simone Ferreira da Silva |
 Idade:| 23 anos |
@@ -95,9 +107,9 @@ Simone é uma mãe solo com 3 filhos para criar, deixou de estudar no ensino fun
 
 ## Persona 5
 
+<img width="200" src="https://i.imgur.com/9Q74Wc1.jpg">
 
-
-|Persona|![](https://i.imgur.com/9Q74Wc1.jpg)|
+|Persona| |
 |--|--|
 Nome: | Maria Joaquina Ferreira |
 Idade:| 43 anos |
