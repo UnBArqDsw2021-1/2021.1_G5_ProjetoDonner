@@ -36,9 +36,9 @@ Utilizamos o método de priorização de requisitos MoSCoW para analisar o grau 
 |RF10|Administrar postagens| Should
 |RF11|Criar postagem de campanha| Could
 |RF12|Demonstrar interesse| Could
-|RF13|Chat de mensagens instantâneas| Could
-|RF14|Demonstrar interesse| Won't
-|RF15|Compartilhar postagem| Won't
+|RF13|Chat de mensagens instantâneas| Won't
+|RF14|Compartilhar postagem| Won't
+|RF15|Tutorial onboarding| Should
 |RF16|Encaminhamento de contato| Could
 
 ## Requisitos Não Funcionais
