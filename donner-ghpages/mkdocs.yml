@@ -1,6 +1,10 @@
 site_name: Donner
+extra_css:
+  - assets/extra.css
 theme:
   name: material
+  palette:
+    scheme: donner
   favicon: assets/icons/favicon.ico
   logo: assets/icons/DonnerLogo.png
 
@@ -21,8 +25,9 @@ pages:
     - Elicitação: 
       - Brainstorming: pages/base/brainstorming.md
       - Mapa Mental: pages/base/mapa_mental.md
-      - Backlog do Produto: pages/base/backlog.md
+      - MoSCoW: pages/base/moscow.md
     - Design Sprint: pages/base/design_sprint.md
+    - Personas: pages/base/personas.md
     - Protótipos: pages/base/prototipos.md
   - Sprints: 
     - Sprint 0:
