@@ -106,7 +106,7 @@ Inicialmente, foi questionado a utilização da estimativa PERT, porém, devido 
 </div>
 
 
-## Objetivos
+## Estimativa
 
 <div style="text-indent: 40px; text-align: justify">
 
