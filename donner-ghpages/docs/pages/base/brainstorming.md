@@ -9,16 +9,20 @@
 |   04/08/2021   |  1.3   |  Revisão do Documento    | Hugo Bezerra
 
 ## Introdução
+
 <div style="text-indent: 40px; text-align: justify">
+
 Brainstorming é uma técnica que, por meio do compartilhamento espontâneo de ideias, busca encontrar a solução para um problema ou gerar insights de criatividade. A ideia desse processo é dar vida à máxima “duas cabeças pensam melhor do que uma”.
 
 Sendo assim, é fundamental que o brainstorming envolva um número mais elevado de participantes, de preferência reunindo pessoas ativas na empresa, mas que tragam perspectivas diferentes. Essa pluralidade de ideias é o pilar da técnica. Para que seja bem-sucedido, o processo deve focar em quantidade, não em qualidade.
 
 A equipe utilizou a técnica de Brainstorming para descobrir as necessidades que a aplicação pretende abordar e dessa forma elicitar os Requisitos
-<div/>
-<p/>
+
+</div> 
+
 
 **Legendas**
+
 * N: Necessidade
 * RF: Requisito Funcional
 * RNF: Requisito não Funcional
