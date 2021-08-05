@@ -21,7 +21,7 @@ pages:
       - 5W2H: pages/base/5w2h.md
       - Diagrama de Causa-Efeito: pages/base/diagrama_de_causa-efeito.md
       - Plano de Riscos: pages/base/plano_de_riscos.md
-      - Estimativas de Custos e Esforços: pages/base/custo_esforço.md
+      - Estimativas de Custos e Esforços: pages/base/estimativa_de_custos_esforços.md
     - Elicitação: 
       - Brainstorming: pages/base/brainstorming.md
       - Mapa Mental: pages/base/mapa_mental.md
