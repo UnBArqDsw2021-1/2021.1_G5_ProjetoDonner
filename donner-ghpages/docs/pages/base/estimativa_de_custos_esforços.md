@@ -4,13 +4,14 @@
 ## Versionamento
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
-|   02/08/2021   |  1.0    |  Iniciando Documento                | Caio Araujo |
-|   03/08/2021   |  1.1    |  Estimativa de custos/Resultados    | Caio Araujo |
-|   04/08/2021   |  1.2    |  Estimativas de Esforços Iniciais   | Caio Araujo |
-| 05/08/2021     | 1.3     | Revisão do Documento                | Kleidson Alves |
+|   02/08/2021   |  1.0    |  Iniciando Documento                | Caio Araújo |
+|   03/08/2021   |  1.1    |  Estimativa de custos/Resultados    | Caio Araújo |
+|   04/08/2021   |  1.2    |  Estimativas de Esforços Iniciais   | Caio Araújo |
+| 05/08/2021     | 1.3     | Revisão do Documento                | Kleidson Alves  |
+| 06/08/2021     | 1.4     | Conserto de links e revisão da ortografia | Lucas Gabriel  |
 
-# Estimativas de Custos
-## Objetivos
+## Introdução
+
 <div style="text-indent: 40px; text-align: justify">
 Neste documento, será detalhado o plano de gerenciamento de custos projeto Donner. Nos próximos tópicos, serão especificadas todas as estimativas iniciais de custo de aplicação do projeto, assim como gastos com rh, equipamentos, entre outros.
 </div>
@@ -79,7 +80,7 @@ Consumo = (100 watts x 10 horas x 22 dias)/1.000 x 9 computadores = 198 kw/h Com
 
 | Aquisição | Finalidade | Valor(R$) | Quantidade | **Total** |
 | -------- | -------- | -------- | -------- | -------- |
-| Conexao com a internet     | Desenvolvimento/integração     | R$ 79,90     | 9     | 79,90 * 9 = **R$ 719,10**     |
+| Conexão com a internet     | Desenvolvimento/integração     | R$ 79,90     | 9     | 79,90 * 9 = **R$ 719,10**     |
 | Energia     | Desenvolvimento/integração      | R$ 0,728     | 9     | 594*0,728 = **R$ 432,43**   |
     
 ## Resumo da Estimativa de Custos
@@ -110,25 +111,34 @@ Inicialmente, foi questionado a utilização da estimativa PERT, porém, devido 
 
 <div style="text-indent: 40px; text-align: justify">
 
-Seguindo a realidade do projeto, existem três pontos principais que sevirá para o primeiro planejamento:
+Seguindo a realidade do projeto, existem três pontos principais que servirão para o primeiro planejamento:
+</div>
 
 * **Artefatos**
 * **Recursos**
 * **Cronograma** 
 
-Neste momento, como o escopo ainda está em definição, é muito complexo mensurar qual vai ser o esforço médio da equipe durante um certo periodo de tempo. Desse modo, percebe-se que esses três pontos, são correlacionados entre si, ou seja, uma variação nos recuros e backlog, explicitamente gera consequências no cronograma, e vice-versa. Por isso, de inicio, faz mais sentido correlacionar os três pontos, mensurar o trabalho ja feito e considerar uma média mínima, utilizando o gráfico burndown das primeiras sprints como base. 
+
+<div style="text-indent: 40px; text-align: justify">
+
+
+Neste momento, como o escopo ainda está em definição, é muito complexo mensurar qual vai ser o esforço médio da equipe durante um certo período de tempo. Desse modo, percebe-se que esses três pontos, são correlacionados entre si, ou seja, uma variação nos recursos e backlog, explicitamente gera consequências no cronograma, e vice-versa. Por isso, de inicio, faz mais sentido correlacionar os três pontos, mensurar o trabalho ja feito e considerar uma média mínima, utilizando o gráfico burndown das primeiras sprints como base. 
+
+</div>
 
 </br>
 
 ![](https://i.imgur.com/lZSbpO2.jpg)
 
-
 </br>
 
-Como os artefatos possuem pontuação mais baixa, o esforço esperado em pontuação é o burndown anteriormente estimado e que tenha no minimo 20% de aumento com relação a sprint1. Consequentemente, espera-se que o velocity individual das próximas sprints, não seja abaixo do velocity da sprint1, até que se alcance um valor superior a 20. É esperado que se que mantenha o crescimento de pontuação devido ao nivel de complexidade das proximas sprints. 
+<div style="text-indent: 40px; text-align: justify">
+
+Como os artefatos possuem pontuação mais baixa, o esforço esperado em pontuação é o burndown anteriormente estimado e que tenha no minimo 20% de aumento com relação a sprint1. Consequentemente, espera-se que o velocity individual das próximas sprints, não seja abaixo do velocity da sprint1, até que se alcance um valor superior a 20. É esperado que se que mantenha o crescimento de pontuação devido ao nível de complexidade das próximas sprints. 
+</div>
 
 
-| Sprint | Pontos Concluidos | Velocity   |
+| Sprint | Pontos Concluídos | Velocity   |
 | ------ |     --------      | --------   |
 | 0      | 14                | 14         |
 | 1      | 18                | 16         |
@@ -136,15 +146,18 @@ Como os artefatos possuem pontuação mais baixa, o esforço esperado em pontua�
 | 3      | 24                | 19,5       |
 | **4**  | **24**            | **20,4**   |
 
+<div style="text-indent: 40px; text-align: justify">
 
-Desse modo, como dito anteriormente, espera-se que a partir da sprint 2, o velocity se mantenha ou aumente devido a complexidade da implementacao inicial que a equipe enfrentará. 
+Desse modo, como dito anteriormente, espera-se que a partir da sprint 2, o velocity se mantenha ou aumente devido a complexidade da implementação inicial que a equipe enfrentará. 
 
 </div>
 
 ## Referências
 > Relatório de Gestão Acadêmica da UnB. Disponível em:
-[http://dpo.unb.br/](http://dpo.unb.br/index.php?option=com_content&view=article&id=46&Itemid=816). Data de acesso: 27/07/
+[http://dpo.unb.br/](http://dpo.unb.br/index.php?option=com_content&view=article&id=46&Itemid=816). Data de acesso: 02/08/2021
 
-[http://www.aneel.gov.br/ranking-das-tarifas](http://www.aneel.gov.br/ranking-das-tarifas)
+> Ranking das Tarifas. Disponível em:
+[http://www.aneel.gov.br/ranking-das-tarifas](http://www.aneel.gov.br/ranking-das-tarifas). Data de acesso: 03/08/2021
 
-[https://online.visual-paradigm.com](https://online.visual-paradigm.com/)
+> Online Diagram Software. Disponível em:
+[https://online.visual-paradigm.com](https://online.visual-paradigm.com/). Data de acesso: 04/08/2021

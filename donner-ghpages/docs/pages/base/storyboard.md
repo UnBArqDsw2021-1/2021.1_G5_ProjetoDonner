@@ -6,6 +6,7 @@
 |   30/07/2021   |  1.0    |  Criação do Documento    | Gabriel Batalha, Lucas Gabriel
 |   03/08/2021   |  1.1    |  Revisão do Documento    | Lucas Gabriel
 |   04/08/2021   |  1.2    |  Segunda Revisão do Documento    | Hugo Bezerra
+|   06/08/2021   |  1.3    |   Correção dos links  | Lucas Gabriel
 
 
 ## Introdução
@@ -63,7 +64,6 @@ Autor: Gabriel Batalha, Lucas Gabriel
 
 </div>
 
-Feito em: https://www.storyboardthat.com/storyboard-creator
 
 ## Requisitos elicitados
 |ID|Requisitos|Descrição|
@@ -72,4 +72,6 @@ Feito em: https://www.storyboardthat.com/storyboard-creator
 |RF16|Encaminhamento de contato|Ao clicar no contato o usuário é direcionado para o aplicativo de contato padrão|
 
 ## Referências
-> What is a Storyboard?. Disponível em [https://www.storyboardthat.com/articles/e/what-is-a-storyboard](https://www.storyboardthat.com/articles/e/what-is-a-storyboard). Data de acesso: 30/07/2021
+> What is a Storyboard?. Disponível em: [https://www.storyboardthat.com/articles/e/what-is-a-storyboard](https://www.storyboardthat.com/articles/e/what-is-a-storyboard). Data de acesso: 30/07/2021
+
+> StoryboardThat. Disponível em: [https://www.storyboardthat.com/storyboard-creator](https://www.storyboardthat.com/storyboard-creator). Data de acesso: 30/07/2021

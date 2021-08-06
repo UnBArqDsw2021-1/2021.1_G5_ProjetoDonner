@@ -15,7 +15,7 @@ O diagrama de causa e efeito, também conhecido como diagrama de Ishikawa foi cr
  Trata-se de uma ferramenta visual, em formato de gráfico. Ela será responsável por ajudar a equipe a chegar nas causas reais de problemas que acometem nos processos organizacionais de uma empresa. Significando, assim, que irá apresentar considerações com respeito ao que pode resultar em situações indesejadas.
 </div>
 
-## Motivação 
+## Motivação    
 <div style="text-indent: 40px; text-align: justify"/>
  A equipe optou por usar o diagrama de causa e efeito por considerar as vantagens envolvidas no uso dessa técnica, sendo algumas dessas a melhor visibilidade dos problemas que serão enfrentados, identificação e priorização das causas dos problemas de forma ágil e assertiva, além dos desdobramentos desses problemas, registro visual para tornar futuras análises mais fáceis e intuitivas e organização das ideias da equipe com objetividade.
      
@@ -39,7 +39,7 @@ Para a construção do artefato apresentado, a equipe foi orientada pelos seguin
 ### Efeitos considerados
 
 <div style="text-indent: 40px; text-align: justify"/>
-    A equipe abordou dois efeitos principais, sendo um que queremos alcançar (positivo) e outro que não desejamos que ocorra em nosso processo de desenvolvimento (negativo), sendo eles, respectivamente, a boa produtividade e o atraso no andamento do projeto.
+A equipe abordou dois efeitos principais, sendo um que queremos alcançar (positivo) e outro que não desejamos que ocorra em nosso processo de desenvolvimento (negativo), sendo eles, respectivamente, a boa produtividade e o atraso no andamento do projeto.
 </div>
 
 ### Listas de causas
@@ -82,23 +82,18 @@ Para a construção do artefato apresentado, a equipe foi orientada pelos seguin
 
 
 ![](https://i.imgur.com/ppWFW1f.png)
-
-<br>
     
 ![](https://i.imgur.com/JM1RP77.png)
-
 
 ### Considerações
 
 <div style="text-indent: 40px; text-align: justify"/>
-    Para alcançar o objetivo de uma boa produtividade, observa-se a necessidade da aplicação de técnicas de metodologias ágeis, tal como a programação por pares. Sendo assim, a equipe julgou como válido considerar a aplicação da metodologia Scrum durante o processo de desenvolvimento do projeto. Além disso, devem ser adotados valores que se mostram essenciais para atingir o objetivo da boa produtividade, tais como o respeito e a valorização da individualidade de cada membro da equipe, bem como proporcionar um ambiente de boa comunicação entre os membros da equipe, seja para atribuição de tarefas pelos responsáveis ou para dar um feedback em relação a uma tarefa já realizada. 
+Para alcançar o objetivo de uma boa produtividade, observa-se a necessidade da aplicação de técnicas de metodologias ágeis, tal como a programação por pares. Sendo assim, a equipe julgou como válido considerar a aplicação da metodologia Scrum durante o processo de desenvolvimento do projeto. Além disso, devem ser adotados valores que se mostram essenciais para atingir o objetivo da boa produtividade, tais como o respeito e a valorização da individualidade de cada membro da equipe, bem como proporcionar um ambiente de boa comunicação entre os membros da equipe, seja para atribuição de tarefas pelos responsáveis ou para dar um feedback em relação a uma tarefa já realizada. 
 </div>
 
 <div style="text-indent: 40px; text-align: justify"/>
-    Para alcançar o objetivo de evitar que ocorram problemas relacionados ao atraso no andamento do projeto foram identificadas as possíveis causas que podem resultar nesse problema, como a indisponibilidade dos membros da equipe e defeitos nos documentos gerados. Para que esses atrasos não ocorram se faz necessário dividir corretamente os papéis de cada integrante, de forma que todos possam colaborar sem que nenhum fique sobrecarregado, utilizar as práticas de metodologias ágeis e desenvolver tanto código quanto documentos bem feitos, utilizando também técnicas de verificação e validação para garantir que estejam corretos.
+Para alcançar o objetivo de evitar que ocorram problemas relacionados ao atraso no andamento do projeto foram identificadas as possíveis causas que podem resultar nesse problema, como a indisponibilidade dos membros da equipe e defeitos nos documentos gerados. Para que esses atrasos não ocorram se faz necessário dividir corretamente os papéis de cada integrante, de forma que todos possam colaborar sem que nenhum fique sobrecarregado, utilizar as práticas de metodologias ágeis e desenvolver tanto código quanto documentos bem feitos, utilizando também técnicas de verificação e validação para garantir que estejam corretos.
 </div>
-
-
 
 ## Referências
 > Diagrama de Ishikawa: o que é e como fazer. Disponível em:

@@ -47,8 +47,8 @@ Autores: Hugo Ricardo, Kleidson Alves, Lucas Rodrigues
 ## Referências
 
 > Notação BPMN, a mais usada para modelar processos. Disponível em:
-https://www.heflo.com/pt-br/bpm/notacao-bpmn/. Data de acesso: 31/07/2021
+[https://www.heflo.com/pt-br/bpm/notacao-bpmn/](https://www.heflo.com/pt-br/bpm/notacao-bpmn/). Data de acesso: 31/07/2021
 
-> Diagrama BPMN e BPMN 2.0. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-bpmn. Data de acesso: 31/07/2021
+> Diagrama BPMN e BPMN 2.0. Disponível em: [https://www.lucidchart.com/pages/pt/diagrama-bpmn](https://www.lucidchart.com/pages/pt/diagrama-bpmn). Data de acesso: 31/07/2021
 
-> GRAPHICAL NOTATIONS FOR BUSINESS PROCESSES. Disponível em: https://www.omg.org/bpmn/. Data de acesso: 31/07/2021
+> GRAPHICAL NOTATIONS FOR BUSINESS PROCESSES. Disponível em: [https://www.omg.org/bpmn/](https://www.omg.org/bpmn/). Data de acesso: 31/07/2021

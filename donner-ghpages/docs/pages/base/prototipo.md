@@ -1,4 +1,4 @@
-# Protótipos
+# Protótipo
 
 ## Versionamento
 | Data | Versão | Descrição | Autores |

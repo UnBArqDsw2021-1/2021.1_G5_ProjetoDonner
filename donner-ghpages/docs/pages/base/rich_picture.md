@@ -23,26 +23,23 @@ Não há formalidades sobre a confecção de um Rich Picture, mas é boa prátic
 
 ![Davi](https://i.imgur.com/ucUOnSQ.png)
 Autor: Davi Antônio
-
+---
 ![Caio Araujo](https://i.imgur.com/k5QiIHu.jpg)
 Autor: Caio Araújo 
-
+---
 ![Wellington Jonathan](https://i.imgur.com/DoKSss9.jpg)
 Autor: Wellington Jonathan
-
+---
 ![Marcos Adriano](https://i.imgur.com/rpoMgRx.jpeg)
 Autor: Marcos Adriano
-
+---
 ## Rich Picture final
 ![Rich Picture final](https://i.imgur.com/0KFlXdA.png)
 Autor: Davi Antônio
 
-
 ## Referências
 
-> Rich Pictures - Wiki - Engenharia de Requisitos do Trello -  . Disponível em: https://requisitos-trello.github.io/rich%20pictures.html. Acesso em: 30/07/2021
+> Rich Pictures - Wiki - Engenharia de Requisitos do Trello -  . Disponível em: [https://requisitos-trello.github.io/rich%20pictures.html](https://requisitos-trello.github.io/rich%20pictures.html). Acesso em: 30/07/2021
 
-> Rich Pictures - MULTI-STAKEHOLDER PARTNERSHIPS -  . Disponível em: http://www.mspguide.org/tool/rich-picture. Acesso em: 30/07/2021
+> Rich Pictures - MULTI-STAKEHOLDER PARTNERSHIPS -  . Disponível em: [http://www.mspguide.org/tool/rich-picture](http://www.mspguide.org/tool/rich-picture). Acesso em: 30/07/2021
 
-> Nome do artigo. Disponível em:
-[Link](Link). Data de acesso: 27/07/2021

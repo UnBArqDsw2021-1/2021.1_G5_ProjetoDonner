@@ -68,7 +68,7 @@ Habilidades: | Rápida aprendizagem, organizado e altruísta
 Murilo é Engenheiro Civil e também dono de um posto de arrecadação de produtos para doar, como roupas, brinquedos e móveis. Para ajudar as pessoas necessitadas seu posto precisa frequentemente arrecadar uma boa quantidade desses produtos para doar. Geralmente ele realiza suas buscas em aplicativos e sites de doações para encontrar produtos que estejam em bom estado e que possam ser reaproveitados em seu posto. Por isso, ele está sempre procurando por novas opções de plataformas onde possa buscar esses produtos.
 </div>
 
-## Persona 3
+### Persona 3
 
 <img width="200" src="https://i.imgur.com/xcOs3zk.jpg">
 
@@ -86,7 +86,7 @@ Habilidades: | Liderança, organização e trabalho em equipe
 Amanda trabalha em uma clínica veterinária. Constantemente, ela compra novos produtos e objetos para utilizar em sua casa. Por ser uma pessoa organizada, que evita acumular objetos que não utiliza mais e que pensa que cada pessoa deve colaborar para fazer do mundo um lugar melhor, ao comprar novos produtos, ela doa seus produtos antigos que sabe que não utilizará mais e que estejam em bom estado para ser doados. Um de seus principais objetivos é, além de ajudar pessoas, ajudar também animais que necessitem de ajuda, doando produtos que não estejam sendo utilizados por seu cachorro em sua casa ou na clínica em que trabalha.
 </div>
 
-## Persona 4
+### Persona 4
 
 <img width="200" src="https://i.imgur.com/zvfgPAj.jpg">
 
@@ -105,7 +105,7 @@ Simone é uma mãe solo com 3 filhos para criar, deixou de estudar no ensino fun
 </div>
 
 
-## Persona 5
+### Persona 5
 
 <img width="200" src="https://i.imgur.com/9Q74Wc1.jpg">
 
