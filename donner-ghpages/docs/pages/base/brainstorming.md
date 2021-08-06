@@ -29,16 +29,17 @@ A equipe utilizou a técnica de Brainstorming para descobrir as necessidades que
 
 ### Necessidades
 
-ID|Necessidade|Prioridade|Problema|Solução Atual|Solução Proposta
-|--|--|--|--|--|--|
-|N1|Doar objetos que não tem mais serventia|X|Acúmulo de objetos sem utilidade|Procurar instituições ou pessoas aceitando doações pessoalmente|Publicar esses objetos online em uma plataforma que facilite o acesso
-|N2|Descobrir objetos que estão sendo doados|X|Não ter dinheiro para comprar um determinado objeto|Procurar instituições ou pessoas oferecendo doações pessoalmente |Procurar objetos necessitados em uma plataforma de fácil acesso
-|N3|Necessidade de administração da plataforma|X|Necessidade de verificar as doações, doadores e divulgar campanhas de doação|Gerentes do posto de doações devem verificar presencialmente as doações|Gerentes do posto de doações podem administrar tudo manualmente usando perfil de administrador do sistema|
+ID|Necessidade|Prioridade|Problema|Solução Atual|Solução Proposta|
+|---|---|---|---|---|---|
+|N1|Doar objetos que não tem mais serventia| Alta|Acúmulo de objetos sem utilidade|Procurar instituições ou pessoas aceitando doações pessoalmente|Publicar esses objetos online em uma plataforma que facilite o acesso
+|N2|Descobrir objetos que estão sendo doados|Alta|Não ter dinheiro para comprar um determinado objeto|Procurar instituições ou pessoas oferecendo doações pessoalmente |Procurar objetos necessitados em uma plataforma de fácil acesso
+|N3|Necessidade de administração da plataforma|Média|Necessidade de verificar as doações, doadores e divulgar campanhas de doação|Gerentes do posto de doações devem verificar presencialmente as doações|Gerentes do posto de doações podem administrar tudo manualmente usando perfil de administrador do sistema|
+
 
 ### Requisitos Funcionais
 
 |ID|Requisitos|Descrição|Necessidade(s)|
-|--|--|--|--|
+|---|---|---|---|
 |RF01|Cadastro de Usuário|Registra o usuário no sistema Donner|N1, N2
 |RF02|Login de Usuário|Permitir acesso ao sistema de acordo com seu perfil de usuário.|N1, N2
 |RF03|Pesquisar doações|Pesquisar doações disponíveis por categoria.| N2
@@ -47,9 +48,9 @@ ID|Necessidade|Prioridade|Problema|Solução Atual|Solução Proposta
 |RF06|Logout de Usuário| Desconectar o usuário da aplicação|N1, N2
 |RF07|Atualização de perfil do usuário | Permitir que os dados cadastrados relacionados ao perfil do usuário sejam atualizados|N1, N2
 |RF08|Comentar em postagens|Usuários logados podem comentar nas postagens de outros usuários|N1, N2
-|RF09| Administrar comentários| O Perfil de administrador pode apagar comentários nas postagens de outros usuários|N3|
-|RF10| Administrar postagens| O Perfil de administrador pode apagar postagens de outros usuários|N3|
-|RF11| Criar postagem de campanha| O Perfil de administrador pode criar e apagar campanhas de divulgação|N3|
+|RF09| Administrar comentários| O Perfil de administrador pode apagar comentários nas postagens de outros usuários|N3
+|RF10| Administrar postagens| O Perfil de administrador pode apagar postagens de outros usuários|N3
+|RF11| Criar postagem de campanha| O Perfil de administrador pode criar e apagar campanhas de divulgação|N3
 |RF12| Demonstrar interesse|Usuário demostra interesse em alguma doação disponibilizada | N2
 |RF13| Chat de mensagens instantâneas| Possibilidade de entrar em contato com outros usuários por mensagem | N1, N2
 |RF14| Compartilhar postagem | Usuário gera um link para compartilhar a postagem | N1, N2
