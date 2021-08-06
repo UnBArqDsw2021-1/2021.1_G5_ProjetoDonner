@@ -5,7 +5,7 @@ theme:
   name: material
   palette:
     scheme: donner
-  favicon: assets/icons/favicon.ico
+  favicon: assets/icons/DonnerLogo.png
   logo: assets/icons/DonnerLogo.png
 
 markdown_extensions:
@@ -25,16 +25,18 @@ pages:
     - Elicitação: 
       - Brainstorming: pages/base/brainstorming.md
       - Mapa Mental: pages/base/mapa_mental.md
+      - StoryBoard: pages/base/storyboard.md
       - MoSCoW: pages/base/moscow.md
     - Design Sprint: pages/base/design_sprint.md
     - BPMN: pages/base/bpmn.md
+    - Metodologia: pages/base/metodologia.md
     - Personas: pages/base/personas.md
-    - Protótipos: pages/base/prototipos.md
+    - Protótipo: pages/base/prototipo.md
   - Sprints: 
     - Sprint 0:
       - Planning: pages/sprints/sprint0/sprint0p.md
       - Review: pages/sprints/sprint0/sprint0r.md
     - Sprint 1:
       - Planning: pages/sprints/sprint1/sprint1p.md
-      - Review: pages/sprints/sprint1/sprint1r.md
+      #- Review: pages/sprints/sprint1/sprint1r.md
   - Políticas de Contribuição: pages/politicas.md
