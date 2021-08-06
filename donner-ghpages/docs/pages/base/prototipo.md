@@ -11,7 +11,8 @@
 
 A prototipagem tem como finalidade demonstrar as ideias e as características de funcionamento do sistema por meio de desenho, sejam eles simples como rabiscos em papel até interfaces semelhantes ao sistema final.
 
-Como o protótipo faz parte do processo de design sprint e permite mostrar a interface e o processo de interação já no início do processo de criação do sistema,  a equipe viu uma grande valia em gerar um protótipo para validação das etapas da [design sprint](design_sprint.md).
+Como o protótipo faz parte do processo de design sprint e permite mostrar a interface e o processo de interação já no início do processo de criação do sistema,  a equipe viu uma grande valia em gerar um protótipo para validação das etapas da <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/base/design_sprint/">design sprint</a>.
+
 
 A fácil compreensão de um protótipo permite que todos os stakeholders consigam compreender a que ponto os requisitos levam o produto, sendo muito útil para saber se o produto irá atender as necessidades dos stakeholders.
 
