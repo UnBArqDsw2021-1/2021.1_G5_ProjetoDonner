@@ -1,7 +1,3 @@
----
-tags: Sprint
----
-
 # Sprint 1 Planning
 
 ## Versionamento
