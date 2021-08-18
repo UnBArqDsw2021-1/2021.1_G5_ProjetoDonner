@@ -1,7 +1,3 @@
----
-tags: Modelagem
----
-
 # Diagrama de Atividades
 
 ## Versionamento
@@ -59,7 +55,6 @@ A equipe julgou como benéfico elaborar o diagrama de atividades condizente com 
 ### Diagrama de Criação de comentário
 
 ![](https://i.imgur.com/M6J04q7.png)
-
 
 
 ## Referências
