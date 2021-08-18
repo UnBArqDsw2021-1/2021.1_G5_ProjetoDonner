@@ -1,6 +1,3 @@
----
-tags: Extra Modelagem
----
 # Atividades Extras
 
 ## Versionamento

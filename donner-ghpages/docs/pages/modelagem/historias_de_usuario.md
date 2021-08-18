@@ -1,4 +1,3 @@
-
 # Histórias de usuário 
 
 ## Versionamento
