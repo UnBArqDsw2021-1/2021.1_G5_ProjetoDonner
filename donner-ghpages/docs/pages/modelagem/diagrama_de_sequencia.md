@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   18/08/2021   |  1.0    |  Criação do Documento    | Hugo Bezerra, Marcos Adriano
+|   19/08/2021   |  1.1    |  Atualizando imagens    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -16,7 +17,6 @@ A equipe decidiu representar em forma de diagrama de sequência os processos que
 
 ## Resultado
 
-
 ### Diagrama de Sequência - Login & Logout
 
  ![](https://i.imgur.com/bRrjW81.png)
@@ -24,7 +24,7 @@ A equipe decidiu representar em forma de diagrama de sequência os processos que
 
 ### Diagrama de Sequência - Criação de Anúncio
 
-![](https://i.imgur.com/VnmI3Ir.png)
+![](https://i.imgur.com/GxsHsEX.png)
 
 
 ### Diagrama de Sequência - Demonstração de Interesse
@@ -34,8 +34,7 @@ A equipe decidiu representar em forma de diagrama de sequência os processos que
 
 ### Diagrama de Sequência - Administração de Postagens
 
-![](https://i.imgur.com/aHiTJDT.png)
-
+![](https://i.imgur.com/UWS9xMC.png)
 
 ### Diagrama de Sequência - Criação de Campanha
 
