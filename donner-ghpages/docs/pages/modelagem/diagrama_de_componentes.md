@@ -1,7 +1,3 @@
----
-tags: Modelagem
----
-
 # Diagrama de Componentes
 
 ## Versionamento
