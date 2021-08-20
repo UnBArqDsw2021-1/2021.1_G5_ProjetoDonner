@@ -17,4 +17,4 @@ Durante esse módulo, a equipe conseguiu realizar como iniciativas extras a cria
     * [Moscow](../base/moscow.md)
     * [Introspecção](../base/introspeccao.md)
 * Modelagem Ágil
-    * [Histórias de usuário](/historias_de_usuario.md)
+    * [Histórias de usuário](historias_de_usuario.md)
