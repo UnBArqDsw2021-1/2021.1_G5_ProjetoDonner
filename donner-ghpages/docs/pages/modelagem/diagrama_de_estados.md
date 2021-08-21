@@ -24,8 +24,6 @@ Representações:
 
 * Utilização de estados simples, sem atividades internas.
 
-* 
-
 Primeira Versão
 ![](https://i.imgur.com/RZgLUhQ.jpg)
 Segunda Versão - Correção na duplicidade de validadores no processo de criação de anúncio.
