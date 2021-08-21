@@ -6,7 +6,7 @@
 |  18/08/2021   |  1.0    | Criação do Documento    | Caio Araújo, Gabriel Batalha
 |  19/08/2021   |  1.1    | Adição do diagrama    | Caio Araújo
 |  20/08/2021   |  1.2    | Adição do segundo diagrama  | Gabriel Batalha
-|  21/08/2021   |  1.3    | Correção do diagrama  | CaioGabriel
+|  21/08/2021   |  1.3    | Correção do diagrama  | Caio Araújo
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -20,6 +20,11 @@ O diagrama de estados pode ser usado também para expressar a usagem de protocol
 
 ## Diagramas de Estados
 
+Representações:
+
+* Utilização de estados simples, sem atividades internas.
+
+* 
 
 Primeira Versão
 ![](https://i.imgur.com/RZgLUhQ.jpg)

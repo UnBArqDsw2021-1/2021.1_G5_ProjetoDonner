@@ -31,7 +31,7 @@ Dado o custo estimado do projeto, conseguimos a partir daí, definir o valor do 
 <p>
 Como o projeto será desenvolvido dentro do contexto da disciplina de Arquitetura e desenho de Software, o cálculo comum de recursos humanos é feito com base no custo anual do aluno descrito pelo Decanato de Planejamento e Orçamento da UnB. 
 Essa parte foi adicionada para deixar claro que, mesmo não representando resultados específicos, o custo aluno ainda sim servirá como uma boa base de estimativa para a equipe. A mesma decidiu que é melhor se basear neste valor pois faz mais sentido do que arbitrariamente definir um custo fixo.
-De acordo com o Indicadores de Gestão da UnB- Metodologia TCU 2020, o custo aluno referente a essa época é de 17,52*1000. É importante atentar que esse custo só é relevante para a nossa equipe pois o ano de 2020 teve inicio as aulas de ensino a distância, e é o que representa com mais fidelidade a realidade do projeto.
+De acordo com o <a href="http://dpo.unb.br/images/dpl/Indicadoes_de_Desempenho_-_MetodologiaTCU.pdf">Indicadores de Gestão da UnB- Metodologia TCU 2020</a>, o custo aluno referente a essa época é de 17,52*1000. É importante atentar que esse custo só é relevante para a nossa equipe pois o ano de 2020 teve inicio as aulas de ensino a distância, e é o que representa com mais fidelidade a realidade do projeto.
 </p>
 
 </div>
@@ -55,7 +55,7 @@ Para estimar o custo planejado do projeto, nesta seção serão levados em consi
 
 </div>
 
-* Desenvolvedores : Integrantes da disciplina de ArqDsw, cursando o curso de Engenharia de Software, que serão responsáveis pela implementação do projeto. De acordo com o Relatório de Gestão Acadêmica da UNB do ano 2020 o custo anual de um aluno de graduação da FGA é de R$17520,00.
+* Desenvolvedores : Integrantes da disciplina de ArqDsw, cursando o curso de Engenharia de Software, que serão responsáveis pela implementação do projeto. De acordo com o [Relatório de Gestão Acadêmica](http://dpo.unb.br/index.php?option=com_content&view=article&id=46&Itemid=816) da UNB do ano 2020 o custo anual de um aluno de graduação da FGA é de R$17520,00.
 
 * Equipamento : Máquinas que serão utilizadas pela equipe de desenvolvedores e também pela gerência. Valor médio em unidade é igual a R$ R$3000,00. Internet : Média de preço de uma internet com velocidade de 100mbps é de R$89,90
  
@@ -102,7 +102,7 @@ Consumo = (100 watts x 10 horas x 22 dias)/1.000 x 9 computadores = 198 kw/h Com
 
 <div style="text-indent: 40px; text-align: justify">
 
-Inicialmente, foi questionado a utilização da estimativa PERT, porém, devido a incerteza quanto a implementação do projeto, inicialmente, será feito uma estimativa de meta de pontos para a próxima sprint. Até o momento foram realizados duas sprints para organização do escopo do projeto, que servirão como referência inicial para manter a produtividade do projeto. 
+Inicialmente, foi questionado a utilização da estimativa [PERT](https://gocardless.com/guides/posts/what-is-program-evaluation-review-technique-PERT/), porém, devido a incerteza quanto a implementação do projeto, inicialmente, será feito uma estimativa de meta de pontos para a próxima sprint. Até o momento foram realizados duas sprints para organização do escopo do projeto, que servirão como referência inicial para manter a produtividade do projeto. 
 
 </div>
 
