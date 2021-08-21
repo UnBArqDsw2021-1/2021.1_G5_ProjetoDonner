@@ -148,8 +148,6 @@ Como os artefatos possuem pontuação mais baixa, o esforço esperado em pontua�
 
 <div style="text-indent: 40px; text-align: justify">
 
-Desse modo, como dito anteriormente, espera-se que a partir da sprint 2, o velocity se mantenha ou aumente devido a complexidade da implementação inicial que a equipe enfrentará. 
-
 </div>
 
 ## Referências
