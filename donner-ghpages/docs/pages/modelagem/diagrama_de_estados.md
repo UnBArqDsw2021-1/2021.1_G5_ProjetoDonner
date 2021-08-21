@@ -6,6 +6,7 @@
 |  18/08/2021   |  1.0    | Criação do Documento    | Caio Araújo, Gabriel Batalha
 |  19/08/2021   |  1.1    | Adição do diagrama    | Caio Araújo
 |  20/08/2021   |  1.2    | Adição do segundo diagrama  | Gabriel Batalha
+|  21/08/2021   |  1.3    | Correção do diagrama  | CaioGabriel
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -20,7 +21,10 @@ O diagrama de estados pode ser usado também para expressar a usagem de protocol
 ## Diagramas de Estados
 
 
+Primeira Versão
 ![](https://i.imgur.com/RZgLUhQ.jpg)
+Segunda Versão - Correção na duplicidade de validadores no processo de criação de anúncio.
+![](https://i.imgur.com/nrSMHXR.jpg)
 Autor: Caio Araújo
 
 ![](https://i.imgur.com/xJLX7Qj.png)
