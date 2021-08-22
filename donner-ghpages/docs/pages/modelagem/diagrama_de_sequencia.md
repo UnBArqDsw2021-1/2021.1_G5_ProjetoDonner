@@ -5,13 +5,14 @@
 | -------- | -------- | -------- | ---|
 |   18/08/2021   |  1.0    |  Criação do Documento    | Hugo Bezerra, Marcos Adriano
 |   19/08/2021   |  1.1    |  Atualizando imagens    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|   22/08/2021   |  1.2    |  Revisão do documento    | Marcos Adriano
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
 
-Um diagrama de sequência é usado por desenvolvedores de software e profissionais corporativos para representar como objetos em um sistema interagem entre si e em qual ordem essas interações ocorrem.
+O diagrama de sequência é usado por desenvolvedores de software e profissionais corporativos para representar como objetos em um sistema interagem entre si e em qual ordem essas interações ocorrem.
 
-A equipe decidiu representar em forma de diagrama de sequência os processos que foram julgados como mais importantes para a aplicação e também os processos que seriam melhor representados nessa linguagem.
+A equipe decidiu por representar em forma de diagrama de sequência os processos que foram julgados como mais importantes para a aplicação e também os processos que seriam melhor representados nessa linguagem.
 
 </div>
 
