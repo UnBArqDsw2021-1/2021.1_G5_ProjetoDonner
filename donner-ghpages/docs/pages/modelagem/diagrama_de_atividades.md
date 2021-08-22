@@ -6,7 +6,8 @@
 |   13/08/2021   |  1.0    |  Criação do Documento    | Hugo Bezerra, Kleidson Alves
 |   13/08/2021   | 1.1     | Adição dos diagramas de perfil, autenticação, visuslização e criação de anúncios | Kleidson Alves, Lucas Rodrigues
 |   17/08/2021   | 1.2     | Adição dos diagramas de campanha e  gerenciamento de anúncios  | Hugo Bezerra
-|  18/08/2021    | 1.3     | Adição dos diagramas de demonstração de interesse e criação de comentário |Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|  18/08/2021    | 1.3     | Adição dos diagramas de demonstração de interesse e criação de comentário | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|  22/08/2021    | 1.4     | Revisão do documento | Marcos Adriano
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -26,7 +27,6 @@ A equipe julgou como benéfico elaborar o diagrama de atividades condizente com 
 ### Diagrama de Perfil
 
 ![](https://i.imgur.com/7lB16vz.png)
-
 
 ### Diagrama de Autenticação
 
