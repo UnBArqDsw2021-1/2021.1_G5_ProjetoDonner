@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   19/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|   22/08/2021   |  1.1    |  Revisão do Documento    | Hugo Bezerra
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
