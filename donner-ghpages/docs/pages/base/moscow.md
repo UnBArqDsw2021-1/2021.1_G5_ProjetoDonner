@@ -1,7 +1,3 @@
----
-tags: Base
----
-
 # MoSCoW
 
 ## Versionamento
@@ -10,6 +6,7 @@ tags: Base
 |   04/08/2021   |  1.0    |  Criação do Documento    | Lucas Gabriel, Lucas Rodrigues
 |   04/08/2021   |  1.1    |  Revisão do Documento    | Hugo Bezerra
 |   16/08/2021   |  1.2    |  Priorização de novos requisitos com rastro | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|   04/08/2021   |  1.3    |  Revisão do Documento    | Marcos Adriano
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -43,8 +40,8 @@ Utilizamos o método de priorização de requisitos MoSCoW para analisar o grau 
 |RF12|Demonstrar interesse| Could| [Brainstorming](brainstorming.md)
 |RF13|Chat de mensagens instantâneas| Won't| [Brainstorming](brainstorming.md)
 |RF14|Compartilhar postagem| Won't|[Brainstorming](brainstorming.md)
-|RF15|Tutorial onboarding| Should|[Storyboarding](storyboarding.md)
-|RF16|Encaminhamento de contato| Could|[Storyboarding](storyboarding.md)
+|RF15|Tutorial onboarding| Should|[Storyboarding](storyboard.md)
+|RF16|Encaminhamento de contato| Could|[Storyboarding](storyboard.md)
 |RF17|Atualização de perfil| Must| [Introspecção](introspecao.md)
 |RF18|Alterar modo de visualização| Must | [Introspecção](introspeccao.md)
 |RF19|Informações do anúncio| Must |[Introspecção](introspecao.md)
