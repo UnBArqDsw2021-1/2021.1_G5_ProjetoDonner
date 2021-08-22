@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   15/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+| 22/08/2021 | 1.1 | Revisão do Documento | Gabriel Batalha
 
 ## Introdução
 
@@ -112,7 +113,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | -------- |
 | *Eu, como usuário, desejo poder editar um comentário que fiz anteriormente*|
 | **Critérios de aceitação:** |
-| - Em todos os comentários feito pelo usuário, deve haver a opção de editar comentário <br> - O comentário é atualizado após a confirmação do usuário <br> - Um comentário editado não deve ser apresentado como "editado"  |
+| - Em todos os comentários feito pelo usuário, deve haver a opção de editar comentário <br> - O comentário é atualizado após a confirmação do usuário <br> - Um comentário editado deve ser apresentado como "editado"  |
 
 | US16 |
 | -------- |
@@ -160,7 +161,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | -------- |
 | *Eu, como usuário, desejo poder denunciar anúncios que eu julgue desrespeitosos ou ofensivos*|
 | **Critérios de aceitação:** |
-| - Em todos os anúncios, deve haver uma opção de denuncia <br> - A denúncia deve ser anônima|
+| - Em todos os anúncios, deve haver uma opção de denúncia <br> - A denúncia deve ser anônima|
 
 
 | US24 |
@@ -220,5 +221,3 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 ## Referências
 
 > Histórias de usuários com exemplos e template. Disponível em [https://www.atlassian.com/br/agile/project-management/user-stories](https://www.atlassian.com/br/agile/project-management/user-stories). Data de acesso: 15/08/2021
-
-
