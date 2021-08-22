@@ -17,35 +17,51 @@ nav:
   - Sobre o Projeto: index.md
   - Desenho de Software (Base): 
     - Módulo Projeto Não Orientado a Abordagens Específicas:
-      - Pré-Rastreabilidade: 
-        - Rich Picture: pages/base/rich_picture.md
-        - 5W2H: pages/base/5w2h.md
-        - Diagrama de Causa-Efeito: pages/base/diagrama_de_causa-efeito.md
-        - Plano de Riscos: pages/base/plano_de_riscos.md
-        - Estimativas de Custos e Esforços: pages/base/estimativa_de_custos_esforços.md
-      - Elicitação: 
-        - Brainstorming: pages/base/brainstorming.md
-        - Mapa Mental: pages/base/mapa_mental.md
-        - StoryBoard: pages/base/storyboard.md
-        - MoSCoW: pages/base/moscow.md
+      - Rich Picture: pages/base/rich_picture.md
+      - 5W2H: pages/base/5w2h.md
+      - Diagrama de Causa-Efeito: pages/base/diagrama_de_causa-efeito.md
+      - Plano de Riscos: pages/base/plano_de_riscos.md
+      - Estimativas de Custos e Esforços: pages/base/estimativa_de_custos_esforços.md
+      - Brainstorming: pages/base/brainstorming.md
+      - Mapa Mental: pages/base/mapa_mental.md
+      - StoryBoard: pages/base/storyboard.md
+      - MoSCoW: pages/base/moscow.md
+      - Introspecção: pages/base/introspeccao.md
       - Design Sprint: pages/base/design_sprint.md
       - Protótipo: pages/base/prototipo.md
+      - Apresentação: pages/base/video1.md
     - Módulo Processos / Metodologias / Abordagens:
       - BPMN: pages/base/bpmn.md
       - Metodologia: pages/base/metodologia.md
+      - Apresentação: pages/base/video2.md
     - Iniciativas Extras:
       - Personas: pages/base/personas.md
-  # - Desenho de Software (Modelagem):
-  #   - Módulo Projeto Orientado a Abordagens Tradicionais:
-  #     - Notação UML – Diagramas Estáticos:
-  #     - Notação UML – Diagramas Dinâmicos:
-  #     - Modelagem Ágil:
-  #   - Iniciativas Extras:
+  - Desenho de Software (Modelagem):
+    - Módulo Projeto Orientado a Abordagens Tradicionais:
+      - Notação UML – Diagramas Estáticos:
+        - Diagrama de Classe: pages/modelagem/diagrama_de_classe.md
+        - Diagrama de Componentes: pages/modelagem/diagrama_de_componentes.md
+        - Diagrama de Pacotes: pages/modelagem/diagrama_de_pacotes.md
+        - Apresentação: pages/modelagem/video3.md
+      - Notação UML – Diagramas Dinâmicos:
+        - Diagrama de Atividades: pages/modelagem/diagrama_de_atividades.md
+        - Diagrama de Comunicação: pages/modelagem/diagrama_de_comunicacao.md
+        - Diagrama de Estados: pages/modelagem/diagrama_de_estados.md
+        - Diagrama de Sequencia: pages/modelagem/diagrama_de_sequencia.md
+        - Apresentação: pages/modelagem/video4.md
+      - Modelagem Ágil:
+        - Backlog do Produto: pages/modelagem/backlog_produto.md
+        - Histórias de Usuário: pages/modelagem/historias_de_usuario.md
+        - Apresentação: pages/modelagem/video5.md
+    - Iniciativas Extras: pages/modelagem/extras_modelagem.md
   - Sprints: 
     - Sprint 0:
       - Planning: pages/sprints/sprint0/sprint0p.md
       - Review: pages/sprints/sprint0/sprint0r.md
     - Sprint 1:
       - Planning: pages/sprints/sprint1/sprint1p.md
-      # - Review: pages/sprints/sprint1/sprint1r.md
+      - Review: pages/sprints/sprint1/sprint1r.md
+    - Sprint 2:
+      - Planning: pages/sprints/sprint2/sprint2p.md
+      - Review: pages/sprints/sprint2/sprint2r.md
   - Políticas de Contribuição: pages/politicas.md
