@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   16/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|   22/08/2021   |  1.1    |  Revisão do Documento    | Hugo Bezerra
 
 ## Introdução
 
@@ -13,7 +14,7 @@ A técnica consiste em entender quais propriedades o sistema deve possuir para q
 </p>
 
 <p>
-A equipe fez uso das personas, mas não só, colocando-se no lugar delas, para poder fazer o levantamento de requisitos para a aplicação, buscando entender qual era a necessidade de diferentes perfis e como isso poderia ser abordado dentro da aplicação. 
+Durante a introspecção a equipe fez uso das personas, colocando-se no lugar delas, para poder fazer o levantamento de requisitos para a aplicação, buscando entender qual era a necessidade de diferentes perfis e como isso poderia ser abordado dentro da aplicação. 
 </p>
 
 </div>
@@ -27,7 +28,7 @@ A equipe fez uso das personas, mas não só, colocando-se no lugar delas, para p
 |RF19| Alterar modo de visualização | O usuário pode selecionar o modo como deseja visualizar os anúncios |
 |RF20|Filtrar anúncios|O usuário pode escolher filtrar os anúncios exibidos a partir de categoria, localização, tipo de anúncio|
 |RF21|Campanha de doação|As campanhas de doação devem estar em destaque na exibição dos anúncios|
-|RF22|Denúnciar anúncio |O usuário pode denunciar anúncios que julgarem desrespeitoso ou ofensivo no contexto da aplicação Donner|
+|RF22|Denunciar anúncio |O usuário pode denunciar anúncios que julgarem desrespeitoso ou ofensivo no contexto da aplicação Donner|
 |RF23| Listar anúncios | O usuário pode acessar uma lista dos anúncios feitos na aplicação |
 |RNF03|Facilidade de criar anúncio|O usuário tem que conseguir criar um anúncio em menos de 10 cliques |
 |RNF04|Forma de criar anúncio|Deve haver pelo menos dois meios diferentes de se criar anúncios |
