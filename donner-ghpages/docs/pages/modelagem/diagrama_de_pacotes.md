@@ -1,7 +1,3 @@
----
-tags: Modelagem
----
-
 # Diagrama de Pacotes
 
 ## Versionamento
@@ -9,6 +5,7 @@ tags: Modelagem
 | -------- | -------- | -------- | ---|
 |   16/08/2021   |  1.0    | Criação do Documento | Gabriel Batalha
 |   20/08/2021   |  1.1    | Adição dos Diagramas de Pacotes e de Modelo | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Marcos Adriano
+|   22/08/2021   |  1.2    | Revisão do Documento | Lucas Gabriel
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -16,7 +13,7 @@ tags: Modelagem
 O diagrama de pacotes é um diagrama estrutural que é utilizado para representar a estrutura de um sistema em forma de pacotes, que são agrupamentos de elementos UML relacionados.
 </p>
 <p>
-O diagrama de modelo é um diagrama estrutual auxiliar elaborado para mostrar uma visão específica de um sistema. A equipe optou por utilizar esse diagrama para mostrar de uma maneira mais geral as camadas envolvidas na aplicação.
+O diagrama de modelo é um diagrama estrutural auxiliar elaborado para mostrar uma visão específica de um sistema. A equipe optou por utilizar esse diagrama para mostrar de uma maneira mais geral as camadas envolvidas na aplicação.
 </p>
 <p>
 Esses diagramas são utilizados para organizar visualmente as arquiteturas em camadas de sistemas. Para desenvolver os artefatos, utilizamos a ferramenta Lucidchart.
@@ -29,10 +26,12 @@ Esses diagramas são utilizados para organizar visualmente as arquiteturas em ca
 ### Diagrama de Pacotes
 
 ![](https://i.imgur.com/0sGo3mg.png)
+Autores: Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Marcos Adriano
 
 ### Diagrama de Modelo 
 
 ![](https://i.imgur.com/UQaAgnS.png)
+Autor: Kleidson Alves
 
 ## Referências
 > UML Package Diagrams Overview. Disponível em:
