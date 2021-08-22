@@ -3,8 +3,10 @@
 ## Versionamento
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
-|   04/08/2021   |  1.0    |  Criação do Documento    | Lucas Rodrigues, Lucas Gabriel
+|   04/08/2021   |  1.0    |  Criação do Documento    | Lucas Gabriel, Lucas Rodrigues
 |   04/08/2021   |  1.1    |  Revisão do Documento    | Hugo Bezerra
+|   16/08/2021   |  1.2    |  Priorização de novos requisitos com rastro | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|   04/08/2021   |  1.3    |  Revisão do Documento    | Marcos Adriano
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -22,30 +24,40 @@ Utilizamos o método de priorização de requisitos MoSCoW para analisar o grau 
 </div>
 
 ## Requisitos Funcionais
-| ID | Requisito | Prioridade |
-| -------- | -------- | -------- |
-|RF01|Cadastro de Usuário|Must
-|RF02|Login de Usuário|Must
-|RF03|Pesquisar doações|Should
-|RF04|Publicar doação|Must
-|RF05|Encerrar doação|Must
-|RF06|Logout de Usuário| Must
-|RF07|Atualização de perfil do usuário| Should
-|RF08|Comentar em postagens| Should
-|RF09|Administrar comentários| Should
-|RF10|Administrar postagens| Should
-|RF11|Criar postagem de campanha| Could
-|RF12|Demonstrar interesse| Could
-|RF13|Chat de mensagens instantâneas| Won't
-|RF14|Compartilhar postagem| Won't
-|RF15|Tutorial onboarding| Should
-|RF16|Encaminhamento de contato| Could
+| ID | Requisito | Prioridade | Rastro
+| -------- | -------- | -------- | --- |
+|RF01|Cadastro de Usuário|Must| [Brainstorming](brainstorming.md)
+|RF02|Login de Usuário|Must| [Brainstorming](brainstorming.md)
+|RF03|Pesquisar doações|Should| [Brainstorming](brainstorming.md)
+|RF04|Publicar doação|Must| [Brainstorming](brainstorming.md)
+|RF05|Encerrar doação|Must| [Brainstorming](brainstorming.md)
+|RF06|Logout de Usuário| Must| [Brainstorming](brainstorming.md)
+|RF07|Atualização de perfil do usuário| Should | [Brainstorming](brainstorming.md)
+|RF08|Comentar em postagens| Should| [Brainstorming](brainstorming.md)
+|RF09|Administrar comentários| Should| [Brainstorming](brainstorming.md)
+|RF10|Administrar postagens| Should| [Brainstorming](brainstorming.md)
+|RF11|Criar postagem de campanha| Could| [Brainstorming](brainstorming.md)
+|RF12|Demonstrar interesse| Could| [Brainstorming](brainstorming.md)
+|RF13|Chat de mensagens instantâneas| Won't| [Brainstorming](brainstorming.md)
+|RF14|Compartilhar postagem| Won't|[Brainstorming](brainstorming.md)
+|RF15|Tutorial onboarding| Should|[Storyboarding](storyboard.md)
+|RF16|Encaminhamento de contato| Could|[Storyboarding](storyboard.md)
+|RF17|Atualização de perfil| Must| [Introspecção](introspeccao.md)
+|RF18|Alterar modo de visualização| Must | [Introspecção](introspeccao.md)
+|RF19|Informações do anúncio| Must |[Introspecção](introspeccao.md)
+|RF20|Filtrar anúncios| Should| [Introspecção](introspeccao.md)
+|RF21|Campanha de doação|Could |[Introspecção](introspeccao.md)
+|RF22|Denúnciar anúncio| Could|[Introspecção](introspeccao.md)
+|RF23|Listar anúncios| Must |[Introspecção](introspeccao.md)
 
 ## Requisitos Não Funcionais
-| ID | Requisito | Prioridade |
-| -------- | -------- | -------- |
-|RNF01|Privacidade do Contato|Should
-|RNF02|Usuário não Logado| Should
+| ID | Requisito | Prioridade | Rastro
+| -------- | -------- | -------- | --- |
+|RNF01|Privacidade do Contato| Should | [Brainstorming](brainstorming.md)
+|RNF02|Usuário não Logado| Should | [Brainstorming](brainstorming.md)
+|RNF03|Facilidade de criar anúncio| Must  | [Introspecção](introspeccao.md)
+|RNF04|Forma de criar anúncio|  Should | [Introspecção](introspeccao.md)
+|RNF05|Versão do Android|  Should | [Introspecção](introspeccao.md)
 
 ## Referências
 > Wiegers, Karl; Beatty, Joy. Software Requirements 3. ed.
