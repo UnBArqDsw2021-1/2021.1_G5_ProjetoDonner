@@ -5,6 +5,7 @@
 | -------- | -------- | -------- | ---|
 |   16/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 |   22/08/2021   |  1.1    |  Revisão do Documento    | Hugo Bezerra
+|   22/08/2021   |  1.1    |  Revisão do Documento    | Marcos Adriano
 
 ## Introdução
 
