@@ -4,7 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   13/08/2021   |  1.0    |  Criação do Documento    | Hugo Bezerra, Kleidson Alves
-|   13/08/2021   | 1.1     | Adição dos diagramas de perfil, autenticação, visuslização e criação de anúncios | Kleidson Alves, Lucas Rodrigues
+|   13/08/2021   | 1.1     | Adição dos diagramas de perfil, autenticação, visualização e criação de anúncios | Kleidson Alves, Lucas Rodrigues
 |   17/08/2021   | 1.2     | Adição dos diagramas de campanha e  gerenciamento de anúncios  | Hugo Bezerra
 |  18/08/2021    | 1.3     | Adição dos diagramas de demonstração de interesse e criação de comentário | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 |  22/08/2021    | 1.4     | Revisão do documento | Marcos Adriano
@@ -26,35 +26,35 @@ A equipe julgou como benéfico elaborar o diagrama de atividades condizente com 
 
 ### Diagrama de Perfil
 
-![](https://i.imgur.com/7lB16vz.png)
+[![](https://i.imgur.com/7lB16vz.png)](https://i.imgur.com/7lB16vz.png)
 
 ### Diagrama de Autenticação
 
-![](https://i.imgur.com/Zw3numG.png)
+[![](https://i.imgur.com/Zw3numG.png)](https://i.imgur.com/Zw3numG.png)
 
 ### Diagrama de Visualização de Anúncios
 
-![](https://i.imgur.com/jmsE0mt.jpg)
+[![](https://i.imgur.com/jmsE0mt.jpg)](https://i.imgur.com/jmsE0mt.jpeg)
 
 ### Diagrama de Criação de Anúncios
 
-![](https://i.imgur.com/BKc5XEM.png)
+[![](https://i.imgur.com/BKc5XEM.png)](https://i.imgur.com/BKc5XEM.png)
 
 ### Diagrama de Criação de Campanha
 
-![](https://i.imgur.com/oLURIho.png)
+[![](https://i.imgur.com/oLURIho.png)](https://i.imgur.com/oLURIho.png)
 
 ### Diagrama de Gerenciamento de Anúncios
 
-![](https://i.imgur.com/hMdPwQu.png)
+[![](https://i.imgur.com/hMdPwQu.png)](https://i.imgur.com/hMdPwQu.png)
 
 ### Diagrama de Demonstrar Interesse
 
-![](https://i.imgur.com/KK0uAMc.png)
+[![](https://i.imgur.com/KK0uAMc.png)](https://i.imgur.com/KK0uAMc.png)
 
 ### Diagrama de Criação de comentário
 
-![](https://i.imgur.com/M6J04q7.png)
+[![](https://i.imgur.com/M6J04q7.png)](https://i.imgur.com/M6J04q7.png)
 
 
 ## Referências

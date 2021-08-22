@@ -24,23 +24,23 @@ A equipe decidiu utilizar o Diagrama de Comunicação pela necessidade de mostra
 
 ### Comentário
 
-![](https://i.imgur.com/BxNbFoU.png)
+[![](https://i.imgur.com/BxNbFoU.png)](https://i.imgur.com/BxNbFoU.png)
 
 Autor: Lucas Rodrigues
 ### Criar Anúncio 
 
-![](https://i.imgur.com/ZA8ky04.png)
+[![](https://i.imgur.com/ZA8ky04.png)](https://i.imgur.com/ZA8ky04.png)
 
 Autores: Kleidson Alves, Lucas Gabriel e Lucas Rodrigues
 ### Autenticação
 
-![](https://i.imgur.com/OhD5Yuh.png)
+[![](https://i.imgur.com/OhD5Yuh.png)](https://i.imgur.com/OhD5Yuh.png)
 
 Autores: Kleidson Alves, Lucas Rodrigues
 
 ### Interação Anúncios
 
-![](https://i.imgur.com/HuU4uO5.png)
+[![](https://i.imgur.com/HuU4uO5.png)](https://i.imgur.com/HuU4uO5.png)
 
 Autor: Kleidson Alves 
 

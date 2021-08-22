@@ -7,7 +7,7 @@
 |  19/08/2021   |  1.1    | Adição do diagrama    | Caio Araújo
 |  20/08/2021   |  1.2    | Adição do segundo diagrama  | Gabriel Batalha
 |  21/08/2021   |  1.3    | Correção do diagrama  | Caio Araújo
-|  22/08/2021   |  1.4    | Revisão do Documento  | Caio Araújo
+|  22/08/2021   |  1.4    | Revisão do Documento  | Caio Araújo, Hugo Bezerra, Lucas Gabriel 
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -21,30 +21,33 @@ O diagrama de estados pode ser usado também para expressar a forma utilizaçõe
 
 ## Diagramas de Estados
 
-Representação:
+### Representação:
 
 * Utilização de estados simples, sem atividades internas.
 
-Primeira Versão
+#### Primeira Versão
 
-![](https://i.imgur.com/RZgLUhQ.jpg)
+[![](https://i.imgur.com/RZgLUhQ.jpg)](https://i.imgur.com/RZgLUhQ.jpeg)
+Autor: Caio Araújo
 
 <br/>
 
-Segunda Versão
+#### Segunda Versão
 
-![](https://i.imgur.com/nrSMHXR.jpg)
+[![](https://i.imgur.com/nrSMHXR.jpg)](https://i.imgur.com/nrSMHXR.jpeg)
 Autor: Caio Araújo
 <br/>
 
-Representações:
-
+### Representações:
 * Atividades de filtrar, autenticação e interações com o anúncio.
+#### Primeira Versão
 
-![](https://i.imgur.com/xJLX7Qj.png)
+[![](https://i.imgur.com/xJLX7Qj.png)](https://i.imgur.com/xJLX7Qj.png)
 Autor: Gabriel Batalha
 
 
 ## Referências
 
 > State Machine Diagrams. Disponível em:[https://www.uml-diagrams.org/state-machine-diagrams.html](https://www.uml-diagrams.org/state-machine-diagrams.html). Data de acesso: 18/08/2021
+
+> O que é um diagrama de máquina de estados? Disponível em: [https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml). Data de Acesso: 22/08/2021

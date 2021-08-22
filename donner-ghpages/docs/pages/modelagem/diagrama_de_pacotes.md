@@ -25,12 +25,12 @@ Esses diagramas são utilizados para organizar visualmente as arquiteturas em ca
 
 ### Diagrama de Pacotes
 
-![](https://i.imgur.com/0sGo3mg.png)
+[![](https://i.imgur.com/0sGo3mg.png)](https://i.imgur.com/0sGo3mg.png)
 Autores: Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Marcos Adriano
 
 ### Diagrama de Modelo 
 
-![](https://i.imgur.com/UQaAgnS.png)
+[![](https://i.imgur.com/UQaAgnS.png)](https://i.imgur.com/UQaAgnS.png)
 Autor: Kleidson Alves
 
 ## Referências
