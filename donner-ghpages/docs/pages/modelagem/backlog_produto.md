@@ -6,6 +6,7 @@
 |   15/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel
 |   16/08/2021   |  1.1    |  Adição de novas Histórias de Usuário | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 |   18/08/2021   |  1.2    |  Edição da tabela de Backlog | Hugo Ricardo, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+|   22/08/2021   |  1.3    |  Revisão documento | Marcos Adriano
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
