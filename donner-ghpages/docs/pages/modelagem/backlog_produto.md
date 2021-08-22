@@ -19,7 +19,7 @@ Na aplicação da metodológia selecionada pela equipe(Scrum/XP), o backlog do p
 </div>
 
 ## Resultado
-Os backlog do produto foi gerado a partir dos documentos de [histórias de usuário](extras/historias_de_usuario.md), [introspecção](extras/introspeccao.md), [brainstorming](../base/brainstorming.md) e [storyboard](../base/storyboard.md)
+Os backlog do produto foi gerado a partir dos documentos de [histórias de usuário](historias_de_usuario.md), [introspecção](../base/introspeccao.md), [brainstorming](../base/brainstorming.md) e [storyboard](../base/storyboard.md)
 
 <iframe height="1000" width="1000"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGPXVxyEBEenV-6bkAij52qNDvPGrT_aEwCDwQH74GC4MgehehvFnANSKhwWAQHi9PfzDea1k8Uc-F/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 

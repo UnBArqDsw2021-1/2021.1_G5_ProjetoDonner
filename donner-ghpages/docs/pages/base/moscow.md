@@ -42,9 +42,9 @@ Utilizamos o método de priorização de requisitos MoSCoW para analisar o grau 
 |RF14|Compartilhar postagem| Won't|[Brainstorming](brainstorming.md)
 |RF15|Tutorial onboarding| Should|[Storyboarding](storyboard.md)
 |RF16|Encaminhamento de contato| Could|[Storyboarding](storyboard.md)
-|RF17|Atualização de perfil| Must| [Introspecção](introspecao.md)
+|RF17|Atualização de perfil| Must| [Introspecção](introspeccao.md)
 |RF18|Alterar modo de visualização| Must | [Introspecção](introspeccao.md)
-|RF19|Informações do anúncio| Must |[Introspecção](introspecao.md)
+|RF19|Informações do anúncio| Must |[Introspecção](introspeccao.md)
 |RF20|Filtrar anúncios| Should| [Introspecção](introspeccao.md)
 |RF21|Campanha de doação|Could |[Introspecção](introspeccao.md)
 |RF22|Denúnciar anúncio| Could|[Introspecção](introspeccao.md)
@@ -55,9 +55,9 @@ Utilizamos o método de priorização de requisitos MoSCoW para analisar o grau 
 | -------- | -------- | -------- | --- |
 |RNF01|Privacidade do Contato| Should | [Brainstorming](brainstorming.md)
 |RNF02|Usuário não Logado| Should | [Brainstorming](brainstorming.md)
-|RNF03|Facilidade de criar anúncio| Must  | [Introspecção](introspecção.md)
-|RNF04|Forma de criar anúncio|  Should | [Introspecção](introspecção.md)
-|RNF05|Versão do Android|  Should | [Introspecção](introspecção.md)
+|RNF03|Facilidade de criar anúncio| Must  | [Introspecção](introspeccao.md)
+|RNF04|Forma de criar anúncio|  Should | [Introspecção](introspeccao.md)
+|RNF05|Versão do Android|  Should | [Introspecção](introspeccao.md)
 
 ## Referências
 > Wiegers, Karl; Beatty, Joy. Software Requirements 3. ed.
