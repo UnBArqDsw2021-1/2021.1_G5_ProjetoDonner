@@ -13,11 +13,11 @@
 <div style="text-indent: 40px; text-align: justify">
 
 <p>
-O diagrama de atividades é um diagrama comportamental que possibilita modelar partes do comportamento de um software. Ele irá ilustrar graficamente como será o funcionamento de um software, como será a execução de algumas de suas partes e como será a atuação do sistema no qual ele está inserido. 
+O diagrama de atividades é um diagrama comportamental que possibilita modelar partes do comportamento de um software. Ele irá ilustrar graficamente como será o funcionamento, como será a execução de algumas de suas partes e como será a atuação do sistema no qual ele está inserido. 
 </p>
 
 <p>
-A equipe julgou como benéfico elaborar o diagrama de atividades condizente com a nossa aplicação pois ele ilustra o fluxo de trabalho entre o usuário e o sistema e modela elementos da arquitetura de software, tais como método, função e operação. 
+A equipe julgou como benéfico elaborar o diagrama de atividades condizente com a nossa aplicação, pois ele ilustra o fluxo de trabalho entre o usuário e o sistema e modela elementos da arquitetura de software, tais como método, função e operação. 
 </p>
 
 </div>
