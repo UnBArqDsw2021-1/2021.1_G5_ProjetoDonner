@@ -5,6 +5,8 @@
 | -------- | -------- | -------- | ---|
 |   15/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 | 22/08/2021 | 1.1 | Revisão do Documento | Gabriel Batalha
+| 23/08/2021 | 1.2 | Atualização do Documento | Wellington Jonathan
+| 23/08/2021 | 1.3 | Correções ortográficas | Lucas Rodrigues
 
 ## Introdução
 
@@ -16,9 +18,14 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
  A equipe assumiu a identidade das personas e de stakeholders a fim de explicitar seus desejos dentro de cada épico disponibilizado pela equipe. Dessa forma, foram geradas histórias formatadas para se encaixarem no documento, com critérios de aceitação definidos pela equipe com base nos requisitos descritos nos documentos de brainstorming, introspecção e storyboard.
 </p>
 </div>
+
 ## Resultados
 
-### Épico 1: Usuário
+### Épico 01: Usuário
+
+
+#### Feature 01:  Autenticação
+
 
 | US01 |
 | -------- |
@@ -38,6 +45,8 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - A tela principal de anúncios deve ser a primeira a ser mostrada ao entrar na aplicação <br> - O usuário deve ser redirecionado à tela de login apenas quando tentar realizar atividades de criar anúncio, visitar perfil do anunciante, demonstrar interesse ou comentar em um anúncio|
 
+#### Feature 02:  Perfil
+
 | US04 |
 | -------- |
 | *Eu, como usuário, desejo poder atualizar as informações do meu perfil*|
@@ -49,6 +58,8 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | *Eu, como usuário, desejo poder visualizar informações do meu perfil*|
 | **Critérios de aceitação:** |
 | - Deve haver um botão de acesso à página do perfil <br> - Deve haver uma página de perfil<br>- A página deve conter todas as informações cadastradas pelo usuário |
+
+#### Feature 03: Cadastro
 
 | US06 |
 | -------- |
@@ -68,13 +79,17 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - Deve haver um botão que permita que o usuário selecione sua cidade e seu estado |
 
+#### Feature 04: Ajuda
+
 | US09 |
 | -------- |
 | *Eu, como usuário, desejo ser instruído sobre como utilizar as funcionalidades da aplicação*|
 | **Critérios de aceitação:** |
 | - Um tutorial deve ser apresentado na primeira vez de uso da aplicação <br> - As principais funcionalidades da aplicação devem ser mostradas no tutorial |
 
-### Épico 2: Administrador
+### Épico 02: Administrador
+
+#### Feature 05: Controle
 
 | US10 |
 | -------- |
@@ -82,7 +97,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | -  Todos os comentários devem permitir que o administrador os exclua|
 
-| US011 |
+| US11 |
 | -------- |
 | *Eu, como administrador, desejo poder deletar anúncios de qualquer usuário*|
 | **Critérios de aceitação:** |
@@ -95,7 +110,9 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | - Deve haver uma página com um formulário para criação de campanha <br> - Após a confirmação do administrador, a campanha deve ser salva na aplicação <br> - Todos os usuários devem poder ver a campanha |
 
 
-### Épico 3: Anúncio
+### Épico 03: Anúncio
+
+#### Feature 06: Comentário
 
 | US13 |
 | -------- |
@@ -115,6 +132,8 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - Em todos os comentários feito pelo usuário, deve haver a opção de editar comentário <br> - O comentário é atualizado após a confirmação do usuário <br> - Um comentário editado deve ser apresentado como "editado"  |
 
+#### Feature 07: Informação
+
 | US16 |
 | -------- |
 | *Eu, como usuário, desejo poder ver mais detalhes sobre um anúncio*|
@@ -127,6 +146,8 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - Na página do anúncio, deve haver uma breve informação sobre o anunciante <br> - Deve ser possível acessar o perfil do anunciante a partir da página de seu anúncio |
 
+#### Feature 08: Gerenciar
+
 | US18 |
 | -------- |
 | *Eu, como usuário, desejo poder criar um anúncio de pedido de doação ou oferta de doação*|
@@ -137,11 +158,11 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | -------- |
 | *Eu, como usuário, desejo poder editar as informações de um anúncio ou pedido de doação criados por mim*|
 | **Critérios de aceitação:** |
-| -  Deve haver um botão que permita editar o próprio anúncio<br> Deve haver uma página de formulário editável para os dados do anúncio<br>- Apenas o criador do anúncio deve poder editá-lo|
+| -  Deve haver um botão que permita editar o próprio anúncio<br>- Deve haver uma página de formulário editável para os dados do anúncio<br>- Apenas o criador do anúncio deve poder editá-lo|
 
 | US20 |
 | -------- |
-| *Eu, como usuário, desejo poder criar uma descrição para o anuncio ou pedido de doação*|
+| *Eu, como usuário, desejo poder criar uma descrição para o anúncio ou pedido de doação*|
 | **Critérios de aceitação:** |
 | - Deve haver um campo para adicionar uma descrição do item que está sendo doado ou pedido |
 
@@ -166,9 +187,11 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 
 | US24 |
 | -------- |
-| *Eu, como usuário, desejo poder selecionar uma categoria para o anuncio ou pedido de doação*|
+| *Eu, como usuário, desejo poder selecionar uma categoria para o anúncio ou pedido de doação*|
 | **Critérios de aceitação:** |
 | -  Deve haver um botão que permita a seleção de uma das categorias para o anúncio <br> - O anúncio deve pertencer a apenas uma categoria |
+
+#### Feature 09: Busca
 
 | US25 |
 | -------- |
@@ -194,6 +217,8 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - A lista de anúncios deve ser mostrada para o usuário na tela principal|
 
+#### Feature 10: Interesse
+
 | US29 |
 | -------- |
 | *Eu, como usuário, desejo poder pesquisar um grupo de anúncios de determinada categoria*|
@@ -208,9 +233,11 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 
 | US31 |
 | -------- |
-| *Eu, como sistema. desejo colocar o usuário interessado em contato com o usuário do anúncio*|
+| *Eu, como sistema, desejo colocar o usuário interessado em contato com o usuário do anúncio*|
 | **Critérios de aceitação:** |
 | - O sistema deve passar para o usuário interessado as informações de contato do usuário proprietário do anúncio |
+
+#### Feature 11: Compartilhar
 
 | US32 |
 | -------- |
@@ -221,3 +248,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 ## Referências
 
 > Histórias de usuários com exemplos e template. Disponível em [https://www.atlassian.com/br/agile/project-management/user-stories](https://www.atlassian.com/br/agile/project-management/user-stories). Data de acesso: 15/08/2021
+ 
+> Epic, Feature e User Story (Epico, Funcionalidade e História de Usuário). Disponível em [https://www.ateomomento.com.br/epic-feature-e-user-story/](https://www.ateomomento.com.br/epic-feature-e-user-story/). Data de acesso: 15/08/2021
+
+

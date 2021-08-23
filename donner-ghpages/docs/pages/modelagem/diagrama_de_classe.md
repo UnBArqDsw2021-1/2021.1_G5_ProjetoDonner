@@ -6,6 +6,7 @@
 |   13/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel
 | 19/08/2021 | 1.1 | Atualização da Imagem | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 | 22/08/2021 | 1.2 | Revisão do documento | Marcos Adriano
+|23/08/2021  | 1.3 | Padronização da legenda da imagem | Kleidson Alves
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -22,7 +23,7 @@ O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas d
 [![](https://i.imgur.com/VDlHHIl.png)](https://i.imgur.com/VDlHHIl.png)
 
 
-<p>Feito por: Kleidson Alves e Lucas Gabriel</p>
+<p>Autores: Kleidson Alves e Lucas Gabriel</p>
 
 
 ## Referências
