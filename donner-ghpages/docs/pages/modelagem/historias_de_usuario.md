@@ -217,7 +217,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - A lista de anúncios deve ser mostrada para o usuário na tela principal|
 
-#### Feature 09: Interesse
+#### Feature 10: Interesse
 
 | US29 |
 | -------- |
@@ -237,7 +237,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - O sistema deve passar para o usuário interessado as informações de contato do usuário proprietário do anúncio |
 
-#### Feature 10: Compartilhar
+#### Feature 11: Compartilhar
 
 | US32 |
 | -------- |
