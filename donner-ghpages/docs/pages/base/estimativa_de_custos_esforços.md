@@ -9,6 +9,7 @@
 |   04/08/2021   |  1.2    |  Estimativas de Esforços Iniciais   | Caio Araújo |
 | 05/08/2021     | 1.3     | Revisão do Documento                | Kleidson Alves  |
 | 06/08/2021     | 1.4     | Conserto de links e revisão da ortografia | Lucas Gabriel  |
+| 21/08/2021     | 1.5     | Conserto de referências e revisão | Caio Araujo |
 
 ## Introdução
 
