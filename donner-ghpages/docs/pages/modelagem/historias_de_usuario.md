@@ -1,3 +1,7 @@
+---
+tags: Extra Modelagem
+---
+
 # Histórias de usuário 
 
 ## Versionamento
@@ -5,6 +9,7 @@
 | -------- | -------- | -------- | ---|
 |   15/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 | 22/08/2021 | 1.1 | Revisão do Documento | Gabriel Batalha
+| 23/08/2021 | 1.2 | Atualização do Documento | Wellinton Jonathan
 
 ## Introdução
 
@@ -16,9 +21,21 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
  A equipe assumiu a identidade das personas e de stakeholders a fim de explicitar seus desejos dentro de cada épico disponibilizado pela equipe. Dessa forma, foram geradas histórias formatadas para se encaixarem no documento, com critérios de aceitação definidos pela equipe com base nos requisitos descritos nos documentos de brainstorming, introspecção e storyboard.
 </p>
 </div>
+
 ## Resultados
 
-### Épico 1: Usuário
+### Épico 01: Publicação de Doações
+Gerenciar processo de doação.
+
+### Features
+
+| Código | Nome | Descrição | US |
+| ------- | -------- | :--------: | ---- |
+| #01     |  Usuário | Gerenciar Usuário que dejesam fazer doação| US01, US02, US03,US04,US05 US06,US07,US08,U09|
+| #02     | Administrar Sistema | Gerenciar o sistema permitindo publicar campanhas| US10, US11, US12|
+| #03     | Gerenciar Anúncio | Gerenciar Anúncio possibilitando a divulgação de doações| US13, US14, US15, US16, US17, US18, US19, US20, US21, US22, US23, US24, US25, US26, US27, US28, US29, US30, US31, US32
+
+### Feature 01:  Gerenciar Usuário
 
 | US01 |
 | -------- |
@@ -74,7 +91,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | - Um tutorial deve ser apresentado na primeira vez de uso da aplicação <br> - As principais funcionalidades da aplicação devem ser mostradas no tutorial |
 
-### Épico 2: Administrador
+### Feature 02: Administrar Sistema
 
 | US10 |
 | -------- |
@@ -82,7 +99,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | **Critérios de aceitação:** |
 | -  Todos os comentários devem permitir que o administrador os exclua|
 
-| US011 |
+| US11 |
 | -------- |
 | *Eu, como administrador, desejo poder deletar anúncios de qualquer usuário*|
 | **Critérios de aceitação:** |
@@ -95,7 +112,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 | - Deve haver uma página com um formulário para criação de campanha <br> - Após a confirmação do administrador, a campanha deve ser salva na aplicação <br> - Todos os usuários devem poder ver a campanha |
 
 
-### Épico 3: Anúncio
+### Feature 03:  Gerenciar Anúncio
 
 | US13 |
 | -------- |
@@ -221,3 +238,7 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 ## Referências
 
 > Histórias de usuários com exemplos e template. Disponível em [https://www.atlassian.com/br/agile/project-management/user-stories](https://www.atlassian.com/br/agile/project-management/user-stories). Data de acesso: 15/08/2021
+ 
+> Epic, Feature e User Story (Epico, Funcionalidade e História de Usuário). Disponível em [https://www.ateomomento.com.br/epic-feature-e-user-story/](https://www.ateomomento.com.br/epic-feature-e-user-story/). Data de acesso: 15/08/2021
+
+
