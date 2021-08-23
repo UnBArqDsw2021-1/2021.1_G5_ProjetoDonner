@@ -1,7 +1,3 @@
----
-tags: Extra Modelagem
----
-
 # Histórias de usuário 
 
 ## Versionamento
@@ -10,6 +6,7 @@ tags: Extra Modelagem
 |   15/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 | 22/08/2021 | 1.1 | Revisão do Documento | Gabriel Batalha
 | 23/08/2021 | 1.2 | Atualização do Documento | Wellinton Jonathan
+| 23/08/2021 | 1.3 | Correções ortográficas | Lucas Rodrigues
 
 ## Introdução
 
@@ -31,7 +28,7 @@ Gerenciar processo de doação.
 
 | Código | Nome | Descrição | US |
 | ------- | -------- | :--------: | ---- |
-| #01     |  Usuário | Gerenciar Usuário que dejesam fazer doação| US01, US02, US03,US04,US05 US06,US07,US08,U09|
+| #01     |  Usuário | Gerenciar Usuário que dejesa fazer doação| US01, US02, US03,US04,US05 US06,US07,US08,U09|
 | #02     | Administrar Sistema | Gerenciar o sistema permitindo publicar campanhas| US10, US11, US12|
 | #03     | Gerenciar Anúncio | Gerenciar Anúncio possibilitando a divulgação de doações| US13, US14, US15, US16, US17, US18, US19, US20, US21, US22, US23, US24, US25, US26, US27, US28, US29, US30, US31, US32
 
@@ -154,11 +151,11 @@ Gerenciar processo de doação.
 | -------- |
 | *Eu, como usuário, desejo poder editar as informações de um anúncio ou pedido de doação criados por mim*|
 | **Critérios de aceitação:** |
-| -  Deve haver um botão que permita editar o próprio anúncio<br> Deve haver uma página de formulário editável para os dados do anúncio<br>- Apenas o criador do anúncio deve poder editá-lo|
+| -  Deve haver um botão que permita editar o próprio anúncio<br>- Deve haver uma página de formulário editável para os dados do anúncio<br>- Apenas o criador do anúncio deve poder editá-lo|
 
 | US20 |
 | -------- |
-| *Eu, como usuário, desejo poder criar uma descrição para o anuncio ou pedido de doação*|
+| *Eu, como usuário, desejo poder criar uma descrição para o anúncio ou pedido de doação*|
 | **Critérios de aceitação:** |
 | - Deve haver um campo para adicionar uma descrição do item que está sendo doado ou pedido |
 
@@ -183,7 +180,7 @@ Gerenciar processo de doação.
 
 | US24 |
 | -------- |
-| *Eu, como usuário, desejo poder selecionar uma categoria para o anuncio ou pedido de doação*|
+| *Eu, como usuário, desejo poder selecionar uma categoria para o anúncio ou pedido de doação*|
 | **Critérios de aceitação:** |
 | -  Deve haver um botão que permita a seleção de uma das categorias para o anúncio <br> - O anúncio deve pertencer a apenas uma categoria |
 
@@ -225,7 +222,7 @@ Gerenciar processo de doação.
 
 | US31 |
 | -------- |
-| *Eu, como sistema. desejo colocar o usuário interessado em contato com o usuário do anúncio*|
+| *Eu, como sistema, desejo colocar o usuário interessado em contato com o usuário do anúncio*|
 | **Critérios de aceitação:** |
 | - O sistema deve passar para o usuário interessado as informações de contato do usuário proprietário do anúncio |
 
