@@ -6,7 +6,7 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 15/0007329  | Caio Gabriel Araujo Medeiros |
+| 15/0007329  | Caio Gabriel Araújo Medeiros |
 | 15/0058462 |  Davi Antônio da Silva Santos |
 | 18/0100840  | Gabriel Azevedo Batalha |
 | 18/0113585 | Hugo Ricardo Souza Bezerra |
@@ -35,14 +35,20 @@ Página do projeto, protótipo de média fidelidade
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 
-- [Arquitetura e Desenho de Software Base Parte 1](https://www.youtube.com/watch?v=ul4FfmD9qn4)
-- [Arquitetura e Desenho de Software Base Parte 2](https://www.youtube.com/watch?v=IoBF4oE0x00)
+- [Arquitetura e Desenho de Software - Base - Parte 1](https://www.youtube.com/watch?v=ul4FfmD9qn4)
+- [Arquitetura e Desenho de Software - Base - Parte 2](https://www.youtube.com/watch?v=IoBF4oE0x00)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+
+![Página do projeto, seção de Diagrama de Pacotes](https://i.imgur.com/FJX1cD7.png)
+![Página do projeto, seção de Diagrama de Estados](https://i.imgur.com/HVXE8Nn.png)
+![Página do projeto, seção de Backlog do Produto](https://i.imgur.com/bg7DNe7.png)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+
+- [Arquitetura e Desenho de Software - Modelagem - Parte 1](https://www.youtube.com/watch?v=nfIGYsoexAs)
+- [Arquitetura e Desenho de Software - Modelagem - Parte 2](https://www.youtube.com/watch?v=RtCzEsKYjAs)
+- [Arquitetura e Desenho de Software - Modelagem - Parte 3](https://www.youtube.com/watch?v=2Cuokni1Vls)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.

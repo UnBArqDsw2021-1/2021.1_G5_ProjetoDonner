@@ -1,4 +1,4 @@
-# Storyboard
+# Storyboarding
 
 ## Versionamento
 | Data | Versão | Descrição | Autores |
