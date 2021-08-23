@@ -22,11 +22,12 @@ nav:
       - Diagrama de Causa-Efeito: pages/base/diagrama_de_causa-efeito.md
       - Plano de Riscos: pages/base/plano_de_riscos.md
       - Estimativas de Custos e Esforços: pages/base/estimativa_de_custos_esforços.md
-      - Brainstorming: pages/base/brainstorming.md
       - Mapa Mental: pages/base/mapa_mental.md
-      - StoryBoard: pages/base/storyboard.md
-      - MoSCoW: pages/base/moscow.md
+      - Personas: pages/base/personas.md
+      - Brainstorming: pages/base/brainstorming.md
+      - StoryBoarding: pages/base/storyboard.md
       - Introspecção: pages/base/introspeccao.md
+      - MoSCoW: pages/base/moscow.md
       - Design Sprint: pages/base/design_sprint.md
       - Protótipo: pages/base/prototipo.md
       - Apresentação: pages/base/video1.md
@@ -34,8 +35,7 @@ nav:
       - BPMN: pages/base/bpmn.md
       - Metodologia: pages/base/metodologia.md
       - Apresentação: pages/base/video2.md
-    - Iniciativas Extras:
-      - Personas: pages/base/personas.md
+    - Iniciativas Extras: pages/base/extras_base.md
   - Desenho de Software (Modelagem):
     - Módulo Projeto Orientado a Abordagens Tradicionais:
       - Notação UML – Diagramas Estáticos:
