@@ -58,7 +58,7 @@ Autor: Hugo Ricardo
 
 ### Diagrama de Gerenciamento de Anúncios
 
-[![](https://i.imgur.com/hMdPwQu.png)](https://i.imgur.com/hMdPwQu.png)
+[![](https://i.imgur.com/crWQOTr.png)](https://i.imgur.com/crWQOTr.png)
 
 Autores: Hugo Ricardo, Kleidson Alves, Lucas Gabriel e Lucas Rodrigues
 
