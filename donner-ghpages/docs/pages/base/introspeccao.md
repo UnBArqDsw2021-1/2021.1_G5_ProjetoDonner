@@ -34,5 +34,7 @@ Durante a introspecção a equipe fez uso das personas, colocando-se no lugar de
 |RNF03|Facilidade de criar anúncio|O usuário tem que conseguir criar um anúncio em menos de 10 cliques |
 |RNF04|Forma de criar anúncio|Deve haver pelo menos dois meios diferentes de se criar anúncios |
 |RNF05|Versão do android| A aplicação deve ter suporte a versões de Android que cubram ao menos 60% dos smartphone Androids ativos |
+
 ## Referências
+
 > Elicitação de Requisitos. PUC-RIO. Disponível em: https://www2.dbd.puc-rio.br/pergamum/tesesabertas/0521479_08_cap_02.pdf.  Data de acesso: 09 de março 2021.
