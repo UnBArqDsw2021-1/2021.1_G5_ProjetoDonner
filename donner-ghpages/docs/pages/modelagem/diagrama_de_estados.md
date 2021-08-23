@@ -8,6 +8,7 @@
 |  20/08/2021   |  1.2    | Adição do segundo diagrama  | Gabriel Batalha
 |  21/08/2021   |  1.3    | Correção do diagrama  | Caio Araújo
 |  22/08/2021   |  1.4    | Revisão do Documento  | Caio Araújo, Hugo Bezerra, Lucas Gabriel 
+|  23/08/2021   |  1.5    | Revisão ortográfica  | Gabriel Batalha 
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -15,7 +16,7 @@
 O diagrama de estados, também conhecido como diagrama de máquina de estados, é um diagrama UML dinâmico ou comportamental que tem como objetivo descrever o comportamento de um determinado sistema ou parte de sistema através de transições de estados.
 </p>
 <p>
-O diagrama de estados pode ser usado também para expressar a forma utilizações de protocolos, mas a equipe vai utilizar o diagrama para representar os estados da aplicação e suas transições. Para a construção dos diagramas, a equipe utilizou as ferramentas Astah e Lucidchart. 
+O diagrama de estados pode ser usado também para expressar a utilização de protocolos, mas a equipe vai utilizar o diagrama para representar os estados da aplicação e suas transições. Para a construção dos diagramas, a equipe utilizou as ferramentas Astah e Lucidchart. 
 </p>
 </div>
 
