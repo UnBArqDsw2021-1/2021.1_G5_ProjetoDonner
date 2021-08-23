@@ -5,7 +5,7 @@
 | -------- | -------- | -------- | ---|
 |   15/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 | 22/08/2021 | 1.1 | Revisão do Documento | Gabriel Batalha
-| 23/08/2021 | 1.2 | Atualização do Documento | Wellinton Jonathan
+| 23/08/2021 | 1.2 | Atualização do Documento | Wellington Jonathan
 | 23/08/2021 | 1.3 | Correções ortográficas | Lucas Rodrigues
 
 ## Introdução
@@ -21,18 +21,11 @@ Uma história de usuário é uma explicação informal e geral sobre um recurso 
 
 ## Resultados
 
-### Épico 01: Publicação de Doações
-Gerenciar processo de doação.
+### Épico 01: Usuário
 
-### Features
 
-| Código | Nome | Descrição | US |
-| ------- | -------- | :--------: | ---- |
-| #01     |  Usuário | Gerenciar Usuário que dejesa fazer doação| US01, US02, US03,US04,US05 US06,US07,US08,U09|
-| #02     | Administrar Sistema | Gerenciar o sistema permitindo publicar campanhas| US10, US11, US12|
-| #03     | Gerenciar Anúncio | Gerenciar Anúncio possibilitando a divulgação de doações| US13, US14, US15, US16, US17, US18, US19, US20, US21, US22, US23, US24, US25, US26, US27, US28, US29, US30, US31, US32
+#### Feature 01:  Autenticação
 
-### Feature 01:  Gerenciar Usuário
 
 | US01 |
 | -------- |
@@ -52,6 +45,8 @@ Gerenciar processo de doação.
 | **Critérios de aceitação:** |
 | - A tela principal de anúncios deve ser a primeira a ser mostrada ao entrar na aplicação <br> - O usuário deve ser redirecionado à tela de login apenas quando tentar realizar atividades de criar anúncio, visitar perfil do anunciante, demonstrar interesse ou comentar em um anúncio|
 
+#### Feature 02:  Perfil
+
 | US04 |
 | -------- |
 | *Eu, como usuário, desejo poder atualizar as informações do meu perfil*|
@@ -63,6 +58,8 @@ Gerenciar processo de doação.
 | *Eu, como usuário, desejo poder visualizar informações do meu perfil*|
 | **Critérios de aceitação:** |
 | - Deve haver um botão de acesso à página do perfil <br> - Deve haver uma página de perfil<br>- A página deve conter todas as informações cadastradas pelo usuário |
+
+#### Feature 03: Cadastro
 
 | US06 |
 | -------- |
@@ -82,13 +79,17 @@ Gerenciar processo de doação.
 | **Critérios de aceitação:** |
 | - Deve haver um botão que permita que o usuário selecione sua cidade e seu estado |
 
+#### Feature 04: Ajuda
+
 | US09 |
 | -------- |
 | *Eu, como usuário, desejo ser instruído sobre como utilizar as funcionalidades da aplicação*|
 | **Critérios de aceitação:** |
 | - Um tutorial deve ser apresentado na primeira vez de uso da aplicação <br> - As principais funcionalidades da aplicação devem ser mostradas no tutorial |
 
-### Feature 02: Administrar Sistema
+### Épico 02: Administrador
+
+#### Feature 05: Controle
 
 | US10 |
 | -------- |
@@ -109,7 +110,9 @@ Gerenciar processo de doação.
 | - Deve haver uma página com um formulário para criação de campanha <br> - Após a confirmação do administrador, a campanha deve ser salva na aplicação <br> - Todos os usuários devem poder ver a campanha |
 
 
-### Feature 03:  Gerenciar Anúncio
+### Épico 03: Anúncio
+
+#### Feature 06: Comentário
 
 | US13 |
 | -------- |
@@ -129,6 +132,8 @@ Gerenciar processo de doação.
 | **Critérios de aceitação:** |
 | - Em todos os comentários feito pelo usuário, deve haver a opção de editar comentário <br> - O comentário é atualizado após a confirmação do usuário <br> - Um comentário editado deve ser apresentado como "editado"  |
 
+#### Feature 07: Informação
+
 | US16 |
 | -------- |
 | *Eu, como usuário, desejo poder ver mais detalhes sobre um anúncio*|
@@ -140,6 +145,8 @@ Gerenciar processo de doação.
 | *Eu, como usuário, desejo poder ver o perfil do responsável pelo anúncio*|
 | **Critérios de aceitação:** |
 | - Na página do anúncio, deve haver uma breve informação sobre o anunciante <br> - Deve ser possível acessar o perfil do anunciante a partir da página de seu anúncio |
+
+#### Feature 08: Gerenciar
 
 | US18 |
 | -------- |
@@ -184,6 +191,8 @@ Gerenciar processo de doação.
 | **Critérios de aceitação:** |
 | -  Deve haver um botão que permita a seleção de uma das categorias para o anúncio <br> - O anúncio deve pertencer a apenas uma categoria |
 
+#### Feature 09: Busca
+
 | US25 |
 | -------- |
 | *Eu, como usuário, desejo poder pesquisar um anúncio por nome*|
@@ -208,6 +217,8 @@ Gerenciar processo de doação.
 | **Critérios de aceitação:** |
 | - A lista de anúncios deve ser mostrada para o usuário na tela principal|
 
+#### Feature 09: Interesse
+
 | US29 |
 | -------- |
 | *Eu, como usuário, desejo poder pesquisar um grupo de anúncios de determinada categoria*|
@@ -225,6 +236,8 @@ Gerenciar processo de doação.
 | *Eu, como sistema, desejo colocar o usuário interessado em contato com o usuário do anúncio*|
 | **Critérios de aceitação:** |
 | - O sistema deve passar para o usuário interessado as informações de contato do usuário proprietário do anúncio |
+
+#### Feature 10: Compartilhar
 
 | US32 |
 | -------- |
