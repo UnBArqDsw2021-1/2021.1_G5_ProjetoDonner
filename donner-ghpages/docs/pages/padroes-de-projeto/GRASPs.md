@@ -1,6 +1,3 @@
----
-tags: Padrões de projeto
----
 
 # GRASPs
 
