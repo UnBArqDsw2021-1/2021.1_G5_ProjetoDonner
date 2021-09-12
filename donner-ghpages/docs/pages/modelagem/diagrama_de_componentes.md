@@ -6,6 +6,7 @@
 |   20/08/2021   |  1.0    |  Criação do Documento    | Caio Araújo, Davi Antônio, Gabriel Batalha, Hugo Bezerra,  Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Marcos Adriano, Wellington Jonathan
 |   22/08/2021   |  1.1    | Alteração da introdução | Lucas Gabriel
 |   22/08/2021   |  1.2    | Revisão do documento | Lucas Gabriel
+|   12/09/2021   |  1.3    | Adição de uma nova versão | Kleidson Alves
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -22,8 +23,17 @@ A equipe decidiu elaborar esse diagrama levando em consideração os seus benef�
 
 ## Resultado
 
+Versão 1
+
 [![](https://i.imgur.com/78CKdgR.png)](https://i.imgur.com/78CKdgR.png)
 Autores: Caio Araújo, Davi Antônio, Gabriel Batalha, Hugo Bezerra,  Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Marcos Adriano, Wellington Jonathan
+
+Versão 2
+
+[![](https://i.imgur.com/GDI3YTT.png)](https://i.imgur.com/GDI3YTT.png)
+Autores: Kleidson Alves e Lucas Gabriel
+
+
 
 
 ## Referências
