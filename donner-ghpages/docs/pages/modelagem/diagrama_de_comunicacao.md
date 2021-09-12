@@ -5,6 +5,7 @@
 | -------- | -------- | -------- | ---|
 |   19/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 |   22/08/2021   |  1.1    |  Revisão do Documento    | Hugo Bezerra
+|   12/09/2021   |  1.2    |  Alteração das Imagens dos Diagramas    | Kleidson Alves
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -29,7 +30,7 @@ A equipe decidiu utilizar o Diagrama de Comunicação pela necessidade de mostra
 Autor: Lucas Rodrigues
 ### Criar Anúncio 
 
-[![](https://i.imgur.com/ZA8ky04.png)](https://i.imgur.com/ZA8ky04.png)
+[![](https://i.imgur.com/a3XI1ps.png)](https://i.imgur.com/a3XI1ps.png)
 
 Autores: Kleidson Alves, Lucas Gabriel e Lucas Rodrigues
 ### Autenticação
@@ -40,7 +41,7 @@ Autores: Kleidson Alves, Lucas Rodrigues
 
 ### Interação Anúncios
 
-[![](https://i.imgur.com/HuU4uO5.png)](https://i.imgur.com/HuU4uO5.png)
+[![](https://i.imgur.com/gH904gl.png)](https://i.imgur.com/gH904gl.png)
 
 Autor: Kleidson Alves 
 
