@@ -5,14 +5,11 @@
 | -------- | -------- | -------- | ---|
 |   03/09/2021   |  1.0    |  Criação do Documento  | Hugo Bezerra, Lucas Rodrigues, Marcos Adriano
 |   14/09/2021   |  1.1    |  Adição das imagens  | Hugo Bezerra, Kleidson, Lucas Rodrigues, Lucas Gabriel
-<!--
-## Abstract Factory
-### Introdução
+|   15/09/2021   |  1.2    |  Adição Singleton  | Kleidson, Gabriel Batalha, Lucas Gabriel, Lucas Rodrigues
 
-O Abstract Factory é um padrão de projeto criacional, também conhecido como Kit. Ele pode ser descrito como um provedor de interface para criar famílias de objetos relacionados ou dependentes sem especificar a classe concreta deles. A propsota principal é encapsular a criação de uma família de objetos em uma fábrica de objetos separada.
-!-->
 
-## Sigleton 
+
+## Singleton 
 
 ### Introdução
 
@@ -22,6 +19,20 @@ O Singleton é um GoF Criacional que se baseia em permitir a existência de apen
 </p>
 </div>
 
+### Modelagem
+![](https://i.imgur.com/vorjz5s.png)
+
+### Aplicação
+
+![](https://i.imgur.com/9Qgavu1.png)
+
+### Comentário
+
+<div style="text-indent: 40px; text-align: justify">
+<p>
+O banco de dados precisa ser instanciado uma única vez em toda aplicação. Na aplicação desse padrão no projeto da equipe, a classe Database retorna uma instância da conexão do banco de dados, fazendo a verificação se essa conexão já foi realizada. 
+</p>
+</div>
 
 
 ## Factory Method
@@ -30,9 +41,7 @@ O Singleton é um GoF Criacional que se baseia em permitir a existência de apen
 <p>
 O Factory Method é um dos GoFs criacionais e é descrito no livro (Design Patterns: Elements of Reusable Object-Oriented Software) da seguinte maneira: defini uma interface para a criação de objetos e deixa para a subclasse a decisão de qual classe instanciar.
 </p>
-<p>
-...
-</p>
+
 </div>
 
 ### Modelagem
@@ -47,7 +56,17 @@ O Factory Method é um dos GoFs criacionais e é descrito no livro (Design Patte
 
 ![](https://i.imgur.com/hGE1qv8.png)
 
-![](https://i.imgur.com/FVAdp2f.png)
+
+
+
+
+### Comentário
+
+<div style="text-indent: 40px; text-align: justify">
+<p>
+No projeto utilizamos o Factory method para criação dos diferentes tipos de botões. A utilização desse padrão de projeto, faz com que não seja necessário o conhecimento direto de cada construtor das diferentes classes dos botões. Por isso, utiliza-se a classe FactoryButton especificando o tipo de botão desejado, obtendo a instância de uma das classes.
+</p>
+</div>
 
 <!-- 
 Abstract Factory pros usuarios
