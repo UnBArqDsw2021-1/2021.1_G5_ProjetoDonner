@@ -1,4 +1,3 @@
-
 # GRASPs
 
 ## Versionamento
@@ -6,13 +5,20 @@
 | -------- | -------- | -------- | ---|
 |   01/09/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel
 |   03/09/2021   |  1.1    |  Adição das Imagens   | Gabriel Batalha, Kleidson Alves, Lucas Gabriel 
-
+|   16/09/2021   |  1.1    |  Adição de Texto   | Wellington Jonathan
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
 
 <p>
-Os padrões de projeto GRASP (General Resposibility Assignment Software Patterns), consistem em práticas para atribuição de responsabilidades, para classes e objetos, em projetos orientado a objetos.
+Podemos entender Design Patterns ou padrões de projetos  como soluções generalistas para problemas que acontecem recorrentemente durante o desenvolvimento de um software. Voltado principalmente a uma  definição de alto nível de como um problema comum pode ser solucionado, os padrões de projetos não são  tratados apenas de como um framework ou um código pronto, dessa forma sua implementação está fortemente ligada à orientação a objetos e utilização da UML.
+
+Os padrões de projeto GRASP (General Resposibility Assignment Software Patterns), consistem em práticas para atribuição de responsabilidades, para classes e objetos, em projetos orientados a objetos.
+
+Estes padrões de projeto  foram publicados originalmente pelo especialista Craig Larman no livro “Applying UML and Patterns – An Introduction to Object-Oriented Analysis and Design and the Unified Process” (obra traduzida em português com o título “Utilizando UML e Padrões – Uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo”).
+
+O conceito de responsabilidade deve ser compreendido, basicamente, como as obrigações que um objeto possui quando se leva em conta o seu papel dentro de um determinado contexto. Além disso, é preciso considerar ainda as prováveis colaborações (interações) entre diferentes objetos dessa forma, cada padrão GRASP pode ser melhor detalhado abaixo.
+
 </p>
 
 </div>
@@ -208,4 +214,5 @@ Solução: Criação de classes puras
 > Padrão de projeto de software. Disponível em: [https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#Padr%C3%B5es[6][7][8]](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#Padr%C3%B5es[6][7][8]). Data de acesso: 01/09/2021
 
 > Controller – Padrões GRASP. Disponível em: [https://www.ramonsilva.net/post/controller-padr%C3%B5es-grasp](https://www.ramonsilva.net/post/controller-padr%C3%B5es-grasp). Data de acesso: 01/09/2021
+
 
