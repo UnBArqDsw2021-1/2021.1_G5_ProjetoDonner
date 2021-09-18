@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 | 17/09/2021 | 1.0 | Incluir gerência de configuração | Davi Antônio |
+| 17/09/2021 | 1.1 | Atualizar pacotes usados no projeto | Davi Antônio |
 
 ## Ambiente de desenvolvimento
 <div style="text-indent: 40px; text-align: justify">
@@ -26,7 +27,9 @@ Para alinhar o ambiente de desenvolvimento do projeto, seguem abaixo as versões
 | Todos  | Pacote Flutter             | firebase_core           | ^1.6.0                          |
 | Todos  | Pacote Flutter             | firebase_auth           | ^3.1.1                          |
 | Todos  | Pacote Flutter             | cloud_firestore         | ^2.5.3                          |
-| Todos  | Dependência Android        | google-services         | 4.3.5                           |
+| Todos  | Pacote Flutter             | google_fonts            | ^2.1.0                          |
+| Todos  | Pacote Flutter             | font_awesome_flutter    | ^9.1.0                          |
+| Todos  | Dependência Android        | google-services         | 4.3.10                          |
 | Todos  | Dependência Android        | firebase-bom            | 28.4.0                          |
 | Todos  | Ferramenta de compilação   | gradle-plug-in          | 7.0.2                           |
 | Todos  | Ferramenta de compilação   | gradle                  | 7.0.2                           |
