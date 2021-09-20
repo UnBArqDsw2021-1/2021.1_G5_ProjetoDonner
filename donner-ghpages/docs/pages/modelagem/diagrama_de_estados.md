@@ -11,6 +11,7 @@
 |  23/08/2021   |  1.5    | Revisão ortográfica  | Gabriel Batalha 
 
 ## Introdução
+
 <div style="text-indent: 40px; text-align: justify">
 <p>
 O diagrama de estados, também conhecido como diagrama de máquina de estados, é um diagrama UML dinâmico ou comportamental que tem como objetivo descrever o comportamento de um determinado sistema ou parte de sistema através de transições de estados.

@@ -7,7 +7,9 @@
 |   13/08/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel
 | 19/08/2021 | 1.1 | Atualização da Imagem | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 | 22/08/2021 | 1.2 | Revisão do documento | Marcos Adriano
-| 19/09/2021 | 1.3 | Adição da Memória técnica | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues 
+|23/08/2021  | 1.3 | Padronização da legenda da imagem | Kleidson Alves
+|   15/09/2021   |  1.4    |  Adição da versão 2    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+| 19/09/2021 | 1.5 | Adição da Memória técnica | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues 
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -65,7 +67,6 @@ OPÇÃO COMPATÍVEL:
       var conteudo;
     }
 ```
-
 
 ## Referências
 > UML - Class. Disponível em: [https://www.uml-diagrams.org/class.html](https://www.uml-diagrams.org/class.html). Data de acesso: 13/08/2021
