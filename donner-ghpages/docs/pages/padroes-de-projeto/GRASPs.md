@@ -48,10 +48,7 @@ Solução: Atribua à classe B a responsabilidade de criar uma instância da cla
 4. B usa objetos de A
 5. B possui informação necessária à criação de A
 
-
-![](https://i.imgur.com/xMSGRmN.png)
-
-
+![](https://i.imgur.com/3d9YuGW.png)
 
 <div style="text-indent: 40px; text-align: justify">
 <p> 
@@ -72,7 +69,7 @@ Problema: Qual é o princípio geral para a atribuição de responsabilidades ao
 
 Solução: Atribua a responsabilidade ao especialista: a classe que tem as informações necessárias para assumir a responsabilidade.
 
-![](https://i.imgur.com/yqAmp0m.png)
+![](https://i.imgur.com/5KlsGvJ.png)
 
 <div style="text-indent: 40px; text-align: justify">
 <p> 
@@ -101,7 +98,7 @@ Problema: Como tratar alternativas baseadas no tipo da classe? Como criar compon
 
 Solução: É aconselhável atribuir responsabilidades aos tipos usando operações polimórficas, isso quando alternativas ou comportamento relacionados variam com o tipo da classe.
 
-![](https://i.imgur.com/yLsHiCX.png)
+![](https://i.imgur.com/VGlpfyC.png)
 
 <div style="text-indent: 40px; text-align: justify">
 
@@ -125,7 +122,7 @@ Solução: Atribua responsabilidade de lidar com eventos a uma classe que:
 3. Represente algo ativo no mundo real envolvido na tarefa
 4. Represente um controlador artificial dos eventos de sistema de um caso de uso
 
-![](https://i.imgur.com/XMycpFI.png)
+![](https://i.imgur.com/ymlttU2.png)
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
@@ -161,7 +158,7 @@ Problema: Como projetar objetos, subsistemas e sistemas, de modo que, as variaç
 
 Solução: Identificar pontos de variação e atribuir responsabilidades para criar uma interface estável em volta desses pontos;
 
-![](https://i.imgur.com/l3KIrgf.png)
+![](https://i.imgur.com/NF9lFb7.png)
 
 A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no padrão de projeto GRASP Variações Protegidas. O exemplo apresenta duas classes que utilizam do Polimorfismo e Encapsulamento, onde apenas as classes filhas de <i>User</i> fazem uso dos métodos <i>deleteComment()</i> e <i>deleteAnnouncement()</i> da mãe.
 
