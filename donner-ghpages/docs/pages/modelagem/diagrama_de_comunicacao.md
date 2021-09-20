@@ -30,7 +30,8 @@ A equipe decidiu utilizar o Diagrama de Comunicação pela necessidade de mostra
 Autor: Lucas Rodrigues
 ### Criar Anúncio 
 
-![![](https://i.imgur.com/1Dc2XYp.png)](https://i.imgur.com/1Dc2XYp.png)
+[![](https://i.imgur.com/R5EX6L3.png)](https://i.imgur.com/R5EX6L3.png)
+
 
 Autores: Kleidson Alves, Lucas Gabriel e Lucas Rodrigues
 ### Autenticação
@@ -41,7 +42,7 @@ Autores: Kleidson Alves, Lucas Rodrigues
 
 ### Interação Anúncios
 
-![![](https://i.imgur.com/IqpgOIp.png)](https://i.imgur.com/IqpgOIp.png)
+[![](https://i.imgur.com/JouiJCc.png)](https://i.imgur.com/JouiJCc.png)
 
 Autor: Kleidson Alves 
 

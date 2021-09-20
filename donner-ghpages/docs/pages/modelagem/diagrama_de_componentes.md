@@ -23,7 +23,8 @@ A equipe decidiu elaborar esse diagrama levando em consideração os seus benef�
 
 ## Resultado
 
-![![](https://i.imgur.com/fUNmgqF.png)](https://i.imgur.com/fUNmgqF.png)
+[![](https://i.imgur.com/wT9lqXm.png)](https://i.imgur.com/wT9lqXm.png)
+
 Autores: Caio Araújo, Davi Antônio, Gabriel Batalha, Hugo Bezerra,  Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Marcos Adriano, Wellington Jonathan
 
 
