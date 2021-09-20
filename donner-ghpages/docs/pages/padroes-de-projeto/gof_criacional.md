@@ -107,7 +107,7 @@ O exemplo autoral a seguir é uma adaptação do padrão *Prototype*. A classe n
 </p>
 </div>
 
-```dart
+``` dart
 class SignInFormModel {
   final String email;
   final String password;

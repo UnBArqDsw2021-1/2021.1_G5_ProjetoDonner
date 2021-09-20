@@ -30,55 +30,57 @@ No exemplo a seguir, as funções assíncronas retornam objetos genéricos do ti
 
 ### Exemplo Toy
 
-
-```dart=
-FutureBuilder<List<CategoryModel>>(
-      future: widget.database.categories(),
-      builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
-        if (snapshot.hasData) {
-          final List<CategoryModel> items = snapshot.data;
-          if (items.isNotEmpty) {
-            return ListView.separated(
-                itemBuilder: (context, index) => Card(
-                        child: Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Icon(
-                          items[index].icon,
-                          color: AppColors.primary,
-                        ),
-                        const SizedBox(
-                          width: 25.0,
-                        ),
-                        Text(
-                          items[index].name,
-                          style: AppTextStyles.bodyText,
-                        )
-                      ],
-                    )),
-                separatorBuilder: (context, index) => Divider(
-                      height: 0.5,
-                    ),
-                itemCount: items.length);
-          } else {
-            return Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text("No categories on database"),
-                  Text("No categories found")
-                ],
-              ),
-            );
-          }
-        } else if (snapshot.hasError) {
-          return Center(child: Text(snapshot.error.toString()));
+``` dart
+  FutureBuilder<List<CategoryModel>>(
+    future: widget.database.categories(),
+    builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
+      if (snapshot.hasData) {
+        final List<CategoryModel> items = snapshot.data;
+        if (items.isNotEmpty) {
+          return ListView.separated(
+              itemBuilder: (context, index) => Card(
+                      child: Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Icon(
+                        items[index].icon,
+                        color: AppColors.primary,
+                      ),
+                      const SizedBox(
+                        width: 25.0,
+                      ),
+                      Text(
+                        items[index].name,
+                        style: AppTextStyles.bodyText,
+                      )
+                    ],
+                  )),
+              separatorBuilder: (context, index) => Divider(
+                    height: 0.5,
+                  ),
+              itemCount: items.length);
         } else {
-          return CircularProgressIndicator();
+          return Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text("No categories on database"),
+                Text("No categories found")
+              ],
+            ),
+          );
         }
-      },
-    );
+      } else if (snapshot.hasError) {
+        return Center(child: Text(snapshot.error.toString()));
+      } else {
+        return CircularProgressIndicator();
+      }
+    },
+  );
 ```
+
+
+
 ## Template Method
 
 ### Introdução
@@ -87,7 +89,7 @@ FutureBuilder<List<CategoryModel>>(
 O padrão de projeto <i>Template Method</i> se baseia em definir um esqueleto padrão para um algoritmo subdividido em vários outros métodos que devem ser sobrescritos conforme surge a necessidade. 
 </p>
 <p>
-Para demonstrar o uso do Template Method, utilizaremos um exemplo toy. No exemplo, utilizamos uma modelagem na qual Campaign e Announcement herdam da classe Post e assim como é definido o Template Method ocorre a sobreescrita dos métodos conforme necessário para diferenciar a Campaign e Announcement.
+Para demonstrar o uso do Template Method, utilizaremos um exemplo toy. No exemplo, utilizamos uma modelagem na qual Campaign e Announcement herdam da classe Post e assim como é definido o Template Method ocorre a sobrescrita dos métodos conforme necessário para diferenciar a Campaign e Announcement.
 </p>
 </div>
 
@@ -99,7 +101,7 @@ Para demonstrar o uso do Template Method, utilizaremos um exemplo toy. No exempl
 ### Exemplo Toy
 
 
-```dart=
+```dart
 abstract class Post {
   alter() {
     var post = getData();
@@ -111,7 +113,7 @@ abstract class Post {
 }
 ```
 
-```dart=
+```dart
 class Announcement extends Post {
   String owner;
   String description;
@@ -139,7 +141,7 @@ class Announcement extends Post {
 }
 ```
 
-```dart=
+```dart
 class Campaign extends Post {
   String admin;
   String description;

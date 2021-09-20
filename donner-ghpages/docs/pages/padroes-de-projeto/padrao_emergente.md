@@ -42,7 +42,7 @@ No exemplo <i>toy</i>, na classe <i>CategoryScreen</i> o <i>late</i> é aplicado
 
 ### Exemplo Toy
 
-```dart=
+```dart
 class CategoryScreen extends StatelessWidget {
     const CategoryScreen({ Key? key }) : super(key: key);
     late final FirebaseFirestore firestoreInstance;
