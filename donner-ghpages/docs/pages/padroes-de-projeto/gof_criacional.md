@@ -42,6 +42,14 @@ No projeto utilizamos o Factory method para criação dos diferentes tipos de bo
 </p>
 </div>
 
+<!-- 
+Abstract Factory pros usuarios
+Factory Method pras campanhas
+
+prototype pros anuncios
+Abstract pros anuncios 
+-->
+
 ## Prototype
 
 <div style="text-indent: 40px; text-align: justify">
@@ -62,7 +70,7 @@ Há muitas maneiras de se implementar esse padrão. Algumas implementações, su
 </p>
 </div>
 
-### Aplicação
+### Exemplo
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
