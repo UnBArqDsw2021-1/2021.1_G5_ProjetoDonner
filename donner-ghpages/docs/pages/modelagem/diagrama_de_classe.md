@@ -15,7 +15,7 @@
 O diagrama de classe é um diagrama estrutural(estático) UML. Ele mostra a estrutura do sistema projetado no nível de classes e interfaces, seus recursos, restrições e relacionamentos.
 </p>
 <p>
-O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas de uma aplicação, especifica as necessidades do sistema de maneira visual e ilustra modelos de dados de qualquer complexidade. Para realizar a elaboração do artefato, a equipe utilizou a ferramenta lucidchart.
+O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas de uma aplicação, especifica as necessidades do sistema de maneira visual e ilustra modelos de dados de qualquer complexidade. Para realizar a elaboração do artefato, a equipe utilizou a ferramenta [lucidchart](https://lucid.app/lucidchart/invitations/accept/inv_c390290c-2bb0-453b-a623-ecf913e44aee).
 </p>
 </div>
 
@@ -33,14 +33,13 @@ O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas d
 
 <p>Autores: Hugo Bezerra, Kleidson Alves, Lucas Gabriel e Lucas Rodrigues</p>
 
-## Memória Técnica 01
-MEMÓRIA TÉCNICA ID_01
+## MEMÓRIA TÉCNICA ID_01
 
-Data: 17 de Setembro de 2021
+Data: 19 de Setembro de 2021
 
 **Problema Identificado:** 
 Incompatibilidade das práticas tradicionais de OO com as práticas acordadas pela Comunidade da Linguagem Dart, utilizada nesse projeto.
-Especificamente, o fato que gera essa incompatibilidade é a Linguagem Dart julgar ser desnecessária a utilização dos getters e setters para atributos privados da classe,  o que não ocorre para o caso das práticas tradicionais da Orientação a Objetos.
+Especificamente, o fato que gera essa incompatibilidade é a **Linguagem Dart** julgar ser **desnecessária** a utilização dos **getters e setters** para atributos privados da classe visto que eles são indistinguiveis do acesso direto ao atributo,  o que não ocorre para o caso das práticas tradicionais da Orientação a Objetos.
 FONTE: [https://dart.dev/tools/linter-rules#unnecessary_getters_setters](https://dart.dev/tools/linter-rules#unnecessary_getters_setters)
 
 **Solução:** 
@@ -49,6 +48,7 @@ Decisão tomada pela equipe, com base em [debate](https://i.imgur.com/tsUMTew.pn
 
 OPÇÃO INCOMPATÍVEL:
 
+``` dart
     class Caixa {
       var _conteudo;
       get conteudo => _conteudo;
@@ -56,14 +56,15 @@ OPÇÃO INCOMPATÍVEL:
         _conteudo = value;
       }
     }
-
+```
 
 OPÇÃO COMPATÍVEL:
 
+``` dart
     class Caixa {
       var conteudo;
     }
-
+```
 
 
 ## Referências
@@ -74,3 +75,5 @@ OPÇÃO COMPATÍVEL:
 
 > O que é um diagrama de classe UML?. Disponível em:[https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml#section_1
 ](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml#section_1). Data de acesso: 13/08/2021
+
+> unnecessary_getters_setters. Disponível em: [https://dart.dev/tools/linter-rules#unnecessary_getters_setters](https://dart.dev/tools/linter-rules#unnecessary_getters_setters). Data de acesso: 19/09/2021

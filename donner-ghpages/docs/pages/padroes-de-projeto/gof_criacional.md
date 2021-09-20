@@ -8,35 +8,7 @@
 |   15/09/2021   |  1.2    |  Adição Singleton  | Kleidson, Gabriel Batalha, Lucas Gabriel, Lucas Rodrigues |
 |   15/09/2021   |  1.3    |  Adição Prototype  | Davi Antônio |
 |   16/09/2021   |  1.4    |  Corrigir erros ortográficos e melhorar referencial teórico  | Davi Antônio |
-
-
-
-
-## Singleton 
-
-### Introdução
-
-<div style="text-indent: 40px; text-align: justify">
-<p>
-O Singleton é um GoF Criacional que se baseia em permitir a existência de apenas uma instância de uma classe específica ao mesmo tempo que garante acesso global as propriedades dessa classe.
-</p>
-</div>
-
-### Modelagem
-![](https://i.imgur.com/vorjz5s.png)
-
-### Aplicação
-
-![](https://i.imgur.com/9Qgavu1.png)
-
-### Comentário
-
-<div style="text-indent: 40px; text-align: justify">
-<p>
-O banco de dados precisa ser instanciado uma única vez em toda aplicação. Na aplicação desse padrão no projeto da equipe, a classe Database retorna uma instância da conexão do banco de dados, fazendo a verificação se essa conexão já foi realizada. 
-</p>
-</div>
-
+|   19/09/2021   |  1.5    |  Revisão do documento e remoção do Singleton | Kleidson, Gabriel Batalha, Lucas Gabriel, Lucas Rodrigues |
 
 ## Factory Method
 ### Introdução
@@ -50,17 +22,16 @@ O Factory Method é um dos GoFs criacionais e é descrito no livro (Design Patte
 ### Modelagem
 ![](https://i.imgur.com/LrYUoMA.png)
 
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
+
 ### Aplicação
-![](https://i.imgur.com/LuZGowZ.png)
+[![](https://i.imgur.com/LuZGowZ.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/widgets/button_widget/custom_button.dart)
 
-![](https://i.imgur.com/MfEUvbL.png)
+[![](https://i.imgur.com/MfEUvbL.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/widgets/button_widget/custom_icon_button.dart)
 
-![](https://i.imgur.com/BwgyrqL.png)
+[![](https://i.imgur.com/BwgyrqL.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/widgets/button_widget/custom_text_button.dart)
 
-![](https://i.imgur.com/hGE1qv8.png)
-
-
-
+[![](https://i.imgur.com/hGE1qv8.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/widgets/button_widget/factory_button.dart)
 
 
 ### Comentário

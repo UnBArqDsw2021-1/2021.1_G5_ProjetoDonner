@@ -23,9 +23,12 @@ O Adapter é um padrão de projeto que tem como objetivo permitir que objetos co
 
 ![](https://i.imgur.com/4TK9fsp.png)
 
+Autores: Davi Antônio, Gabriel Batalha, Kleidson Alves, Lucas Rodrigues, Lucas Gabriel
+
+
 ### Aplicação
 
-![](https://i.imgur.com/iyJYbMV.png)
+[![](https://i.imgur.com/iyJYbMV.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/widgets/models/client_model.dart)
 
 
 ### Comentário
@@ -56,9 +59,9 @@ Autores: Davi Antônio, Gabriel Batalha, Kleidson Alves, Lucas Gabriel e Lucas R
 
 ### Aplicação
 
-![](https://i.imgur.com/gRZbLF0.png)
+[![](https://i.imgur.com/gRZbLF0.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/widgets/category_tile/category_tile.dart)
 
-![](https://i.imgur.com/V2l4NWk.png)
+[![](https://i.imgur.com/V2l4NWk.png)](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end/blob/GOFs/donner/lib/screens/category_screen.dart)
 
 
 ### Comentário
