@@ -29,7 +29,9 @@ O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas d
 
 ### Versão 2.0
 
+![Diagrama de Classe versão 2](https://i.imgur.com/Sy8te4n.png)
 
+<p>Autores: Hugo Bezerra, Kleidson Alves, Lucas Gabriel e Lucas Rodrigues</p>
 
 ## Memória Técnica 01
 MEMÓRIA TÉCNICA ID_01
