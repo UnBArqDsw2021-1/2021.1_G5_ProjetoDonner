@@ -6,7 +6,7 @@
 |   01/09/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel
 |   03/09/2021   |  1.1    |  Adição das Imagens   | Gabriel Batalha, Kleidson Alves, Lucas Gabriel 
 |   16/09/2021   |  1.2    |  Adição de Texto   | Wellington Jonathan
-|   20/09/2021   |  1.3    |  Revisão do Documento   | Kleidson Alves
+|   20/09/2021   |  1.3    |  Revisão do Documento   | Kleidson Alves e Lucas Rodrigues
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -103,7 +103,7 @@ Solução: É aconselhável atribuir responsabilidades aos tipos usando operaç�
 <div style="text-indent: 40px; text-align: justify">
 
  <p>
-A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no padrão de projeto GRASP Polimorfismo. O exemplo de polimorfismo é dado pelas classes <i>User</i> (super classe) e as classes <i>Admin</i> e <i>Client</i> (subclasses), a classe <i>User</i> contém os métodos <i>deleteComment()</i> e <i>deleteAnnouncement()</i> que são herdados pelas subclasses, entretanto, na classe <i>Admin</i>, o comportamento desses métodos são alterados visto que o <i>Client</i> só pode deletar anúncios e comentários dos quais ele é o autor, enquando o <i>Admin</i> pode deletá-los independetemente do autor.
+A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no padrão de projeto GRASP Polimorfismo. O exemplo de polimorfismo é dado pelas classes <i>User</i> (super classe) e as classes <i>Admin</i> e <i>Client</i> (subclasses), a classe <i>User</i> contém os métodos <i>deleteComment()</i> e <i>deleteAnnouncement()</i> que são herdados pelas subclasses, entretanto, na classe <i>Admin</i>, o comportamento desses métodos são alterados visto que o <i>Client</i> só pode deletar anúncios e comentários dos quais ele é o autor, enquanto o <i>Admin</i> pode deletá-los independentemente do autor.
 </p>
 </div>
 
@@ -118,7 +118,7 @@ Problema: Quem seria responsável por lidar com um evento do sistema?
 
 Solução: Atribua responsabilidade de lidar com eventos a uma classe que:
 1. Represente o sistema como um todo
-2. Represeta a organização
+2. Representa a organização
 3. Represente algo ativo no mundo real envolvido na tarefa
 4. Represente um controlador artificial dos eventos de sistema de um caso de uso
 
@@ -134,10 +134,10 @@ A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O acoplamento é uma medidade de quão forte um objeto está conectada, tem conhecimento ou depende de outro. Para alcançar o baixo acoplamento é preciso distribuir as responsabilidades de maneira eficaz.
+O acoplamento é uma medida de de quão forte um objeto está conectada, tem conhecimento ou depende de outro. Para alcançar o baixo acoplamento é preciso distribuir as responsabilidades de maneira eficaz.
 </p>
 <p>
-O baixo acomplamento permite que exista uma menor depêndencia entre classes, mundanças em uma classe tenham menor impacto sobre outras e o código tenha maior potencial de ser reutilizado.
+O baixo acomplamento permite que exista uma menor dependência entre classes, mudanças em uma classe tenham menor impacto sobre outras e o código tenha maior potencial de ser reutilizado.
 </p>
 </div>
 
@@ -149,7 +149,7 @@ Solução: Atribuir a responsabilidade de modo que a dependência entre classes 
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Esse pricípio determina a proteção do sistema com a variação de outros elementos, tais como objetos sistemas e subsistemas. Consiste em encapsular o comportamento que realmente importa e utilização de polimorfismo para criar várias implementações da interface. 
+Esse princípio determina a proteção do sistema com a variação de outros elementos, tais como objetos sistemas e subsistemas. Consiste em encapsular o comportamento que realmente importa e utilização de polimorfismo para criar várias implementações da interface. 
 </p>
 </div>
 
@@ -167,7 +167,7 @@ A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Indireção é um principio que indica que a criação de uma classe intermediaria, aquela que tem a responsabilidade de mediador entre dois elementos. Isso pode simplificar a aplicação reduzindo o número de refêrencias entre objetos. Indireção é uma das maneiras de se obter um baixo acoplamento.
+Indireção é um principio que indica que a criação de uma classe intermediaria, aquela que tem a responsabilidade de mediador entre dois elementos. Isso pode simplificar a aplicação reduzindo o número de referências entre objetos. Indireção é uma das maneiras de se obter um baixo acoplamento.
 </p>
 </div>
 
@@ -181,7 +181,7 @@ Solução: A responsabilidade será atribuída a um objeto intermediário que fa
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-A alta coesão visa manter os objetos adequandamente focados, gerenciados e compreensívies. De maneira geral as responsabilidades de um elemento estão fortemente focadas e relacionadas, o que é, também, uma forma de auxiliar no baixo acomplamento.
+A alta coesão visa manter os objetos adequandamente focados, gerenciáveis e compreensívies. De maneira geral as responsabilidades de um elemento estão fortemente focadas e relacionadas, o que é, também, uma forma de auxiliar no baixo acomplamento.
 </p>
 </div>
 
