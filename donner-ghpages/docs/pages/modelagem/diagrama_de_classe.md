@@ -17,7 +17,7 @@
 O diagrama de classe é um diagrama estrutural(estático) UML. Ele mostra a estrutura do sistema projetado no nível de classes e interfaces, seus recursos, restrições e relacionamentos.
 </p>
 <p>
-O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas de uma aplicação, especifica as necessidades do sistema de maneira visual e ilustra modelos de dados de qualquer complexidade. Para realizar a elaboração do artefato, a equipe utilizou a ferramenta [lucidchart](https://lucid.app/lucidchart/invitations/accept/inv_c390290c-2bb0-453b-a623-ecf913e44aee).
+O diagrama de classe ajuda no melhor entendimento da visão geral dos esquemas de uma aplicação, especifica as necessidades do sistema de maneira visual e ilustra modelos de dados de qualquer complexidade. Para realizar a elaboração do artefato, a equipe utilizou a ferramenta <a href="https://lucid.app/lucidchart/invitations/accept/inv_c390290c-2bb0-453b-a623-ecf913e44aee"> lucidchart</a>.
 </p>
 </div>
 
