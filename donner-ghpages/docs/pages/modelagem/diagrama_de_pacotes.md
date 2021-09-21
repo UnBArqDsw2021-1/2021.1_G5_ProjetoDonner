@@ -6,6 +6,7 @@
 |   16/08/2021   |  1.0    | Criação do Documento | Gabriel Batalha
 |   20/08/2021   |  1.1    | Adição dos Diagramas de Pacotes e de Modelo | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Marcos Adriano
 |   22/08/2021   |  1.2    | Revisão do Documento | Lucas Gabriel
+|   15/09/2021   |  1.3    |  Atualização imagens    | Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -16,7 +17,7 @@ O diagrama de pacotes é um diagrama estrutural que é utilizado para representa
 O diagrama de modelo é um diagrama estrutural auxiliar elaborado para mostrar uma visão específica de um sistema. A equipe optou por utilizar esse diagrama para mostrar de uma maneira mais geral as camadas envolvidas na aplicação.
 </p>
 <p>
-Esses diagramas são utilizados para organizar visualmente as arquiteturas em camadas de sistemas. Para desenvolver os artefatos, utilizamos a ferramenta Lucidchart.
+Esses diagramas são utilizados para organizar visualmente as arquiteturas em camadas de sistemas. Para desenvolver os artefatos, utilizamos a ferramenta <a href="https://www.lucidchart.com/">Lucidchart</a>.
 </p>
 
 </div>
@@ -30,7 +31,7 @@ Autores: Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Marcos Adriano
 
 ### Diagrama de Modelo 
 
-[![](https://i.imgur.com/UQaAgnS.png)](https://i.imgur.com/UQaAgnS.png)
+![![](https://i.imgur.com/GtHmhn7.png)](https://i.imgur.com/GtHmhn7.png)
 Autor: Kleidson Alves
 
 ## Referências

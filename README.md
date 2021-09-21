@@ -51,10 +51,14 @@ Página do projeto, protótipo de média fidelidade
 - [Arquitetura e Desenho de Software - Modelagem - Parte 3](https://www.youtube.com/watch?v=2Cuokni1Vls)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+![Página do projeto, seção de GRASPs](https://i.imgur.com/ay3Ty3b.png)
+![Página do projeto, seção de GOFs](https://i.imgur.com/v5DGQvJ.png)
+![Página do projeto, seção de Emergentes](https://i.imgur.com/fsdWQtH.png)
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+- [Arquitetura e Desenho de Software - Padrões de Projeto - Parte 1](https://www.youtube.com/watch?v=SyDM5jVQWnk)
+- [Arquitetura e Desenho de Software - Padrões de Projeto - Parte 2](https://www.youtube.com/watch?v=kuPX-hfrQwA)
+- [Arquitetura e Desenho de Software - Padrões de Projeto - Parte 3](https://www.youtube.com/watch?v=Cg077f4jVLg)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.

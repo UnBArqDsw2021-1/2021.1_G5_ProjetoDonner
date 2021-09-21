@@ -9,6 +9,10 @@ theme:
   logo: assets/icons/DonnerLogo.png
 
 markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -54,6 +58,20 @@ nav:
         - Histórias de Usuário: pages/modelagem/historias_de_usuario.md
         - Apresentação: pages/modelagem/video5.md
     - Iniciativas Extras: pages/modelagem/extras_modelagem.md
+  - Desenho de Software (Padrões de Projeto):
+    - Padrões de Projeto GRASPs:
+      - GRASPs: pages/padroes-de-projeto/grasps.md
+      - Apresentação: pages/padroes-de-projeto/video6.md
+    - Padrões de Projeto GoFs: 
+      - GoFs Criacionais: pages/padroes-de-projeto/gof_criacional.md
+      - GoFs Estrutural: pages/padroes-de-projeto/gof_estrutural.md
+      - GoFs Comportamentais: pages/padroes-de-projeto/gof_comportamental.md
+      - Apresentação: pages/padroes-de-projeto/video7.md
+    - Padrões de Projeto Emergentes: 
+      - Emergentes: pages/padroes-de-projeto/padrao_emergente.md
+      - Apresentação: pages/padroes-de-projeto/video8.md
+    - Gerência de Configuração: pages/padroes-de-projeto/gerencia_configuracao.md
+    - Iniciativas Extras: pages/padroes-de-projeto/extras_padroes.md
   - Sprints: 
     - Sprint 0:
       - Planning: pages/sprints/sprint0/sprint0p.md
@@ -64,4 +82,7 @@ nav:
     - Sprint 2:
       - Planning: pages/sprints/sprint2/sprint2p.md
       - Review: pages/sprints/sprint2/sprint2r.md
+    - Sprint 3:
+      - Planning: pages/sprints/sprint3/sprint3p.md
+      - Review: pages/sprints/sprint3/sprint3r.md
   - Políticas de Contribuição: pages/politicas.md
