@@ -28,6 +28,8 @@ No exemplo a seguir, as funções assíncronas retornam objetos genéricos do ti
 
 ![](https://i.imgur.com/onv7Xhf.png)
 
+Autores: Davi Antônio, Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan
+
 ### Exemplo Toy
 
 ``` dart
@@ -97,6 +99,7 @@ Para demonstrar o uso do Template Method, utilizaremos um exemplo toy. No exempl
 
 ![](https://i.imgur.com/EVPqsBz.png)
 
+Autores: Davi Antônio, Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan
 
 ### Exemplo Toy
 

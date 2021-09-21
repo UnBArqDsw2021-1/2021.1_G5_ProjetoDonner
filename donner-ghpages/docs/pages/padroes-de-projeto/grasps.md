@@ -6,7 +6,7 @@
 |   01/09/2021   |  1.0    |  Criação do Documento    | Kleidson Alves, Lucas Gabriel
 |   03/09/2021   |  1.1    |  Adição das Imagens   | Gabriel Batalha, Kleidson Alves, Lucas Gabriel 
 |   16/09/2021   |  1.2    |  Adição de Texto   | Wellington Jonathan
-|   20/09/2021   |  1.3    |  Revisão do Documento   | Kleidson Alves e Lucas Rodrigues
+|   20/09/2021   |  1.3    |  Revisão do Documento   | Kleidson Alves, Lucas Rodrigues, Lucas Gabriel
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
@@ -16,7 +16,7 @@ Podemos entender Design Patterns ou padrões de projetos  como soluções genera
 </p>
 
 <p>
-Os padrões de projeto GRASP (General Resposibility Assignment Software Patterns), consistem em práticas para atribuição de responsabilidades, para classes e objetos, em projetos orientados a objetos.
+Os padrões de projeto GRASP (General Responsibility Assignment Software Patterns), consistem em práticas para atribuição de responsabilidades, para classes e objetos, em projetos orientados a objetos.
 </p>
 
 <p>
@@ -49,6 +49,7 @@ Solução: Atribua à classe B a responsabilidade de criar uma instância da cla
 5. B possui informação necessária à criação de A
 
 ![](https://i.imgur.com/3d9YuGW.png)
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel
 
 <div style="text-indent: 40px; text-align: justify">
 <p> 
@@ -70,6 +71,7 @@ Problema: Qual é o princípio geral para a atribuição de responsabilidades ao
 Solução: Atribua a responsabilidade ao especialista: a classe que tem as informações necessárias para assumir a responsabilidade.
 
 ![](https://i.imgur.com/5KlsGvJ.png)
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel
 
 <div style="text-indent: 40px; text-align: justify">
 <p> 
@@ -79,6 +81,7 @@ A imagem acima destaca uma modelagem que se enquadra no padrão GRASP Especialis
 
 
 ![](https://i.imgur.com/GlBaoTc.png)
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel
 
 <div style="text-indent: 40px; text-align: justify">
 <p> 
@@ -99,6 +102,7 @@ Problema: Como tratar alternativas baseadas no tipo da classe? Como criar compon
 Solução: É aconselhável atribuir responsabilidades aos tipos usando operações polimórficas, isso quando alternativas ou comportamento relacionados variam com o tipo da classe.
 
 ![](https://i.imgur.com/VGlpfyC.png)
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel
 
 <div style="text-indent: 40px; text-align: justify">
 
@@ -123,6 +127,8 @@ Solução: Atribua responsabilidade de lidar com eventos a uma classe que:
 4. Represente um controlador artificial dos eventos de sistema de um caso de uso
 
 ![](https://i.imgur.com/ymlttU2.png)
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel
+
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
@@ -134,10 +140,10 @@ A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O acoplamento é uma medida de de quão forte um objeto está conectada, tem conhecimento ou depende de outro. Para alcançar o baixo acoplamento é preciso distribuir as responsabilidades de maneira eficaz.
+O acoplamento é uma medida de de quão forte um objeto está conectado, tem conhecimento ou depende de outro. Para alcançar o baixo acoplamento é preciso distribuir as responsabilidades de maneira eficaz.
 </p>
 <p>
-O baixo acomplamento permite que exista uma menor dependência entre classes, mudanças em uma classe tenham menor impacto sobre outras e o código tenha maior potencial de ser reutilizado.
+O baixo acoplamento permite que exista uma menor dependência entre classes, mudanças em uma classe tenham menor impacto sobre outras e o código tenha maior potencial de ser reutilizado.
 </p>
 </div>
 
@@ -159,6 +165,7 @@ Problema: Como projetar objetos, subsistemas e sistemas, de modo que, as variaç
 Solução: Identificar pontos de variação e atribuir responsabilidades para criar uma interface estável em volta desses pontos;
 
 ![](https://i.imgur.com/NF9lFb7.png)
+Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel
 
 A imagem acima é uma retratação de uma modelagem do projeto que se encaixa no padrão de projeto GRASP Variações Protegidas. O exemplo apresenta duas classes que utilizam do Polimorfismo e Encapsulamento, onde apenas as classes filhas de <i>User</i> fazem uso dos métodos <i>deleteComment()</i> e <i>deleteAnnouncement()</i> da mãe.
 
@@ -172,7 +179,7 @@ Indireção é um principio que indica que a criação de uma classe intermediar
 </div>
 
 
-Problema: Como evitar baixo acoplamento e manter alta possibilidade de reuso através do desacoplamento de objetos?
+Problema: Como evitar acoplamento direto e manter alta possibilidade de reuso através do desacoplamento de objetos?
 
 Solução: A responsabilidade será atribuída a um objeto intermediário que faz mediação entre componentes e serviços de modo que esses não sejam diretamente acoplados.
 
@@ -181,7 +188,7 @@ Solução: A responsabilidade será atribuída a um objeto intermediário que fa
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-A alta coesão visa manter os objetos adequandamente focados, gerenciáveis e compreensívies. De maneira geral as responsabilidades de um elemento estão fortemente focadas e relacionadas, o que é, também, uma forma de auxiliar no baixo acomplamento.
+A alta coesão visa manter os objetos adequadamente focados, gerenciáveis e compreensíveis. De maneira geral as responsabilidades de um elemento estão fortemente focadas e relacionadas, o que é, também, uma forma de auxiliar no baixo acoplamento.
 </p>
 </div>
 
@@ -200,7 +207,7 @@ Solução: Atribuir uma responsabilidade para que a coesão se mantenha alta
 </div>
 
 
-Problema: Quando não se quer violar a alta coesão e baixo acoplamento e o expert não oferece soluções apropriadas que objeto deve ter responsabilidade?
+Problema: Quando não se quer violar a alta coesão e baixo acoplamento e o expert não oferece soluções apropriadas, qual objeto deve ter a responsabilidade?
 
 Solução: Criação de classes puras
 
@@ -209,7 +216,7 @@ Solução: Criação de classes puras
 > GRASP (padrão orientado a objetos). Disponível em:
 [https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)](https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)). Data de acesso: 01/09/2021
 
->Understanding the GRASP Design Patterns. Dispónivel em: [https://medium.com/@ReganKoopmans/understanding-the-grasp-design-patterns-2cab23c7226e](https://medium.com/@ReganKoopmans/understanding-the-grasp-design-patterns-2cab23c7226e). Data de acesso: 01/09/2021
+>Understanding the GRASP Design Patterns. Disponível em: [https://medium.com/@ReganKoopmans/understanding-the-grasp-design-patterns-2cab23c7226e](https://medium.com/@ReganKoopmans/understanding-the-grasp-design-patterns-2cab23c7226e). Data de acesso: 01/09/2021
 
 
 >Padrões GRASP — Padrões de Atribuir Responsabilidades. Disponível em: [https://medium.com/@ReganKoopmans/understanding-the-grasp-design-patterns-2cab23c7226e](https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204). Data de acesso: 01/09/2021

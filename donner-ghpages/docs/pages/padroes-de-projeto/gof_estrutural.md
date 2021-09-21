@@ -7,7 +7,7 @@
 |   16/09/2021   |  1.1    | Atualização do Documento  | Davi Antônio, Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Rodrigues, Lucas Gabriel
 |   17/09/2021   |  1.2    | Adição da Aplicação do Composite  | Davi Antônio, Gabriel Batalha, Kleidson Alves, Lucas Rodrigues, Lucas Gabriel
 |   19/09/2021   |  1.3    | Finalização do Adapter | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
-|   19/09/2021   |  1.4    | Revisão do Documento | Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan
+|   20/09/2021   |  1.4    | Revisão do Documento | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan
 
 ## Adapter 
 
@@ -15,7 +15,7 @@
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O Adapter é um padrão de projeto que tem como objetivo permitir que objetos com interfaces diferentes possam colaborar entre si. Ele servirá como um intermediador que recebe solicitações do cliente e converte essa solicitação em um formato entendível para o fornecedor. 
+O Adapter é um padrão de projeto estrutural que tem como objetivo permitir a interação e cooperação de diferentes interfaces. Ele irá converter a interface de uma classe para uma que seja esperada pelo cliente. Uma das motivações para a utilização desse padrão é que uma classe poderia deixar de ser reutilizada por não corresponder à uma interface de um domínio requerida por uma aplicação.
 </p>
 </div>
 
@@ -44,7 +44,7 @@ O Adapter foi utilizado na classe Client para adaptar os dados provenientes da A
 ### Introdução
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O Composite é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
+O Composite é um padrão de projeto que se baseia em gerar estruturas em forma de árvores, de modo que estruturas simples ficam gradualmente mais complexas conforme a necessidade de se adicionar mais ramificações a estrutura de árvore, após construída, essa estrutura composite pode ser tratada como se fosse um objeto individual. A chave para o padrão Composite é uma classe abstrata que representa tanto as primitivas como os seus recipientes.
 </p>
 <p>
 O Flutter utiliza na sua implementação o padrão de projeto composite, dessa forma os widgets utilizados no Flutter são geralmente compostos por outros menores, em uma estrutura de arvore.

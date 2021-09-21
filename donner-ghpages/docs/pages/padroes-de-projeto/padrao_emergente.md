@@ -9,7 +9,7 @@
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
 <p>
-<i>Lazy Load</i> (carregamento preguiçoso), é um padrão de projeto que é muito utilizado no desenvolvimento de software e consiste em atrasar a inicialização de um objeto até que ele seja necessário. O objetivo do <i>Lazy load</i> é melhorar o desempenho da aplicação, principalmente aquelas que fazem carregamentos massivos de dados, carregando os dados conforme seja necessário. Dessa forma, a sua utilização pode reduzir o tempo de carregamento, além de conservar largura de banda e alguns recursos do sistema, tanto do servidor quanto do cliente.
+<i>Lazy Load</i> (carregamento preguiçoso) é um padrão de projeto que é muito utilizado no desenvolvimento de software e consiste em atrasar a inicialização de um objeto até que ele seja necessário. O objetivo do <i>Lazy load</i> é melhorar o desempenho da aplicação, principalmente aquelas que fazem carregamentos massivos de dados, carregando os dados conforme seja necessário. Dessa forma, a sua utilização pode reduzir o tempo de carregamento, além de conservar largura de banda e alguns recursos do sistema, tanto do servidor quanto do cliente.
 </p>
 
 <p>
@@ -21,7 +21,7 @@ Existem basicamente 4 formas de se implementar o <i>Lazy Load</i>, sendo elas,<i
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-<i>Lazy initialization</i> (inicialização preguiçosa), é uma das formas de implementação do <i>Lazy Load</i> e se consiste em uma tática de atraso na criação de um objeto até o momento em que seja necessário, isso é feito a partir da implementação de uma função que irá checar primeiro se aquele objeto é nulo e em caso afirmativo irá calcular as propriedades do objeto e criá-lo durante a execução da função.
+<i>Lazy initialization</i> (inicialização preguiçosa) é uma das formas de implementação do <i>Lazy Load</i> e se consiste em uma tática de atraso na criação de um objeto até o momento em que seja necessário, isso é feito a partir da implementação de uma função que irá checar primeiro se aquele objeto é nulo e em caso afirmativo irá calcular as propriedades do objeto e criá-lo durante a execução da função.
 </p>
 
 <p>

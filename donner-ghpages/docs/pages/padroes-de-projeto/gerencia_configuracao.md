@@ -5,11 +5,13 @@
 | -------- | -------- | -------- | ---|
 | 17/09/2021 | 1.0 | Incluir gerência de configuração | Davi Antônio |
 | 17/09/2021 | 1.1 | Atualizar pacotes usados no projeto | Davi Antônio |
+| 20/09/2021 | 1.2 | Revisão do documento | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan
 
 ## Ambiente de desenvolvimento
+
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Para alinhar o ambiente de desenvolvimento do projeto, seguem abaixo as versões utilzadas dos IDEs, compiladores, linguagens e das dependências externas que serão utilizados no Projeto Donner
+Para alinhar o ambiente de desenvolvimento do projeto, seguem abaixo as versões utilizadas dos IDEs, compiladores, linguagens e das dependências externas que serão utilizados no Projeto Donner
 </p>
 </div>
 
@@ -45,7 +47,9 @@ As versões permanecerão estáticas, a não ser que haja lançamentos corrigind
 ## Referências
 > Firebase Core. Disponível em:
 [https://pub.dev/packages/firebase_core/install](https://pub.dev/packages/firebase_core/install). Acesso em: 17/09/2021
+
 > Firebase Auth. Disponível em:
 [https://pub.dev/packages/firebase_auth/install](https://pub.dev/packages/firebase_auth/install). Acesso em: 17/09/2021
+
 > Cloud Firestore. Disponível em:
 [https://pub.dev/packages/cloud_firestore/install](https://pub.dev/packages/cloud_firestore/install). Acesso em: 17/09/2021
