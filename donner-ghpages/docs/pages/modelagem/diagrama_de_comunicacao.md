@@ -22,7 +22,6 @@ A equipe decidiu utilizar o Diagrama de Comunicação pela necessidade de mostra
 </p>
 </div>
 
-
 ### Comentário
 
 ![![](https://i.imgur.com/AdpVwSs.png)](https://i.imgur.com/AdpVwSs.png)
@@ -32,8 +31,8 @@ Autor: Lucas Rodrigues
 
 [![](https://i.imgur.com/R5EX6L3.png)](https://i.imgur.com/R5EX6L3.png)
 
-
 Autores: Kleidson Alves, Lucas Gabriel e Lucas Rodrigues
+
 ### Autenticação
 
 ![![](https://i.imgur.com/zGwA2iQ.png)](https://i.imgur.com/zGwA2iQ.png)

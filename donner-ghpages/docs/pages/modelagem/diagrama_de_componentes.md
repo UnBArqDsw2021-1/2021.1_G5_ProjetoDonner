@@ -23,10 +23,15 @@ A equipe decidiu elaborar esse diagrama levando em consideração os seus benef�
 
 ## Resultado
 
-[![](https://i.imgur.com/wT9lqXm.png)](https://i.imgur.com/wT9lqXm.png)
+Versão 1
 
+[![](https://i.imgur.com/wT9lqXm.png)](https://i.imgur.com/wT9lqXm.png)
 Autores: Caio Araújo, Davi Antônio, Gabriel Batalha, Hugo Bezerra,  Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Marcos Adriano, Wellington Jonathan
 
+Versão 2
+
+[![](https://i.imgur.com/GDI3YTT.png)](https://i.imgur.com/GDI3YTT.png)
+Autores: Kleidson Alves e Lucas Gabriel
 
 ## Referências
 > Diagramas de Componentes. Disponível em:
