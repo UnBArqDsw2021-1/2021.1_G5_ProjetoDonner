@@ -8,13 +8,14 @@
 |   15/09/2021   |  1.2    |  Adição Singleton  | Kleidson, Gabriel Batalha, Lucas Gabriel, Lucas Rodrigues |
 |   15/09/2021   |  1.3    |  Adição Prototype  | Davi Antônio |
 |   16/09/2021   |  1.4    |  Corrigir erros ortográficos e melhorar referencial teórico  | Davi Antônio |
-|   19/09/2021   |  1.5    |  Revisão do documento e remoção do Singleton | Kleidson, Gabriel Batalha, Lucas Gabriel, Lucas Rodrigues |
+|   20/09/2021   |  1.5    |  Revisão do documento e remoção do Singleton | Kleidson, Gabriel Batalha, Lucas Gabriel, Lucas Rodrigues |
+|   20/09/2021   |  1.6    |  Revisão ortográfica e gramatical | Davi Antônio, Wellington Jonathan |
 
 ## Factory Method
 ### Introdução
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O Factory Method é um dos GoFs criacionais e é descrito no livro (Design Patterns: Elements of Reusable Object-Oriented Software) da seguinte maneira: define uma interface para a criação de objetos e deixa para a subclasse a decisão de qual classe instanciar.
+O Factory Method é um dos padrões de criação de objetos  descritos no livro Design Patterns: Elements of Reusable Object-Oriented Software (JOHNSON, Eric et al.; 1995) da seguinte maneira: defina uma interface para a criação de objetos e deixe para a subclasse a decisão de qual classe instanciar.
 </p>
 
 </div>
@@ -38,7 +39,7 @@ Autores: Gabriel Batalha, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-No projeto utilizamos o Factory method para criação dos diferentes tipos de botões. A utilização desse padrão de projeto, faz com que não seja necessário o conhecimento direto de cada construtor das diferentes classes dos botões. Por isso, utiliza-se a classe FactoryButton especificando o tipo de botão desejado, obtendo a instância de uma das classes.
+No projeto, utilizamos o <i>Factory method</i> para criação dos diferentes tipos de botões. A utilização desse padrão de projeto faz com que não seja necessário o conhecimento direto de cada construtor das diferentes classes dos botões. Por isso, utiliza-se a classe <i>FactoryButton</i> especificando o tipo de botão desejado, obtendo a instância de uma das classes.
 </p>
 </div>
 
@@ -66,7 +67,7 @@ Há muitas maneiras de se implementar esse padrão. Algumas implementações, su
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O exemplo autoral a seguir é uma adaptação do padrão *Prototype*. A classe não realiza uma interface ou estende uma classe abstrata com um método de clonagem. Entretanto, o método de clonagem permite que um cliente especifique, usando os parâmetros nomeados da linguagem Dart, o estado desejado do objeto que será criado como clone.
+O exemplo autoral a seguir é uma adaptação do padrão <i>Prototype</i>. A classe não realiza uma interface ou estende uma classe abstrata com um método de clonagem. Entretanto, o método de clonagem permite que um cliente especifique, usando os parâmetros nomeados da linguagem Dart, o estado desejado do objeto que será criado como clone.
 </p>
 </div>
 
@@ -98,7 +99,7 @@ class SignInFormModel {
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Nessa implementação, um parâmetro nomeado que não é informado não modifica o atributo referente a ele. Isso possibilita a redução nas criação de objetos para atributos, já que um atributo não modificado simplesmente utilizará a referência do objeto original.
+Nessa implementação, um parâmetro nomeado que não é informado não causará modificação no atributo referente a ele. Isso possibilita a redução na criação de objetos para os atributos, já que um atributo não modificado simplesmente utilizará a referência do objeto original.
 </p>
 </div>
 
