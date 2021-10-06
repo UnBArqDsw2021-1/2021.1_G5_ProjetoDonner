@@ -1,11 +1,12 @@
-# Documento de Arquitetura
+# Documento de Arquitetura de Software
 
 ## Versionamento
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   30/09/2021   |  1.0  |  Criação do Documento  | Gabriel Batalha,  Lucas Rodrigues
 |   01/10/2021   |  1.1  |  Ajustes no tópico 1 e adição dos tópicos 2 e 3  | Gabriel Batalha,  Kleidson Alves,  Lucas Rodrigues
-|   04/10/2021   |  1.2  | Atualização dos tópicos | Gabriel Batalha, Kleidson Alves,Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
+|   04/10/2021   |  1.2  | Atualização dos tópicos | Gabriel Batalha, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
+|   06/10/2021   |  1.3  | Atualização no tópico de Visão de Dados | Hugo Bezerra |
 
 ## 1. Introdução
 
@@ -47,7 +48,7 @@ O documento vai estar organizado da seguinte forma:
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquiteura, o frontend representa o cliente e Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
+A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquiteura, o frontend representa o cliente e o Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
 </p>
 
 ![](https://i.imgur.com/JTjkHL7.png)
@@ -80,79 +81,103 @@ Nesse documento, a arquitetura é representada através de três visões. Elas, 
 - Os usuários devem utilizar uma conta do Google para cadastrar e realizar login.
 
 ## 4. Visão Lógica
-<div style="text-indent: 40px; text-align: justify">
 
+<div style="text-indent: 40px; text-align: justify">
 <p>
 Representa a estrutura da arquitetura e exibe uma visão lógica do sistema, descrevendo as classes que envolvem o comportamento significativo do sistema em termos de arquitetura para uma melhor compreensão da organização do projeto.
 </p>
 </div>
 
-### Diagrama de Classe
+### 4.1 Diagrama de Classe
+
+<div style="text-indent: 40px; text-align: justify">
+<p>
+Foi utilizado, para mostrar as classes significativas, seus relacionamentos, métodos e atributos, o Diagrama de Classe. Abaixo pode ser observado a versão mais recente do diagrama e a versão completa pode ser vista na aba <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_classe">Diagrama de Classe</a>.
+</p>
+</div>
+
+[![](https://i.imgur.com/Sy8te4n.png)](https://i.imgur.com/Sy8te4n.png)
+
+### 4.2 Diagrama de Sequência
 <div style="text-indent: 40px; text-align: justify">
 
-<p>
-Foi utilizado, para mostrar as classes significativas, seus relacionamentos, métodos e atributos, o Diagrama de Classe. Abaixo pode ser vista a versão mais recente do diagrama e a versão completa pode ser vista na aba [Diagrama de Classe](https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_classe/).
-[![](https://i.imgur.com/Sy8te4n.png)](https://i.imgur.com/Sy8te4n.png)
-</p>
+No diagrama de sequência pode ser visualizada a interação entre os objetos do sistema e a ordem na qual as interações ocorrem. Os diagramas de sequência podem ser encontrados na aba <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_sequencia/">Diagrama de Sequência</a>.
 
 </div>
-### Diagrama de Sequência
-<div style="text-indent: 40px; text-align: justify">
-
-No diagrama de sequência pode ser visualizada a interação entre os objetos do sistema e a ordem na qual as interações ocorrem. Os diagramas de sequência podem ser encontrados na aba [Diagrama de Sequência](https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_sequencia/).
 
 Diagrama de Sequência: Administração de Postagens
 [![](https://i.imgur.com/UWS9xMC.png)](https://i.imgur.com/UWS9xMC.png)
 
-</div>
-
-### Diagrama de Comunicação
+### 4.3 Diagrama de Comunicação
 
 <div style="text-indent: 40px; text-align: justify">
 
-O diagrama de comunicação foi utilizado para mostrar a interação entre diferentes partes do sistema. Apesar desse tipo de diagrama ser semelhante ao diagrama de sequência, ele possui foco na estrutura das mensagens transmitidas entre os objetos. Abaixo é mostrada o diagrama de comunicação da interação sobre os anúncios. Os outros diagramas podem ser encontrados na aba [Diagrama de Comunicação](https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao/).
+O diagrama de comunicação foi utilizado para mostrar a interação entre diferentes partes do sistema. Apesar desse tipo de diagrama ser semelhante ao diagrama de sequência, ele possui foco na estrutura das mensagens transmitidas entre os objetos. Abaixo é mostrada o diagrama de comunicação representando a interação com os anúncios. Os outros diagramas podem ser encontrados na aba <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
+
+</div>
 
 Diagrama de Comunicação: Interação Anúncios
 [![](https://i.imgur.com/JouiJCc.png)](https://i.imgur.com/JouiJCc.png)
 
-</div>
-
-### Diagrama de Pacotes
+### 4.4 Diagrama de Pacotes
 
 <div style="text-indent: 40px; text-align: justify">
-
 <p>
-
-
-Para ter uma visão geral das camadas envolvidas na aplicação foi utilizado o Diagrama de Modelo, que é um diagrama estrutural auxiliar do Diagrama de Pacotes. A página completa pode ser encontrada a aba [Diagrama de Pacotes](https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_pacotes/).
-
+Para ter uma visão geral das camadas envolvidas na aplicação foi utilizado o Diagrama de Modelo, que é um diagrama estrutural auxiliar do Diagrama de Pacotes. A página completa pode ser encontrada na aba <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_pacotes">Diagrama de Pacotes</a>.
 </p>
+</div>
 
+Diagrama de Pacotes: Modelo
 [![](https://i.imgur.com/UQaAgnS.png)](https://i.imgur.com/UQaAgnS.png)
 
-</div>
-
 ## 5. Visão de Implementação
-<div style="text-indent: 40px; text-align: justify">
 
+<div style="text-indent: 40px; text-align: justify">
 <p>
 Descreve de forma geral o modelo de implementação para fornecer uma base que permitirá compreender a distribuição física do sistema em um conjunto de nós de processamento. A visão de implementação é refinada durante cada iteração.
 </p>
 </div>
 
-### Diagrama de Componentes
+### 5.1 Diagrama de Componentes
+
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Para a compreensão dos relacionamentos entre os componentes que constituem o sistema e de como cada componente interage com o restante do sistema foi utilizado o diagrama de componentes.
+Para a compreensão dos relacionamentos entre os componentes que constituem o sistema e de como cada componente interage com o restante do sistema foi utilizado o diagrama de componentes. A página completa pode ser encontrada na aba <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_componentes">Diagrama de Componentes</a>.
 </p>
-
-![https://i.imgur.com/GDI3YTT.png](https://i.imgur.com/GDI3YTT.png)
 </div>
+
+[![](https://i.imgur.com/GDI3YTT.png)](https://i.imgur.com/GDI3YTT.png)
 
 ## 6. Visão de Dados
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Essa é uma visão que estará presente quando o projeto possuir uma camada de persistência. A visão de dados descreve o modelo de dados do sistema, apresentando um maior detalhamento de como o banco de dados está organizado. 
+Esta visão é essencial ao projeto pois ela diz respeito a camada de persistência. A visão de dados descreve o modelo de dados do sistema, apresentando um maior detalhamento de como o banco de dados está organizado.
+</p>
+</div>
+
+### 6.1 Banco de Dados
+
+O banco de dados da aplicação será composto por 3 categorias de documentos, são eles Usuários, Anúncios e Campanhas onde um anúncio pertence a um usuário dono e um usuário pode possuir multiplos anúncios, esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
+
+|Usuários|Anúncios|Campanhas
+|--|--|--|
+Nome|Título|Título
+Foto|Foto|Descrição
+Email|Categoria|Início
+Contato|Dono|Fim
+Anúncios|Comentários|
+
+## 7. Tamanho e Desempenho
+<div style="text-indent: 40px; text-align: justify">
+<p>
+<!-- Acho que aqui deve entrar informações sobre os limites do banco de dados, a velocidade com que se realiza as operações e etc, e na parte de qualidade acho que tb nao sera muito diferente -->
+</p>
+</div>
+
+## 8. Qualidade
+<div style="text-indent: 40px; text-align: justify">
+<p>
+
 </p>
 </div>
 
