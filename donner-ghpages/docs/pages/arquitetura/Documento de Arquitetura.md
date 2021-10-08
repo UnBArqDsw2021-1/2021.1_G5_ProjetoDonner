@@ -6,7 +6,9 @@
 |   30/09/2021   |  1.0  |  Criação do Documento  | Gabriel Batalha,  Lucas Rodrigues
 |   01/10/2021   |  1.1  |  Ajustes no tópico 1 e adição dos tópicos 2 e 3  | Gabriel Batalha,  Kleidson Alves,  Lucas Rodrigues
 |   04/10/2021   |  1.2  | Atualização dos tópicos | Gabriel Batalha, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
-|   06/10/2021   |  1.3  | Atualização no tópico de Visão de Dados | Hugo Bezerra |
+|   06/10/2021   |  1.3  | Atualização no tópico de Visão de Dados | Hugo Bezerra, Kleidson Alves, Lucas Gabriel |
+|   06/10/2021   |  1.4  | Adição de considerações sobre tamanho e desempenho | Davi Antônio, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
+|   08/10/2021   |  1.5  | Adição dos tópicos de tamanho e desempenho e qualidade | Davi Antônio, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
 
 ## 1. Introdução
 
@@ -70,9 +72,9 @@ Nesse documento, a arquitetura é representada através de três visões. Elas, 
 ## 3. Objetivos Arquiteturais e Restrições
 
 ### Objetivos
-- Segurança: Os dados confidenciais dos usuários devem ser armazenados com segurança no servidor.
-- Usabilidade: O software deve possuir uma navegação intuitiva e de fácil aprendizado.
-- Manutenibilidade: O software deve seguir os padrões do modelo orientado a objetos e estar bem documentado para evitar custos adicionais de manutenção.
+- Extensibilidade: O software deve ser flexível e fácil de realizar manutenção e evolução.
+- Confiabilidade: Devem ser evitadas falhas no funcionamento ou problemas de disponibilidade do software.
+- Portabilidade: O software deve funcionar em dispositivos mobile com diferentes sistemas operacionais.
 
 ### Restrições
 - É necessário possuir conexão com a Internet.
@@ -157,7 +159,10 @@ Esta visão é essencial ao projeto pois ela diz respeito a camada de persistên
 
 ### 6.1 Banco de Dados
 
-O banco de dados da aplicação será composto por 3 categorias de documentos, são eles Usuários, Anúncios e Campanhas onde um anúncio pertence a um usuário dono e um usuário pode possuir multiplos anúncios, esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
+Em relação ao banco de dados da nossa aplicação, iremos utilizar o Firebase e com isso a implementação do banco de dados e feita com o "Cloud Firestore que é um banco de dados de documentos NoSQL que permite armazenar, sincronizar e consultar dados facilmente para seus apps para dispositivos móveis e da Web, em escala global".
+
+
+A base será composto por 3 categorias de documentos, são eles Usuários, Anúncios e Campanhas onde um anúncio pertence a um usuário dono e um usuário pode possuir multiplos anúncios, esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
 
 |Usuários|Anúncios|Campanhas
 |--|--|--|
@@ -171,13 +176,25 @@ Anúncios|Comentários|
 <div style="text-indent: 40px; text-align: justify">
 <p>
 <!-- Acho que aqui deve entrar informações sobre os limites do banco de dados, a velocidade com que se realiza as operações e etc, e na parte de qualidade acho que tb nao sera muito diferente -->
+
+O sistema será desenvolvido com foco em suportar até 10000 usuários mensais, mantendo um tempo médio de resposta 2 segundos para suas requisições e, inicialmente, a base de dados não ultrapassará 1 GiB de tamanho
 </p>
 </div>
 
 ## 8. Qualidade
 <div style="text-indent: 40px; text-align: justify">
 <p>
+O uso da arquitetura MVC com camada de persistência baseada no Cloud Firestore facilita a extensibilidade do projeto, pois garante a possibilidade de atender milhares de usuários mensais com possibilidade de aumento dos limites em planos pagos. Além disso, implica na confiabilidade, pois o sistema permanece diponível enquanto o Google Cloud estiver online. Por fim, garante a portabilidade, pois há bibliotecas para integração do serviço Cloud Firestore para as principais plataformas do mercado de aplicações móveis (Android, iOS e Web).
+</p>
+</div>
 
+### Implicações
+<div style="text-indent: 40px; text-align: justify">
+<p>
+O uso do Cloud Firestore traz implicações de privacidade, pois os dados dos usuários estão sujeitos às Políticas de Privacidade do Google. Também pode haver dificuldade de controlar os custos, pois em casos de se aplicar os planos pagos as cobranças são feitas com base nas interações dos usuários, o que pode causar altos custos inesperados.
+</p>
+<p>
+O uso de um sistema de banco de dados NoSQL pode causar dificuldades em migrar o sistema para serviços semelhantes, e não implementa alguns recursos que facilitam buscas complexas oferecidos em sistemas tradicionais.
 </p>
 </div>
 
@@ -194,3 +211,7 @@ Anúncios|Comentários|
 > Introdução ao Padrão MVC. Disponível em : [https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308). Data de acesso: 01/10/2021
 
 > Donar. Disponível em : [http://repositorio.aee.edu.br/bitstream/aee/1106/3/TCC2_2018_2_GabrielLeiteDias_MatheusLimadeAlbuquerque_Apendice2.pdf](http://repositorio.aee.edu.br/bitstream/aee/1106/3/TCC2_2018_2_GabrielLeiteDias_MatheusLimadeAlbuquerque_Apendice2.pdf). Data de acesso: 04/10/2021
+
+> Google. Uso e limites do Firebase Cloud Firestore. Disponível em: [https://firebase.google.com/docs/firestore/quotas](https://firebase.google.com/docs/firestore/quotas). Acesso em: 08/10/2021.
+
+> Google. Plano de proços do Firebase. Disponível em: [https://firebase.google.com/pricing/](https://firebase.google.com/pricing/). Acesso em: 08/10/2021
