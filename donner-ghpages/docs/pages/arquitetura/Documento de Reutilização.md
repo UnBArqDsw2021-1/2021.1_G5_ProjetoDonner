@@ -3,18 +3,19 @@
 ## Versionamento
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
-|  30/09/2021   |  1.0  |  Criação do Documento | Davi Antônio, Kleidson Alves, Lucas Gabriel , Lucas Rodrigues, Wellington Jonathan
- |   08/10/2021   |  1.1  |  Adição de Conteúdo ao Documento | Kleidson Alves, Lucas Rodrigues
+|  30/09/2021   |  1.0  |  Criação do Documento | Davi Antônio, Kleidson Alves, Lucas Gabriel , Lucas Rodrigues, Wellington Jonathan |
+|   08/10/2021   |  1.1  |  Adição de Conteúdo ao Documento | Kleidson Alves, Lucas Rodrigues |
+|   10/10/2021   |  1.2  |  Adicionar todas as bibliotecas | Davi Antônio da Silva Santos |
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
 
 <p>
  <!--Parágrafo destinado a apresentar o que é reutilização de software e os seus benefícios -->
- A reutilização de software consiste no uso de soluções previamente elaboradas para a criação de um novo software. Essa reutilização pode ser aplicada em diferentes níveis do desenvolvimento do software,tais como no nível de requisitos, design e de código. 
+ A reutilização de software consiste no uso de soluções previamente elaboradas para a criação de um novo software. Essa reutilização pode ser aplicada em diferentes níveis do desenvolvimento do software, tais como no nível de requisitos, de design e de código. 
 </p>
 <p>
-Há algumas técnicas que podem ser aplicadas para fazer a reutilização de software. Por exemplo, uso de frameworks, bibliotecas, engenharia de software baseada em componentes e arquitetura orientadas a serviços. 
+Há algumas técnicas que podem ser aplicadas para fazer a reutilização de software. Por exemplo, uso de frameworks, bibliotecas, engenharia de software baseada em componentes e arquitetura orientada a serviços. 
 </p>
 <p>
 A decisão de aplicar essa estratégia de desenvolvimento de software está baseada nos objetivos de se diminuir os custos relacionados à manutenção e de realizar entregas mais rápidas, ainda mantendo a qualidade do produto de software. 
@@ -48,10 +49,7 @@ Os hot-spots representam aspectos variáveis de um framework projetados para ser
 </p>
 </div>
 
-
 - **Widgets**: Os widgets podem ser entendidos como componentes personalizados utilizados para definir a interface da aplicação.
-
-- **Estrutura de pastas**: O flutter permite que a estrutura de pastas para a aplicação seja coerente com as decisões de projeto para a aplicação.
 
 
 
@@ -63,9 +61,7 @@ O frozen-spots representam os aspectos imutáveis do framework para todas as apl
 </p>
 </div>
 
-
-
-- **StatelessWidget e StatefulWidget**: Classes abstratas para a construção de widgets, possuindo um método builder que recebe um contexto e descreve o comportamento do Widget.
+- **StatelessWidget**: Um widget sem estado interno mutável. Não consegue ser modificado facilmente, e pode ter somente alguns de seus métodos sobrescritos
 
 
 ## Bibliotecas
@@ -78,11 +74,16 @@ Em uma aplicação desenvolvida com o framework Flutter, o conceito de bibliotec
 </div>
 
 
-- **flutter/material.dart**: Biblioteca de UI desenvolvida pela Google que permite que os Widgets implementem o Material Design
-
+- **material**: Biblioteca de UI básica do Flutter. Desenvolvida pela Google para permitir que os Widgets implementem o Material Design
+- **google_fonts**: Biblioteca de UI desenvolvida pela Google que permite o uso das fontes TrueType e OpenType disponíveis em fonts.google.com
+- **firebase_core**: permite que o programa acesse recursos básicos do Firebase usando a API Core
+- **firebase_auth**: permite o uso da API de autenticação do Firebase (e-mail e senha, contas em provedores externos, número de telefone ou anônimo)
+- **cloud_firestore**: permite o uso da API Cloud Firestore, que disponibiliza um banco de dados NoSQL hospedado em nuvem
+- **google_sign_in**: permite o uso da autenticação segura do Google
+- **shared_preferences**: permite leitura e escrita de dados no formato chave e valor usando métodos de armazenamento nativos
+- **dropdown_search**: widget já montado de um elemento dropdown com funcionalidade de pesquisa
 - **font_awesome_flutter/font_awesome_flutter.dart**: Biblioteca que disponibiliza um conjunto de Ícones para o Flutter 
-
-- **estados_municipios/estados_municipios.dart**: Biblioteca que permite buscar todos os estados do Brasil e os municípios dos estados 
+- **estados_municipios**: Biblioteca que permite buscar todos os estados do Brasil e os municípios dos estados 
 
 ## Referências
 > Reúso de Software. Disponível em:
