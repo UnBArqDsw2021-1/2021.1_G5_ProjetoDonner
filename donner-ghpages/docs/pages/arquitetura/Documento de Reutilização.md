@@ -6,10 +6,11 @@
 |  30/09/2021   |  1.0  |  Criação do Documento | Davi Antônio, Kleidson Alves, Lucas Gabriel , Lucas Rodrigues, Wellington Jonathan |
 |   08/10/2021   |  1.1  |  Adição de Conteúdo ao Documento | Kleidson Alves, Lucas Rodrigues |
 |   10/10/2021   |  1.2  |  Adicionar todas as bibliotecas | Davi Antônio da Silva Santos |
+|   14/10/2021   |  1.3  |  Adicionando novas bibliotecas | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
 
 ## Introdução
-<div style="text-indent: 40px; text-align: justify">
 
+<div style="text-indent: 40px; text-align: justify">
 <p>
  <!--Parágrafo destinado a apresentar o que é reutilização de software e os seus benefícios -->
  A reutilização de software consiste no uso de soluções previamente elaboradas para a criação de um novo software. Essa reutilização pode ser aplicada em diferentes níveis do desenvolvimento do software, tais como no nível de requisitos, de design e de código. 
@@ -75,14 +76,18 @@ Em uma aplicação desenvolvida com o framework Flutter, o conceito de bibliotec
 
 
 - **material**: Biblioteca de UI básica do Flutter. Desenvolvida pela Google para permitir que os Widgets implementem o Material Design
+- **font_awesome_flutter/font_awesome_flutter.dart**: Biblioteca que disponibiliza um conjunto de Ícones para o Flutter 
 - **google_fonts**: Biblioteca de UI desenvolvida pela Google que permite o uso das fontes TrueType e OpenType disponíveis em fonts.google.com
+- **mask_text_input_formatter**: Pacote com funções para formatação de texto de entrada
+- **flutter_lints**: Pacote responsável por analisar código Dart e encorajar as boas práticas de programação
 - **firebase_core**: permite que o programa acesse recursos básicos do Firebase usando a API Core
 - **firebase_auth**: permite o uso da API de autenticação do Firebase (e-mail e senha, contas em provedores externos, número de telefone ou anônimo)
+- **firebase_storage**: Biblioteca utilizada para acessar a API de armazenamento em nuvem do firebase 
 - **cloud_firestore**: permite o uso da API Cloud Firestore, que disponibiliza um banco de dados NoSQL hospedado em nuvem
 - **google_sign_in**: permite o uso da autenticação segura do Google
 - **shared_preferences**: permite leitura e escrita de dados no formato chave e valor usando métodos de armazenamento nativos
+- **image_picker**: Plugin responsável por selecionar images da galeria IOS/Android ou tira fotos com a camera
 - **dropdown_search**: widget já montado de um elemento dropdown com funcionalidade de pesquisa
-- **font_awesome_flutter/font_awesome_flutter.dart**: Biblioteca que disponibiliza um conjunto de Ícones para o Flutter 
 - **estados_municipios**: Biblioteca que permite buscar todos os estados do Brasil e os municípios dos estados 
 
 ## Referências
