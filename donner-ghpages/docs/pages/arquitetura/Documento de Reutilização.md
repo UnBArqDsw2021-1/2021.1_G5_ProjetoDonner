@@ -1,3 +1,7 @@
+---
+tags: Arquitetura
+---
+
 # Reutilização de Software
 
 ## Versionamento
@@ -7,13 +11,12 @@
 |   08/10/2021   |  1.1  |  Adição de Conteúdo ao Documento | Kleidson Alves, Lucas Rodrigues |
 |   10/10/2021   |  1.2  |  Adicionar todas as bibliotecas | Davi Antônio da Silva Santos |
 |   14/10/2021   |  1.3  |  Adicionando novas bibliotecas | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
+|   15/10/2021   |  1.4  | Revisão do Documento | Hugo Bezerra, Lucas Rodrigues |
 
 ## Introdução
-
 <div style="text-indent: 40px; text-align: justify">
 <p>
- <!--Parágrafo destinado a apresentar o que é reutilização de software e os seus benefícios -->
- A reutilização de software consiste no uso de soluções previamente elaboradas para a criação de um novo software. Essa reutilização pode ser aplicada em diferentes níveis do desenvolvimento do software, tais como no nível de requisitos, de design e de código. 
+A reutilização de software consiste no uso de soluções previamente elaboradas para a criação de um novo software. Essa reutilização pode ser aplicada em diferentes níveis do desenvolvimento do software, tais como no nível de requisitos, de design e de código. 
 </p>
 <p>
 Há algumas técnicas que podem ser aplicadas para fazer a reutilização de software. Por exemplo, uso de frameworks, bibliotecas, engenharia de software baseada em componentes e arquitetura orientada a serviços. 
@@ -21,32 +24,31 @@ Há algumas técnicas que podem ser aplicadas para fazer a reutilização de sof
 <p>
 A decisão de aplicar essa estratégia de desenvolvimento de software está baseada nos objetivos de se diminuir os custos relacionados à manutenção e de realizar entregas mais rápidas, ainda mantendo a qualidade do produto de software. 
 </p>
-
-<!-- Objetivo do documento  -->
 <p>
 Esse documento tem o objetivo de apresentar como a reutilização foi aplicada no processo de desenvolvimento do projeto Donner, apresentando o Framework e as Bibliotecas utilizadas.
+</p>
 </div>
 
 ## Framework
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Um framework é uma aplicação parcialmente completa que possui uma coleção de interfaces e classes abstratas e concretas, formando uma estrutura genérica e permitindo reutilização por uma determinada categoria de software. Quando especiliazado, é capaz de produzir aplicações personalizadas.
+Um framework é uma aplicação parcialmente completa que possui uma coleção de interfaces e classes abstratas e concretas, formando uma estrutura genérica e permitindo reutilização por uma determinada categoria de software. Quando especializado, é capaz de produzir aplicações personalizadas.
 </p>
 </div>
 
 ### Flutter
 <div style="text-indent: 40px; text-align: justify">
-
 <p>
-O framework utilizado para o desenvolvimento da aplicação Donner foi o Flutter. O Flutter é um framework de código aberto, desenvolvido pela Google, que tem como objetivo facilitar o desenvolvimento de aplicações mobile, tanto para Android quanto para IOS. Ele possui como linguagem base o Dart. Ao criar uma aplicação com o Flutter, o código é compilado para linguagem base do dispositivo, tornando as aplicações realmente nativas. 
+O framework utilizado para o desenvolvimento da aplicação Donner foi o Flutter. O Flutter é um framework de código aberto, desenvolvido pela Google, que tem como objetivo facilitar o desenvolvimento de aplicações mobile, tanto para Android quanto para IOS. Ele possui como linguagem base o Dart. Ao criar uma aplicação com o Flutter, o código é compilado para a linguagem base do dispositivo, tornando as aplicações realmente nativas. 
 </p>
 </div>
 
 
 #### Hot-spots
+
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Os hot-spots representam aspectos variáveis de um framework projetados para serem genéricos e adaptados de acordo com as necessidades da aplicação. Alguns exemplos de hot-spots são as classes abstratas e os métodos abstratos. No projeto Donner, foram aplicados os seguintes <i>hot-sposts</i>:
+Os hot-spots representam aspectos variáveis de um framework projetados para serem genéricos e adaptados de acordo com as necessidades da aplicação. Alguns exemplos de hot-spots são as classes abstratas e os métodos abstratos. No projeto Donner, foram aplicados os seguintes <i>hot-spots</i>:
 </p>
 </div>
 
@@ -82,11 +84,11 @@ Em uma aplicação desenvolvida com o framework Flutter, o conceito de bibliotec
 - **flutter_lints**: Pacote responsável por analisar código Dart e encorajar as boas práticas de programação
 - **firebase_core**: permite que o programa acesse recursos básicos do Firebase usando a API Core
 - **firebase_auth**: permite o uso da API de autenticação do Firebase (e-mail e senha, contas em provedores externos, número de telefone ou anônimo)
-- **firebase_storage**: Biblioteca utilizada para acessar a API de armazenamento em nuvem do firebase 
+- **firebase_storage**: Biblioteca utilizada para acessar a API de armazenamento em nuvem do Firebase 
 - **cloud_firestore**: permite o uso da API Cloud Firestore, que disponibiliza um banco de dados NoSQL hospedado em nuvem
 - **google_sign_in**: permite o uso da autenticação segura do Google
 - **shared_preferences**: permite leitura e escrita de dados no formato chave e valor usando métodos de armazenamento nativos
-- **image_picker**: Plugin responsável por selecionar images da galeria IOS/Android ou tira fotos com a camera
+- **image_picker**: Plugin responsável por selecionar imagens da galeria IOS/Android ou tirar fotos com a câmera
 - **dropdown_search**: widget já montado de um elemento dropdown com funcionalidade de pesquisa
 - **estados_municipios**: Biblioteca que permite buscar todos os estados do Brasil e os municípios dos estados 
 

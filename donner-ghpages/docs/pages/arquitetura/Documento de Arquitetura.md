@@ -10,6 +10,7 @@
 |   06/10/2021   |  1.4  | Adição de considerações sobre tamanho e desempenho | Davi Antônio, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
 |   08/10/2021   |  1.5  | Adição dos tópicos de tamanho e desempenho e qualidade | Davi Antônio, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
 |   15/10/2021   |  1.6    | Atualização da Visão de Dados | Hugo Bezerra, Lucas Rodrigues |
+|   15/10/2021   |  1.7    | Revisão do Documento | Hugo Bezerra, Lucas Rodrigues |
 
 ## 1. Introdução
 
@@ -51,13 +52,13 @@ O documento vai estar organizado da seguinte forma:
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquitetura, o frontend representa o cliente e o Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
+A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquitetura, o front-end representa o cliente e o Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
 </p>
 
 ![](https://i.imgur.com/JTjkHL7.png)
 
 <p>
-Em relação ao frontend da aplicação, optou-se por utilizar a arquitetura MVC, pois a equipe julgou como mais adequada para o escopo do projeto.
+Em relação ao front-end da aplicação, optou-se por utilizar a arquitetura MVC, pois a equipe julgou como mais adequada para o escopo do projeto.
 </p>
 
 <p>
@@ -68,7 +69,7 @@ Nesse documento, a arquitetura é representada através de três visões. Elas, 
 
 - Visão Lógica: Diagrama de Classe, Diagrama de Sequência, Diagrama de Comunicação e Diagrama de Pacotes
 - Visão de Implementação: Diagrama de Componentes
-- Visão de Dados: Detatalhamento do Banco de Dados. No nosso caso, iremos utilizar um banco de dados NoSQL (Firebase).
+- Visão de Dados: Detalhamento do Banco de Dados. No nosso caso, iremos utilizar um banco de dados NoSQL (Firebase).
 
 ## 3. Objetivos Arquiteturais e Restrições
 
@@ -191,7 +192,7 @@ O sistema será desenvolvido com foco em suportar até 10000 usuários mensais, 
 ## 8. Qualidade
 <div style="text-indent: 40px; text-align: justify">
 <p>
-O uso da arquitetura MVC com camada de persistência baseada no Cloud Firestore facilita a extensibilidade do projeto, pois garante a possibilidade de atender milhares de usuários mensais com possibilidade de aumento dos limites em planos pagos. Além disso, implica na confiabilidade, pois o sistema permanece diponível enquanto o Google Cloud estiver online. Por fim, garante a portabilidade, pois há bibliotecas para integração do serviço Cloud Firestore para as principais plataformas do mercado de aplicações móveis (Android, iOS e Web).
+O uso da arquitetura MVC com camada de persistência baseada no Cloud Firestore facilita a extensibilidade do projeto, pois garante a possibilidade de atender milhares de usuários mensais com possibilidade de aumento dos limites em planos pagos. Além disso, implica na confiabilidade, pois o sistema permanece disponível enquanto o Google Cloud estiver online. Por fim, garante a portabilidade, pois há bibliotecas para integração do serviço Cloud Firestore para as principais plataformas do mercado de aplicações móveis (Android, iOS e Web).
 </p>
 </div>
 
