@@ -1,7 +1,3 @@
----
-tags: Arquitetura
----
-
 # Banco de Dados
 
 ## Versionamento

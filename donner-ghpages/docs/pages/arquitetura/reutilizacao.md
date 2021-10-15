@@ -1,7 +1,3 @@
----
-tags: Arquitetura
----
-
 # Reutilização de Software
 
 ## Versionamento

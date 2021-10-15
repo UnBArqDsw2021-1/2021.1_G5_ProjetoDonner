@@ -1,6 +1,3 @@
----
-tags: Arquitetura
----
 # Atividades Extras
 
 ## Versionamento
