@@ -9,6 +9,7 @@
 |   06/10/2021   |  1.3  | Atualização no tópico de Visão de Dados | Hugo Bezerra, Kleidson Alves, Lucas Gabriel |
 |   06/10/2021   |  1.4  | Adição de considerações sobre tamanho e desempenho | Davi Antônio, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
 |   08/10/2021   |  1.5  | Adição dos tópicos de tamanho e desempenho e qualidade | Davi Antônio, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Wellington Jonathan |
+|   15/10/2021   |  1.6    | Atualização da Visão de Dados | Hugo Bezerra, Lucas Rodrigues |
 
 ## 1. Introdução
 
@@ -50,7 +51,7 @@ O documento vai estar organizado da seguinte forma:
 
 <div style="text-indent: 40px; text-align: justify">
 <p>
-A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquiteura, o frontend representa o cliente e o Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
+A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquitetura, o frontend representa o cliente e o Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
 </p>
 
 ![](https://i.imgur.com/JTjkHL7.png)
@@ -67,7 +68,7 @@ Nesse documento, a arquitetura é representada através de três visões. Elas, 
 
 - Visão Lógica: Diagrama de Classe, Diagrama de Sequência, Diagrama de Comunicação e Diagrama de Pacotes
 - Visão de Implementação: Diagrama de Componentes
-- Visão de Dados: Detatalhamento do Banco de Dados, no nosso caso iremos utilizar um banco de dados NoSQL (Firebase).
+- Visão de Dados: Detatalhamento do Banco de Dados. No nosso caso, iremos utilizar um banco de dados NoSQL (Firebase).
 
 ## 3. Objetivos Arquiteturais e Restrições
 
@@ -153,31 +154,37 @@ Para a compreensão dos relacionamentos entre os componentes que constituem o si
 ## 6. Visão de Dados
 <div style="text-indent: 40px; text-align: justify">
 <p>
-Esta visão é essencial ao projeto pois ela diz respeito a camada de persistência. A visão de dados descreve o modelo de dados do sistema, apresentando um maior detalhamento de como o banco de dados está organizado.
+Esta visão é essencial ao projeto, pois ela diz respeito a camada de persistência. A visão de dados descreve o modelo de dados do sistema, apresentando um maior detalhamento de como o banco de dados está organizado.
 </p>
 </div>
 
 ### 6.1 Banco de Dados
 
-Em relação ao banco de dados da nossa aplicação, iremos utilizar o Firebase e com isso a implementação do banco de dados e feita com o "Cloud Firestore que é um banco de dados de documentos NoSQL que permite armazenar, sincronizar e consultar dados facilmente para seus apps para dispositivos móveis e da Web, em escala global".
+<div style="text-indent: 40px; text-align: justify">
+<p>
+Em relação ao banco de dados da nossa aplicação, iremos utilizar o Firebase e com isso a implementação do banco de dados é feita com o Cloud Firestore, que "é um banco de dados de documentos NoSQL que permite armazenar, sincronizar e consultar dados facilmente para seus apps para dispositivos móveis e da Web, em escala global".
 
 
-A base será composto por 3 categorias de documentos, são eles Usuários, Anúncios e Campanhas onde um anúncio pertence a um usuário dono e um usuário pode possuir multiplos anúncios, esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
+A base será composta por 5 categorias de documentos, sendo eles Users, Posts, Comments, Categories e Campaigns, onde um anúncio pertence a um usuário dono e um usuário pode possuir múltiplos anúncios (Posts). Esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a> e principalmente no documento de <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/arquitetura/banco_de_dados">Banco de Dados</a>.
 
-|Usuários|Anúncios|Campanhas
-|--|--|--|
-Nome|Título|Título
-Foto|Foto|Descrição
-Email|Categoria|Início
-Contato|Dono|Fim
-Anúncios|Comentários|
+</p>
+</div>
+
+|Users|Posts|Comments|Categories|Campaigns|
+|--|--|--|--|--|
+|city|categoryId|id|id|id|
+|description|description|owner|description|description|
+|email|id|post||start|
+|id|isDonation|text||end|
+|name|owner|||title|
+|phone|title|
+|photoUrl|
+|state|
 
 ## 7. Tamanho e Desempenho
 <div style="text-indent: 40px; text-align: justify">
 <p>
-<!-- Acho que aqui deve entrar informações sobre os limites do banco de dados, a velocidade com que se realiza as operações e etc, e na parte de qualidade acho que tb nao sera muito diferente -->
-
-O sistema será desenvolvido com foco em suportar até 10000 usuários mensais, mantendo um tempo médio de resposta 2 segundos para suas requisições e, inicialmente, a base de dados não ultrapassará 1 GiB de tamanho
+O sistema será desenvolvido com foco em suportar até 10000 usuários mensais, mantendo um tempo médio de resposta 2 segundos para suas requisições e, inicialmente, a base de dados não ultrapassará 1 GiB de tamanho.
 </p>
 </div>
 
@@ -214,4 +221,4 @@ O uso de um sistema de banco de dados NoSQL pode causar dificuldades em migrar o
 
 > Google. Uso e limites do Firebase Cloud Firestore. Disponível em: [https://firebase.google.com/docs/firestore/quotas](https://firebase.google.com/docs/firestore/quotas). Acesso em: 08/10/2021.
 
-> Google. Plano de proços do Firebase. Disponível em: [https://firebase.google.com/pricing/](https://firebase.google.com/pricing/). Acesso em: 08/10/2021
+> Google. Plano de preços do Firebase. Disponível em: [https://firebase.google.com/pricing/](https://firebase.google.com/pricing/). Acesso em: 08/10/2021
