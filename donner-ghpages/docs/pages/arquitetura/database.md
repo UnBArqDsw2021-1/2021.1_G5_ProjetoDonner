@@ -1,24 +1,32 @@
+---
+tags: Arquitetura
+---
+
 # Banco de Dados
 
 ## Versionamento
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   10/10/2021   |  1.0    |  Criação do Documento | Davi Antônio, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues  | 
+|   15/10/2021   |  1.1    | Atualização da introdução   | Hugo Bezerra, Lucas Rodrigues |
 
 ## Introdução
 <div style="text-indent: 40px; text-align: justify">
 Em relação ao banco de dados da nossa aplicação, iremos utilizar o Firebase e com isso a implementação do banco de dados e feita com o "Cloud Firestore que é um banco de dados de documentos NoSQL que permite armazenar, sincronizar e consultar dados facilmente para seus apps para dispositivos móveis e da Web, em escala global".
 
 
-A base será composto por 3 categorias de documentos, são eles Usuários, Anúncios e Campanhas onde um anúncio pertence a um usuário dono e um usuário pode possuir multiplos anúncios, esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
+A base será composta por 5 categorias de documentos, sendo eles Users, Posts, Comments, Categories e Campaigns, onde um anúncio pertence a um usuário dono e um usuário pode possuir múltiplos anúncios (Posts). Esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
 
-|Usuários|Anúncios|Campanhas
-|--|--|--|
-Nome|Título|Título
-Foto|Foto|Descrição
-Email|Categoria|Início
-Contato|Dono|Fim
-Anúncios|Comentários|
+|Users|Posts|Comments|Categories|Campaigns|
+|--|--|--|--|--|
+|city|categoryId|id|id|id|
+|description|description|owner|description|description|
+|email|id|post||start|
+|id|isDonation|text||end|
+|name|owner|||title|
+|phone|title|
+|photoUrl|
+|state|
 
 </div>
 
@@ -81,5 +89,6 @@ Campanhas criadas por usuários administradores
 | title | string | título da campanha |
 
 ## Referências
-> Nome do artigo. Disponível em:
-[Link](Link). Data de acesso: XX/XX/XXXX
+> Google. Uso e limites do Firebase Cloud Firestore. Disponível em: [https://firebase.google.com/docs/firestore/quotas](https://firebase.google.com/docs/firestore/quotas). Acesso em: 08/10/2021.
+
+> Google. Plano de preços do Firebase. Disponível em: [https://firebase.google.com/pricing/](https://firebase.google.com/pricing/). Acesso em: 08/10/2021
