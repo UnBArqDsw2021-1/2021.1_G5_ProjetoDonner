@@ -54,9 +54,11 @@ O documento vai estar organizado da seguinte forma:
 <p>
 A decisão da equipe para a arquitetura do projeto Donner foi uma arquitetura <ins>Cliente-Servidor</ins>. Nessa representação de arquitetura, o front-end representa o cliente e o Firebase, plataforma desenvolvida pela Google, atua como o servidor. A imagem abaixo ilustra um esquema simples que representa a aplicação dessa arquitetura no projeto Donner. 
 </p>
+</div>
 
 ![](https://i.imgur.com/JTjkHL7.png)
 
+<div style="text-indent: 40px; text-align: justify">
 <p>
 Em relação ao front-end da aplicação, optou-se por utilizar a arquitetura MVC, pois a equipe julgou como mais adequada para o escopo do projeto.
 </p>
@@ -166,7 +168,7 @@ Esta visão é essencial ao projeto, pois ela diz respeito a camada de persistê
 Em relação ao banco de dados da nossa aplicação, iremos utilizar o Firebase e com isso a implementação do banco de dados é feita com o Cloud Firestore, que "é um banco de dados de documentos NoSQL que permite armazenar, sincronizar e consultar dados facilmente para seus apps para dispositivos móveis e da Web, em escala global".
 
 
-A base será composta por 5 categorias de documentos, sendo eles Users, Posts, Comments, Categories e Campaigns, onde um anúncio pertence a um usuário dono e um usuário pode possuir múltiplos anúncios (Posts). Esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a> e principalmente no documento de <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/arquitetura/banco_de_dados">Banco de Dados</a>.
+A base será composta por 5 categorias de documentos, sendo eles Users, Posts, Comments, Categories e Campaigns, onde um anúncio pertence a um usuário dono e um usuário pode possuir múltiplos anúncios (Posts). Esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a> e principalmente no documento de <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/arquitetura/database">Banco de Dados</a>.
 
 </p>
 </div>

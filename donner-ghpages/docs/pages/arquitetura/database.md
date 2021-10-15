@@ -12,6 +12,7 @@ Em relação ao banco de dados da nossa aplicação, iremos utilizar o Firebase 
 
 
 A base será composta por 5 categorias de documentos, sendo eles Users, Posts, Comments, Categories e Campaigns, onde um anúncio pertence a um usuário dono e um usuário pode possuir múltiplos anúncios (Posts). Esse relacionamento também pode ser observado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G5_ProjetoDonner/pages/modelagem/diagrama_de_comunicacao">Diagrama de Comunicação</a>.
+</div>
 
 |Users|Posts|Comments|Categories|Campaigns|
 |--|--|--|--|--|
@@ -23,8 +24,6 @@ A base será composta por 5 categorias de documentos, sendo eles Users, Posts, C
 |phone|title|
 |photoUrl|
 |state|
-
-</div>
 
 ## Esquema do banco de dados
 O Banco de Dados utilizado é o Cloud Firestore, banco de dados não relacional oferecido no serviço Firebase, provido pelo Google.
