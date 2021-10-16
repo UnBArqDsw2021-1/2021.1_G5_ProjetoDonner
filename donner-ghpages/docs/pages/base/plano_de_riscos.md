@@ -4,14 +4,14 @@
 | Data | Versão | Descrição | Autores |
 | -------- | -------- | -------- | ---|
 |   02/08/2021   |  1.0    |  Criação do Documento    | Davi Antônio, Kleidson Alves, Lucas Rodrigues, Wellington Jonathan
-|   03/08/2021   |  1.1    |  Correção da ortografia    | Lucas Gabriel
+|   15/10/2021   |  1.1    |  Criação de tabela de Resultados  | Hugo Bezerra, Lucas Rodrigues, Wellington Jonathan
 
 ## Introdução
 
 <div style="text-indent: 40px; text-align: justify">
 
 <p>
-O objetivo de se realizar um planejamento de riscos é identificar os ricos que poderão surgir durante o processo de desenvolvimento do projeto e a partir daí elaborar soluções ou ações para prevenir os riscos considerados negativos e executar os riscos que são considerados positivos. Dessa forma o planejamento de riscos se mostra uma atividade fundamental, pois é uma das maneiras de se prevenir contra os fatores que podem vir a atrapalhar o bom andamento de um projeto. 
+O objetivo de se realizar um planejamento de riscos é identificar os ricos que poderão surgir durante o processo de desenvolvimento do projeto e a partir daí elaborar soluções ou ações para previnir os riscos considerados negativos e executar os riscos que são considerados positivos. Dessa forma o planejamento de riscos se mostra uma atvidade fundamental, pois é uma das maneiras de se prevenir contra os fatores que podem vir a atrapalhar o bom andamento de um projeto. 
 </p>
 
 <p>
@@ -72,7 +72,7 @@ Um ponto importante é que por meio deste plano de gerenciamento de risco podemo
 |R05| Falta de motivação dos integrantes | Gerenciamento do Projeto - Controle | Média | Alto|
 |R06| Contrair COVID-19 |	Externo |	Alta|	Muito Alto|
 |R07| Greve na UnB | Externo |	Muito Baixa|	Muito Alto|
-|R08| Cancelamento do semestre devido a COVID-19| Externo |	Muito Baixa |	Muito Alto|
+|R08| Cancelamento do semestre devido a Covid-19| Externo |	Muito Baixa |	Muito Alto|
 |R09| Falhas de comunicação da equipe | Gerenciamento do Projeto - Comunicação | Muito Baixa | Alto |
 |R10| Satisfação dos usuários | Externo - Cliente | Média | Muito Alto
 |R11| Instabilidade da internet | Externo | Média | Alto 
@@ -121,9 +121,26 @@ A priorização foi avaliada de acordo com a matriz de Probabilidade/Impacto. A 
 | R11 | Moderado |
 | R12 | Moderado |
 
+
+## Monitamento dos riscos
+|  Código do Risco | Descrição |Ação | Resultado|Impacto no Projeto|
+| :-------: | -------- | -------- | -------- | -------- | 
+|R01| Dificuldade com as tecnologias|	Estudo e pesquisa sobre as tecnologias a serem utilizadas|	Risco Mitigado|	Muito Alto|	
+|R02| Divergência de horários | Definição de pareamentos para realizar as tarefas | Risco Mitigado | Moderado |
+|R03| Desistência de um membro da equipe|	Redistribuição de atividades dentro do escopo do projeto|	Ocorrido |	 Alto|
+|R04| Mudanças no escopo do projeto |	Elicitação correta, controle de mudanças e redistribuição de tarefas| Média | Alto |
+|R05| Falta de motivação dos integrantes | Gerenciamento do Projeto - Controle | Não ocorrido | Alto|
+|R06| Contrair COVID-19 |	Redistribuição de tarefas para compensar a indisponibilidade do integrante |	Ocorrido|	Muito Alto|
+|R07| Greve na UnB | Encerrar o projeto |	Não ocorrido|	Muito Alto|
+|R08| Cancelamento do semestre devido a Covid-19| Encerrar o projeto |	Não ocorrido |	Muito Alto|
+|R09| Falhas de comunicação da equipe | Reavaliar o processo de comunicação em equipe | Risco Mitigado | Alto |
+|R10| Satisfação dos usuários |Realizar o projeto conforme o escopo definido  | não ocorrido | Muito Alto
+|R11| Instabilidade da internet |Definir outro horário para realizar a tarefa  | Risco Mitigado | Alto 
+|R12| Atraso de entrega | Analisar a possibilidade de redefinir o prazo | Não ocorrido | Alto 
+
 ## Referências
 
-> Gerência de riscos em desenvolvimento de software. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Data de acesso: 02/08
+> Gerência de riscos em desenvolvimento de software. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Data de acesso: 02/08/2021
 
 > Plano Gerenciamento de Riscos. Disponível em:
 [https://fga-eps-mds.github.io/2019.2-Git-Breakdown/docs/risco](https://fga-eps-mds.github.io/2019.2-Git-Breakdown/docs/risco). Data de acesso: 02/08/2021
