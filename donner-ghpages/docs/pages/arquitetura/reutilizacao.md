@@ -83,7 +83,6 @@ Em uma aplicação desenvolvida com o framework Flutter, o conceito de bibliotec
 - **firebase_storage**: Biblioteca utilizada para acessar a API de armazenamento em nuvem do Firebase 
 - **cloud_firestore**: permite o uso da API Cloud Firestore, que disponibiliza um banco de dados NoSQL hospedado em nuvem
 - **google_sign_in**: permite o uso da autenticação segura do Google
-- **shared_preferences**: permite leitura e escrita de dados no formato chave e valor usando métodos de armazenamento nativos
 - **image_picker**: Plugin responsável por selecionar imagens da galeria IOS/Android ou tirar fotos com a câmera
 - **dropdown_search**: widget já montado de um elemento dropdown com funcionalidade de pesquisa
 - **estados_municipios**: Biblioteca que permite buscar todos os estados do Brasil e os municípios dos estados 

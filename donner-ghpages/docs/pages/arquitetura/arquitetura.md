@@ -78,11 +78,11 @@ Nesse documento, a arquitetura é representada através de três visões. Elas, 
 ### Objetivos
 - Extensibilidade: O software deve ser flexível e fácil de realizar manutenção e evolução.
 - Confiabilidade: Devem ser evitadas falhas no funcionamento ou problemas de disponibilidade do software.
-- Portabilidade: O software deve funcionar em dispositivos mobile com diferentes sistemas operacionais.
+- Portabilidade: O software deve funcionar em dispositivos mobile.
 
 ### Restrições
 - É necessário possuir conexão com a Internet.
-- Os sistemas operacionais Android e IOS devem ser suportados.
+- O sistema operacional Android deve ser suportado.
 - O software será desenvolvido utilizando o toolkit Flutter e a linguagem de programação Dart.
 - Os usuários devem utilizar uma conta do Google para cadastrar e realizar login.
 
