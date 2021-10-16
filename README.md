@@ -17,7 +17,7 @@
 | 19/0048760 | Wellington Jonathan de Souza Rodrigues |
 
 ## Sobre 
-Donner é uma aplicação *mobile* que tem como objetivo conectar pessoas interessadas em fazer doações e pessoas que necessitam dessas doações
+Donner é uma aplicação *mobile* que tem como objetivo conectar pessoas interessadas em fazer doações e pessoas que necessitam dessas doações, para acessar o aplicativo acesse a seção release do [repositório front-end](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end).
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 
