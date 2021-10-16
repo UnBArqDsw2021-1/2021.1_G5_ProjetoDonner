@@ -5,7 +5,8 @@
 | -------- | -------- | -------- | ---|
 | 17/09/2021 | 1.0 | Incluir gerência de configuração | Davi Antônio |
 | 17/09/2021 | 1.1 | Atualizar pacotes usados no projeto | Davi Antônio |
-| 20/09/2021 | 1.2 | Revisão do documento | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan
+| 20/09/2021 | 1.2 | Revisão do documento | Gabriel Batalha, Hugo Bezerra, Kleidson Alves, Lucas Gabriel, Lucas Rodrigues, Davi Antônio, Wellington Jonathan |
+| 15/10/2021 | 1.3 | Atualizar dependências | Davi Antônio |
 
 ## Ambiente de desenvolvimento
 
@@ -15,27 +16,34 @@ Para alinhar o ambiente de desenvolvimento do projeto, seguem abaixo as versões
 </p>
 </div>
 
-| Perfil | Tipo                       | Nome                    | Versão                          |
-|--------|----------------------------|-------------------------|---------------------------------|
-| Todos  | Controle de Versão         | Git                     | 2.30 ou superior                |
-| Todos  | IDE                        | Android Studio          | 2020.3.1                        |
-| Todos  | SDK                        | Flutter                 | 2.5.0                           |
-| Todos  | Linguagem de programação   | Dart                    | 2.14.0                          |
-| Todos  | Linguagem de programação   | Kotlin                  | 1.5.30                          |
-| Todos  | Extensão do Android Studio | Dart                    | 203.8292                        |
-| Todos  | Extensão do Android Studio | Flutter                 | 60.1.2                          |
-| Todos  | Extensão do Android Studio | Kotlin                  | 203-1.5.30-release-411-AS7717.8 |
-| Todos  | Pacote Flutter             | provider                | ^5.0.0                          |
-| Todos  | Pacote Flutter             | firebase_core           | ^1.6.0                          |
-| Todos  | Pacote Flutter             | firebase_auth           | ^3.1.1                          |
-| Todos  | Pacote Flutter             | cloud_firestore         | ^2.5.3                          |
-| Todos  | Pacote Flutter             | google_fonts            | ^2.1.0                          |
-| Todos  | Pacote Flutter             | font_awesome_flutter    | ^9.1.0                          |
-| Todos  | Dependência Android        | google-services         | 4.3.10                          |
-| Todos  | Dependência Android        | firebase-bom            | 28.4.0                          |
-| Todos  | Ferramenta de compilação   | gradle-plug-in          | 7.0.2                           |
-| Todos  | Ferramenta de compilação   | gradle                  | 7.0.2                           |
-| Todos  | Ferramenta de compilação   | Android SDK Build Tools | 30.0.3                          |
+| Tipo                       | Nome                       | Versão                          |
+|----------------------------|----------------------------|---------------------------------|
+| Controle de Versão         | Git                        | 2.30 ou superior                |
+| IDE                        | Android Studio             | 2020.3.1 Patch 3                |
+| Editor                     | Visual Studio Code         | 1.61                            |
+| SDK                        | Flutter                    | 2.5.2                           |
+| Linguagem de programação   | Dart                       | 2.14.3                          |
+| Linguagem de programação   | Kotlin                     | 1.5.31                          |
+| Extensão do Android Studio | Dart                       | 203.8430                        |
+| Extensão do Android Studio | Flutter                    | 61.2.2                          |
+| Extensão do Android Studio | Kotlin                     | 203-1.5.31-release-550-AS7717.8 |
+| Pacote Flutter             | firebase_core              | ^1.7.0                          |
+| Pacote Flutter             | firebase_auth              | ^3.1.2                          |
+| Pacote Flutter             | cloud_firestore            | ^2.5.3                          |
+| Pacote Flutter             | google_sign_in             | ^5.1.1                          |
+| Pacote Flutter             | firebase_storage           | ^10.0.5                         |
+| Pacote Flutter             | estados_municipios         | ^2.0.0                          |
+| Pacote Flutter             | dropdown_search            | ^1.0.0                          |
+| Pacote Flutter             | image_picker               | ^0.8.4+2                        |
+| Pacote Flutter             | mask_text_input_formatter  | ^2.0.0                          |
+| Pacote Flutter             | google_fonts               | ^2.1.0                          |
+| Pacote Flutter             | font_awesome_flutter       | ^9.1.0                          |
+| Dependência Android        | google-services            | 4.3.10                          |
+| Dependência Android        | firebase-bom               | 28.4.0                          |
+| Ferramenta de compilação   | gradle-plug-in             | 7.0.3                           |
+| Ferramenta de compilação   | gradle                     | 7.0.2                           |
+| Ferramenta de compilação   | Android SDK Build Tools    | 30.0.3                          |
+| Ferramenta de compilação   | Android SDK Platform-Tools | 31.0.3                          |
 
 ### Política de atualização
 <div style="text-indent: 40px; text-align: justify">

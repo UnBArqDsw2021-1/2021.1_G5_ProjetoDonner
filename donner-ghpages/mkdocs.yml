@@ -72,6 +72,15 @@ nav:
       - Apresentação: pages/padroes-de-projeto/video8.md
     - Gerência de Configuração: pages/padroes-de-projeto/gerencia_configuracao.md
     - Iniciativas Extras: pages/padroes-de-projeto/extras_padroes.md
+  - Arquitetura de Software & Reutilização:
+    - Estilos e Padrões Arquiteturais:
+      - Documento de Arquitetura: pages/arquitetura/arquitetura.md
+      - Banco de Dados: pages/arquitetura/database.md
+      - Apresentação: pages/arquitetura/video9.md
+    - Reutilização de Software:
+      - Documento de Reutilização: pages/arquitetura/reutilizacao.md
+      - Apresentação: pages/arquitetura/video10.md
+    - Iniciativas Extras: pages/arquitetura/extras_arquitetura.md
   - Sprints: 
     - Sprint 0:
       - Planning: pages/sprints/sprint0/sprint0p.md
@@ -85,4 +94,7 @@ nav:
     - Sprint 3:
       - Planning: pages/sprints/sprint3/sprint3p.md
       - Review: pages/sprints/sprint3/sprint3r.md
+    - Sprint 4:
+      - Planning: pages/sprints/sprint4/sprint4p.md
+      - Review: pages/sprints/sprint4/sprint4r.md
   - Políticas de Contribuição: pages/politicas.md

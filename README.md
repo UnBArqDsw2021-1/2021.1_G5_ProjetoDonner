@@ -6,12 +6,12 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 15/0007329  | Caio Gabriel Araújo Medeiros |
-| 15/0058462 |  Davi Antônio da Silva Santos |
-| 18/0100840  | Gabriel Azevedo Batalha |
+| 15/0007329 | Caio Gabriel Araújo Medeiros |
+| 15/0058462 | Davi Antônio da Silva Santos |
+| 18/0100840 | Gabriel Azevedo Batalha |
 | 18/0113585 | Hugo Ricardo Souza Bezerra |
-| 18/0113861  | Kleidson Alves Corrêa |
-| 18/0125770 |  Lucas Gabriel Bezerra |
+| 18/0113861 | Kleidson Alves Corrêa |
+| 18/0125770 | Lucas Gabriel Bezerra |
 | 18/0114077 | Lucas Rodrigues Fonseca |
 | 15/0062567 | Marcos Adriano Nery de Abrantes |
 | 19/0048760 | Wellington Jonathan de Souza Rodrigues |
@@ -61,21 +61,25 @@ Página do projeto, protótipo de média fidelidade
 - [Arquitetura e Desenho de Software - Padrões de Projeto - Parte 3](https://www.youtube.com/watch?v=Cg077f4jVLg)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![Aplicativo rodando, pagina de anúncio](https://i.imgur.com/kM1o4RW.png)
+![Aplicativo rodando, pagina de feed](https://i.imgur.com/YkO4tPg.jpg)
+![Página do projeto, seção de DAS](https://i.imgur.com/tR4XjJM.png)
+![Página do projeto, seção de Banco de Dados](https://i.imgur.com/hruqgHW.png)
+![Página do projeto, seção de Reutilização](https://i.imgur.com/LCshLFw.png)
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione o(s)s vídeo(s) da Entrega Final.
+- [Arquitetura e Desenho de Software - Arquitetura - Parte 1](https://www.youtube.com/watch?v=IOiMzQNnows)
+- [Arquitetura e Desenho de Software - Arquitetura - Parte 2](https://www.youtube.com/watch?v=zxNrRkzoEoE)
 
 ## Descritivo dos Principais Aspectos Técnicos 
 **Principal(is) Metodologia(s) Adotada(s)**: Scrum e XP (adaptados)<br>
 **Principais Linguagens Utilizadas e/ou Pretendidas**: Dart<br>
 **Principais Tecnologias Utilizadas e/ou Pretendidas**: Flutter<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: MVC e Client-Server<br>
 
 ## O Projeto está rodando?
-( ) SIM
-( ) NÃO
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+(X) SIM  
+(_) NÃO  
 
-## Informações Complementares 
-Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
+Para utilizar o app Donner basta baixar o arquivo apk mais recente na seção de releases do [repositório front-end](https://github.com/UnBArqDsw2021-1/2021.1_G5_ProjetoDonner_Front-end) e instalar em um dispositivo Android
+(as versões suportadas vão da 7 a 11)
